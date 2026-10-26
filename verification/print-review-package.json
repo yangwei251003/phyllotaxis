@@ -1,0 +1,95 @@
+{
+  "status": "LOCAL_REVIEW_ONLY_UNSENT_NOT_FOR_PRINT_RELEASE",
+  "created_utc": "2026-10-03T04:29:25.845219+00:00",
+  "quantities": {
+    "base": 1,
+    "bezel": 1,
+    "carrier": 1,
+    "retainer": 2,
+    "microphone-holder": 1
+  },
+  "units": "mm",
+  "material_candidate": "PETG",
+  "files": [
+    {
+      "path": "mechanical/base.stl",
+      "sha256": "241128bab2652c1fdb44d1d992f2012073b24c4e2d8ac3181b901ecf90f05097",
+      "bytes": 2330884
+    },
+    {
+      "path": "mechanical/base.step",
+      "sha256": "752e90dd637c8f1e6fdf07d54d80e60124853c7a2a790647482c82fa5ea973a3",
+      "bytes": 679421
+    },
+    {
+      "path": "mechanical/bezel.stl",
+      "sha256": "ad6eebda1f4f669adcdf2990413fec921aaebeaec3382a2e3f8361d9e873cb72",
+      "bytes": 89084
+    },
+    {
+      "path": "mechanical/bezel.step",
+      "sha256": "587872699b3e6cadd44b80d91ebe1adce129b354074738cf344d5b93a04f1c61",
+      "bytes": 29423
+    },
+    {
+      "path": "mechanical/carrier.stl",
+      "sha256": "a7c061c4830e5223c2f1e9dd0c21ac40e07cd14697a02b3718ecf8f06290f3f4",
+      "bytes": 109084
+    },
+    {
+      "path": "mechanical/carrier.step",
+      "sha256": "e1605b6de266487074d725cd8fef4da769144fd98049974deda804e7303d6340",
+      "bytes": 181962
+    },
+    {
+      "path": "mechanical/retainer.stl",
+      "sha256": "76881a7ad2a667d12d0cfd23b877a0f40169d98207ca2062f56094e3dee80716",
+      "bytes": 26284
+    },
+    {
+      "path": "mechanical/retainer.step",
+      "sha256": "7a2a03a58831438a92a9f2ef981f2bcb8478bff197be225546c79eca9e6f0242",
+      "bytes": 24587
+    },
+    {
+      "path": "mechanical/microphone-holder.stl",
+      "sha256": "97c75291a007f189e0c0a5f5cbd7133874e52ccdf7741b6b55e59aea54740a71",
+      "bytes": 610084
+    },
+    {
+      "path": "mechanical/microphone-holder.step",
+      "sha256": "3f0ebf846f103dd63cba19c66a6032af069c793497aab91a32bf89996e73c4b2",
+      "bytes": 132224
+    },
+    {
+      "path": "docs/19-print-slice-review.md",
+      "sha256": "704384334edcb57dfe55ff80244d5c14b9c08906b75d2e9b4db4e8778db3bca4",
+      "bytes": 6027
+    },
+    {
+      "path": "verification/slicing/slice-review.json",
+      "sha256": "a275335406d77c712282f0779e1c1f2abf7df404ab54ccab92124e98cf08cf58",
+      "bytes": 12461
+    },
+    {
+      "path": "verification/slicing/base-vent-detail.png",
+      "sha256": "b7d0fee3f9852f26981a55920a46326849ee888bf8f817952f180ed281653126",
+      "bytes": 313518
+    },
+    {
+      "path": "verification/slicing/base-support-layers.png",
+      "sha256": "42b43adb037a126e14f28659cdbad3efcaba2f45c92683f0c4a97e3ebb9590b4",
+      "bytes": 354139
+    },
+    {
+      "path": "verification/slicing/microphone-holder-layers.png",
+      "sha256": "782e43027e6a6e5f75d6ceef2aa59e2cbf9564b81f44f83810402686567d6aa4",
+      "bytes": 110898
+    }
+  ],
+  "archive": {
+    "path": "deliverables/PHYLLO-结构打印评审-未下单.zip",
+    "bytes": 1663798,
+    "sha256": "fc6516dc7a3e8a8113dcde1c48096a43ab4e4187118324ff360172a5eed0a6d6"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "offline_build_not_hardware_test",
+  "time_utc": "2026-10-03T00:14:14.260161+00:00",
+  "commands": [
+    [
+      "cmake",
+      "-S",
+      "<LOCAL_PATH>",
+      "-B",
+      "<LOCAL_PATH>",
+      "-G",
+      "Ninja",
+      "-DCMAKE_TOOLCHAIN_FILE=arm-gcc.cmake"
+    ],
+    [
+      "cmake",
+      "--build",
+      "<LOCAL_PATH>",
+      "--clean-first"
+    ],
+    [
+      "C:\\Program Files\\Python312\\python.exe",
+      "<LOCAL_PATH>"
+    ]
+  ],
+  "exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "compiler": "arm-none-eabi-gcc (GNU Tools for STM32 14.3.rel1.20251027-0700) 14.3.1 20250623",
+  "warning_lines": [],
+  "sources": {
+    "firmware/platform/stm32f411/arm-gcc.cmake": "0ab904e5c036afc0f1599da91d3f4f79133ad6a28c631dddeae475fd66b7208d",
+    "firmware/platform/stm32f411/board.c": "1f1bc498f993fa3b457769672147f5831f12565e127c7dd13b11c9201de1a8ab",
+    "firmware/platform/stm32f411/CMakeLists.txt": "bf316af0cba9d1c50dbacb2cc5a4cc54d8a80a8c89caf0ce4fc53699b524a495",
+    "firmware/platform/stm32f411/generate_layout.py": "0f1feea8e564aee609d286b4733e4ba182e6050c8f647b304e031cbbfb152396",
+    "firmware/platform/stm32f411/led_dma.c": "3fbb756cbad9c5b2b46650c94145e78638173c0276054521d59898fa34b0d08a",
+    "firmware/platform/stm32f411/main.c": "2d0e549b0707c5e84f0fed527d2253994aa2ec4c1f33dde206f0d9a2b1062867",
+    "firmware/platform/stm32f411/stm32f411ce.ld": "c57c573964abf4379fb31d35c59fa9b0c8d290e99b92c687cbbad54c17aab4b6",
+    "firmware/platform/stm32f411/include/board.h": "8f1d2f03bd29161aaa4edc03b38671271c0c06b4c0e8991bd85f488aee70a831",
+    "firmware/platform/stm32f411/include/stm32f4xx_hal_conf.h": "f6aea7073d8dde2c26fac200af3f6027db50217609aae87dcb73cb6c361c7a13",
+    "firmware/src/phyllo.c": "b9cfa6eb62a1f62fb9826719f121ed5881efe9cc40606b6523816667121b16c2",
+    "firmware/include/phyllo.h": "20327c82220adff6120567b67d1aa6185097ffbfaa80a7ce011d35c55002c091",
+    "firmware/sources.lock.json": "735b2a37653b94facdaac6bec12f85ed4e8abbef98d65171d273b1481af20acf",
+    "shared/chain.json": "4541981d1fa304a8ae8ff0c8399cb981e45fc61626b758f45286c9b9a21ef366",
+    "shared/layout.json": "b9f0bc227d5c2e1de21f1f6c260cdfdbeddc3aa0f9b53f55d0bb85d3165560ee"
+  }
+}

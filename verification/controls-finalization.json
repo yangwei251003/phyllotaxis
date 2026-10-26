@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "refined_print_meshes",
+    "exit_code": 0
+  },
+  {
+    "stage": "updated_controls_fit",
+    "exit_code": 0
+  },
+  {
+    "stage": "support_components_against_new_shell",
+    "exit_code": 0
+  },
+  {
+    "stage": "connectors_against_new_shell",
+    "exit_code": 0
+  },
+  {
+    "stage": "whole_assembly",
+    "exit_code": 0
+  },
+  {
+    "stage": "saved_STEP_readback",
+    "exit_code": 0
+  },
+  {
+    "stage": "print_mesh_accuracy",
+    "exit_code": 0
+  }
+]

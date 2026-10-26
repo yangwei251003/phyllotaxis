@@ -1,0 +1,129 @@
+{
+  "status": "LOCAL_EXPORT_REVIEW_ONLY_NOT_FOR_ORDER",
+  "board_sha256": "17f93c409632b65271121363c62a9ff14ae228ac94b24b676f731eafd3b3479e",
+  "commands": [
+    {
+      "stage": "gerbers",
+      "exit_code": 0
+    },
+    {
+      "stage": "drills",
+      "exit_code": 0
+    },
+    {
+      "stage": "positions",
+      "exit_code": 0
+    },
+    {
+      "stage": "front-silk",
+      "exit_code": 0
+    },
+    {
+      "stage": "back-silk",
+      "exit_code": 0
+    },
+    {
+      "stage": "front-paste",
+      "exit_code": 0
+    },
+    {
+      "stage": "front-assembly",
+      "exit_code": 0
+    },
+    {
+      "stage": "back-assembly",
+      "exit_code": 0
+    }
+  ],
+  "paste_gerber": {
+    "file": "phyllo-copper-review-F_Paste.gtp",
+    "region_start_count": 16,
+    "flash_commands": 604
+  },
+  "limits": [
+    "No factory upload, quote or rotation preview performed. Native position angles are NOT asserted to match a particular PCBA vendor convention.",
+    "Gerbers represent selected design rules; final stackup, physical polarity/assembly and mechanical checks remain outstanding."
+  ],
+  "files": [
+    {
+      "path": "BOM-for-review.csv",
+      "bytes": 2005,
+      "sha256": "f0d236d8d068e25b61917d4d97dad1b6844047aac41d956fc4e0b78ef640c0b8"
+    },
+    {
+      "path": "drill-report.txt",
+      "bytes": 834,
+      "sha256": "6f2d7e3683e83a79b388fce517f86352dfce34f46b97cb939bcf3384e9187b49"
+    },
+    {
+      "path": "native-positions-mm.csv",
+      "bytes": 11300,
+      "sha256": "5f404643407f0d00536c25bc967df47aebfb489c248b3e58a4564e671815bf4a"
+    },
+    {
+      "path": "phyllo-copper-review-B_Cu.gbl",
+      "bytes": 257370,
+      "sha256": "949119dfb0b377c6f98d016f0108f5e7d40c2d3a90449722ce846ae869f52e31"
+    },
+    {
+      "path": "phyllo-copper-review-B_Mask.gbs",
+      "bytes": 12945,
+      "sha256": "fd367c8767e165f5321a634039607ea2c81df09f614a630e57051c828df19194"
+    },
+    {
+      "path": "phyllo-copper-review-B_Silkscreen.gbo",
+      "bytes": 3855,
+      "sha256": "88af34fe9369f95702442f3f3e9c9e748f94b31f96caeec2397c4fc1338451d7"
+    },
+    {
+      "path": "phyllo-copper-review-Edge_Cuts.gm1",
+      "bytes": 19233,
+      "sha256": "e4e585e96bf5ba43ad13390dfd71cc6c7f6b6798a9fab2dbabdad81dbcfb9fad"
+    },
+    {
+      "path": "phyllo-copper-review-F_Cu.gtl",
+      "bytes": 1561194,
+      "sha256": "053a91935bb2eccb3c3fc95d2e3eb7477e394b2878cf259e884a610ff03fdf8d"
+    },
+    {
+      "path": "phyllo-copper-review-F_Mask.gts",
+      "bytes": 366617,
+      "sha256": "277861ec74e3dfa0c315e59e5c8f7a921d704880993f151e2ed41625c6b18d20"
+    },
+    {
+      "path": "phyllo-copper-review-F_Paste.gtp",
+      "bytes": 31933,
+      "sha256": "a234b64d87c10213fb971c6912dbec22c9a75f9e3484208dbe686302845ff37a"
+    },
+    {
+      "path": "phyllo-copper-review-F_Silkscreen.gto",
+      "bytes": 1415446,
+      "sha256": "13f5e1829c016c9ab5f6c1323537c5075a8d623be5cee66f697cb9c795bfd276"
+    },
+    {
+      "path": "phyllo-copper-review-job.gbrjob",
+      "bytes": 2795,
+      "sha256": "a5f7feeac8ac79209104b8cce24fcfa46bf70ddaa52656574746de566762349d"
+    },
+    {
+      "path": "phyllo-copper-review-NPTH.drl",
+      "bytes": 415,
+      "sha256": "1aa60b69dd2c94e7b012d544cecf4c42bf351be5673f230b392ccd983ff25f7e"
+    },
+    {
+      "path": "phyllo-copper-review-PTH.drl",
+      "bytes": 6033,
+      "sha256": "4d66cfb5c2c87b8eab712775bbfa729095baeb2390a69ff29098519746189fb3"
+    },
+    {
+      "path": "placement-pin1-audit.csv",
+      "bytes": 20419,
+      "sha256": "57a58032a28d6971f0a683ffb4542acefd302adbfea396111d1bceeef6b4d47a"
+    },
+    {
+      "path": "README-NOT-FOR-ORDER.txt",
+      "bytes": 469,
+      "sha256": "ce50897fec8125d4412f1e8ae9b0c3da4a036246eec11a9fc3ba741cda81a3d2"
+    }
+  ]
+}

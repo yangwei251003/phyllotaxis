@@ -1,0 +1,27 @@
+Drill report for phyllo-copper-review.kicad_pcb
+Created on 2026-10-03T07:38:23
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'phyllo-copper-review-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (300 holes))
+    T2  0.400mm  0.0157"  (1 hole)
+    T3  0.914mm  0.0360"  (4 holes))
+    T4  1.100mm  0.0433"  (2 holes))
+    T5  1.800mm  0.0709"  (2 holes))
+
+    Total plated holes count 309
+
+
+Drill file 'phyllo-copper-review-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.400mm  0.1339"  (4 holes))
+
+    Total unplated holes count 4

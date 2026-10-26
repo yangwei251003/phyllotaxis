@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "PhylloReview") (type "KiCad") (uri "${KIPRJMOD}/PhylloReview.kicad_sym") (options "") (descr "Derived review pin tables, not vendor graphics")))

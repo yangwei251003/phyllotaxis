@@ -1,0 +1,206 @@
+{
+  "status": "schematic_candidate_not_released",
+  "supply": "External sealed regulated 5V supply, >=8A candidate with verified OCP/SCP; external 7.5A MINI fuse and factory-assembled 16AWG copper input harness preferred. Exact SKU, total lead length, loaded voltage, fault coordination and quote pending. See docs/16-power-selection-and-circuit.md.",
+  "components": [
+    {
+      "ref": "J1",
+      "part": "C431092",
+      "role": "XT30 power input; 3/4 mechanical terminals pending drawing check",
+      "pins": {
+        "1": "GND",
+        "2": "VIN_FUSED",
+        "3": null,
+        "4": null
+      }
+    },
+    {
+      "ref": "Q1",
+      "part": "C2910138",
+      "role": "Reverse polarity PMOS: D=input, S=protected output",
+      "pins": {
+        "1": "5V_LED",
+        "2": "5V_LED",
+        "3": "5V_LED",
+        "4": "PMOS_GATE",
+        "5": "VIN_FUSED",
+        "6": "VIN_FUSED",
+        "7": "VIN_FUSED",
+        "8": "VIN_FUSED"
+      }
+    },
+    {
+      "ref": "R1",
+      "part": "C21190",
+      "role": "Gate pull-down 1k",
+      "pins": {
+        "1": "PMOS_GATE",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R2",
+      "part": "C22935",
+      "role": "Gate-source 1M",
+      "pins": {
+        "1": "PMOS_GATE",
+        "2": "5V_LED"
+      }
+    },
+    {
+      "ref": "D145",
+      "part": "C271259",
+      "role": "12V gate-source clamp; NOT a 5V rail clamp",
+      "pins": {
+        "1": "5V_LED",
+        "2": "PMOS_GATE"
+      }
+    },
+    {
+      "ref": "F2",
+      "part": "C17313",
+      "role": "0.5A hold / 1A trip PTC for controller branch; thermal derating pending",
+      "pins": {
+        "1": "5V_LED",
+        "2": "5V_MCU"
+      }
+    },
+    {
+      "ref": "C1",
+      "part": "C46550459",
+      "role": "470uF 10V quadrant bulk A; pin polarity drawing review pending",
+      "pins": {
+        "1": "5V_LED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C2",
+      "part": "C46550459",
+      "role": "470uF 10V quadrant bulk B; pin polarity drawing review pending",
+      "pins": {
+        "1": "5V_LED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C3",
+      "part": "C46550459",
+      "role": "470uF 10V quadrant bulk C; pin polarity drawing review pending",
+      "pins": {
+        "1": "5V_LED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C4",
+      "part": "C46550459",
+      "role": "470uF 10V quadrant bulk D; pin polarity drawing review pending",
+      "pins": {
+        "1": "5V_LED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U1",
+      "part": "C12495",
+      "role": "5V AHCT data level buffer",
+      "pins": {
+        "1": "DATA_OE_N",
+        "2": "DATA_3V3",
+        "3": "GND",
+        "4": "DATA_BUFFERED",
+        "5": "5V_LED"
+      }
+    },
+    {
+      "ref": "C5",
+      "part": "C14663",
+      "role": "100nF X7R at buffer VCC",
+      "pins": {
+        "1": "5V_LED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R3",
+      "part": "C23138",
+      "role": "330 ohm series data at first LED",
+      "pins": {
+        "1": "DATA_BUFFERED",
+        "2": "LED_DATA_IN"
+      }
+    },
+    {
+      "ref": "R4",
+      "part": "C25803",
+      "role": "100k data input pull-down",
+      "pins": {
+        "1": "DATA_3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R5",
+      "part": "C25803",
+      "role": "100k LED DIN pull-down",
+      "pins": {
+        "1": "LED_DATA_IN",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R6",
+      "part": "C25803",
+      "role": "100k OE pull-up; prevents default enable",
+      "pins": {
+        "1": "DATA_OE_N",
+        "2": "5V_LED"
+      }
+    },
+    {
+      "ref": "Q2",
+      "part": "C8545",
+      "role": "Enable pulls OE low; DOES NOT switch LED ground",
+      "pins": {
+        "1": "ENABLE_3V3",
+        "2": "GND",
+        "3": "DATA_OE_N"
+      }
+    },
+    {
+      "ref": "R7",
+      "part": "C25803",
+      "role": "100k enable gate pull-down",
+      "pins": {
+        "1": "ENABLE_3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J2",
+      "part": "C594232",
+      "role": "Keyed controller connector; candidate pin order, NOT wiring release",
+      "pins": {
+        "1": "GND",
+        "2": "DATA_3V3",
+        "3": "ENABLE_3V3",
+        "4": "5V_MCU"
+      }
+    }
+  ],
+  "limitations": [
+    "Both bottom connectors and all routing are complete candidates, with ERC/DRC/parity zero issues; NOT factory or hardware acceptance",
+    "Capacitor library pin1=positive confirmed; real stripe/factory rotation remains pending",
+    "XT30 source isolated auxiliary PTH preserved; auxiliary material and assembly treatment pending",
+    "External fuse/supply and PTC trip coordination not measured",
+    "Received controller/mic identity pending",
+    "Full 3D part envelopes, module mounting, factory rotation/quote and manufacturing release pending"
+  ],
+  "current_review": {
+    "status": "ERC_DRC_PARITY_PASS_NOT_PRODUCTION_RELEASE",
+    "details": "docs/11-manufacturing-review.md",
+    "board_sha256": "17f93c409632b65271121363c62a9ff14ae228ac94b24b676f731eafd3b3479e",
+    "historical_description_note": "Component role strings are retained from the source schematic generation; latest polarity/manufacturing findings are recorded here and in the linked evidence.",
+    "power_selection": "2026-10-03: 5.704A is a nominal planning scenario, not guaranteed worst-case. MF-MSMF050-2 table Ihold 0.50A at 23C, 0.44A at 40C, 0.37A at 60C verified; actual branch current and board temperature pending. 19 support-component readable diagram audited to saved native netlist."
+  }
+}

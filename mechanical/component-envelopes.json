@@ -1,0 +1,1227 @@
+{
+  "status": "17_SUPPORT_COMPONENT_CONSERVATIVE_SPACES_NOT_VENDOR_MODELS",
+  "board_sha256": "17f93c409632b65271121363c62a9ff14ae228ac94b24b676f731eafd3b3479e",
+  "height_spec_sha256": "7348176e004db4e542f92e7ba68d0298f80c062c945692c89fd565bdbef37e32",
+  "coordinate_mapping": "mechanical=(nativeX-100,100-nativeY,PCBtop); current footprint angles applied in physical XY CCW",
+  "rows": [
+    {
+      "ref": "Q1",
+      "part": "C2910138",
+      "source_library_sha256": "36502bc330223e5022eaa5a66579ffaa9602abe0ef6ee9d20bd8744cc44fe181",
+      "native_angle_deg": 180.0,
+      "center_xy_mm": [
+        -12.0,
+        -81.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 2.5,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 1.75,
+        "maximum_overall_xy_in_library_axes_mm": [
+          5.1,
+          6.2
+        ],
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20240329/674A4B8EBD31C730C33351B5F04B40DF.pdf",
+        "source_pages": [
+          4
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/JSCJ-CJQ16P03.pdf",
+          "sha256": "113f8039b8b8716db9c7526bba6087b43e9cdd813a43a5910b32b15246f21bdc",
+          "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20240329/674A4B8EBD31C730C33351B5F04B40DF.pdf"
+        },
+        "manufacturer_dimension_note": "SOP8 D along library X; total E including leads along Y. A already includes own stand-off.",
+        "extra_height_reserve_mm": 0.75
+      },
+      "profile_xy_mm": [
+        [
+          -13.983991080062102,
+          -84.99991700000001
+        ],
+        [
+          -14.13659165107034,
+          -84.95902785725549
+        ],
+        [
+          -14.273407815099965,
+          -84.88003657549334
+        ],
+        [
+          -14.376797438058318,
+          -84.77664695253496
+        ],
+        [
+          -14.8,
+          -84.17961905042759
+        ],
+        [
+          -14.8,
+          -77.82038082340183
+        ],
+        [
+          -14.376797356478423,
+          -77.22335396588514
+        ],
+        [
+          -14.273407815099965,
+          -77.11996442450666
+        ],
+        [
+          -14.13659165107034,
+          -77.0409731427445
+        ],
+        [
+          -13.983991080062102,
+          -77.00008399999999
+        ],
+        [
+          -10.016008919937898,
+          -77.00008399999999
+        ],
+        [
+          -9.86340834892966,
+          -77.0409731427445
+        ],
+        [
+          -9.726592184900035,
+          -77.11996442450666
+        ],
+        [
+          -9.623202643521577,
+          -77.22335396588514
+        ],
+        [
+          -9.2,
+          -77.82038082340183
+        ],
+        [
+          -9.2,
+          -84.17961905042759
+        ],
+        [
+          -9.623202561941682,
+          -84.77664695253496
+        ],
+        [
+          -9.726592184900035,
+          -84.88003657549334
+        ],
+        [
+          -9.86340834892966,
+          -84.95902785725549
+        ],
+        [
+          -10.016008919937898,
+          -84.99991700000001
+        ]
+      ],
+      "profile_area_mm2": 43.78835640274465,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "R7",
+      "part": "C25803",
+      "source_library_sha256": "25af195844a00651338b3ee00088c3e4859dd979684621343c857068eaa87c20",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        16.0,
+        -84.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.55,
+        "maximum_overall_xy_in_library_axes_mm": [
+          1.7,
+          0.9
+        ],
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+        "source_pages": [
+          10,
+          175
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+          "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+          "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+        },
+        "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+        "extra_height_reserve_mm": 0.44999999999999996
+      },
+      "profile_xy_mm": [
+        [
+          15.142665995698176,
+          -84.7
+        ],
+        [
+          14.593525,
+          -84.66775302879655
+        ],
+        [
+          14.593525,
+          -83.33224697120345
+        ],
+        [
+          15.142665995698176,
+          -83.3
+        ],
+        [
+          16.857334004301826,
+          -83.3
+        ],
+        [
+          17.406475,
+          -83.33224697120345
+        ],
+        [
+          17.406475,
+          -84.66775302879655
+        ],
+        [
+          16.857334004301826,
+          -84.7
+        ]
+      ],
+      "profile_area_mm2": 3.9027137322501924,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "D145",
+      "part": "C271259",
+      "source_library_sha256": "7af6d5d7632afed08d9caaaa783d0679d79d075df7fd592ea37ce6c5f5bb61d8",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        -21.0,
+        -84.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 2.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 1.25,
+        "maximum_overall_xy_in_library_axes_mm": [
+          3.85,
+          1.7
+        ],
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20180820/C271262_D2D0F24DD5A81EAE2A6B8B493A94E64A.pdf",
+        "source_pages": [
+          5
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/BORN-BZT52C-series.pdf",
+          "sha256": "9751f072ad061469b991e93c25c446cea7bf8225f565d5bfcccb4c410ebbc34b",
+          "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20180820/C271262_D2D0F24DD5A81EAE2A6B8B493A94E64A.pdf"
+        },
+        "manufacturer_dimension_note": "Manufacturer BZT52Cxx family includes C12 despite shared LCSC mirror filename.",
+        "extra_height_reserve_mm": 0.75
+      },
+      "profile_xy_mm": [
+        [
+          -22.411874599977374,
+          -85.1499982
+        ],
+        [
+          -23.04711691216786,
+          -85.0895014327954
+        ],
+        [
+          -23.417507999999998,
+          -84.6694917951818
+        ],
+        [
+          -23.417507999999998,
+          -83.3305082048182
+        ],
+        [
+          -23.04711691216786,
+          -82.9104985672046
+        ],
+        [
+          -22.411874599977374,
+          -82.8500018
+        ],
+        [
+          -19.588125400022626,
+          -82.8500018
+        ],
+        [
+          -18.95288308783214,
+          -82.9104985672046
+        ],
+        [
+          -18.582492000000002,
+          -83.3305082048182
+        ],
+        [
+          -18.582492000000002,
+          -84.6694917951818
+        ],
+        [
+          -18.95288308783214,
+          -85.0895014327954
+        ],
+        [
+          -19.588125400022626,
+          -85.1499982
+        ]
+      ],
+      "profile_area_mm2": 10.642893674571857,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "R3",
+      "part": "C23138",
+      "source_library_sha256": "f66dbe1312c77f2a54abf2ffb78b0fcb945b0661e4284359d4c0e95f0283933b",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        7.25,
+        -76.6
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.55,
+        "maximum_overall_xy_in_library_axes_mm": [
+          1.7,
+          0.9
+        ],
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+        "source_pages": [
+          10,
+          175
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+          "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+          "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+        },
+        "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+        "extra_height_reserve_mm": 0.44999999999999996
+      },
+      "profile_xy_mm": [
+        [
+          6.392665995698176,
+          -77.3
+        ],
+        [
+          5.843525,
+          -77.26775302879655
+        ],
+        [
+          5.843525,
+          -75.93224697120348
+        ],
+        [
+          6.392665995698142,
+          -75.89999999999999
+        ],
+        [
+          8.107334004301858,
+          -75.89999999999999
+        ],
+        [
+          8.656475,
+          -75.93224697120348
+        ],
+        [
+          8.656475,
+          -77.26775302879655
+        ],
+        [
+          8.107334004301824,
+          -77.3
+        ]
+      ],
+      "profile_area_mm2": 3.9027137322501697,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "U1",
+      "part": "C12495",
+      "source_library_sha256": "514cc404ca37337be7df2931955417a72c7d78d060e30be6467d843bf44c5e47",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        11.0,
+        -78.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 2.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 1.1,
+        "maximum_overall_xy_in_library_axes_mm": [
+          2.4,
+          2.6
+        ],
+        "source_url": "https://assets.nexperia.com/documents/package-information/SOT353-1.pdf",
+        "source_pages": [
+          1,
+          2
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Nexperia-SOT353-1.pdf",
+          "sha256": "9117da6e27ee855feb6f46e91cdce5788d9805b86e8325c9011db3c81a5558b9",
+          "source_url": "https://assets.nexperia.com/documents/package-information/SOT353-1.pdf"
+        },
+        "manufacturer_dimension_note": "Library X across lead rows, Y along D. D/E exclude up to0.2mm protrusion per edge; maximum body2.60x1.75 included.",
+        "extra_height_reserve_mm": 0.8999999999999999
+      },
+      "profile_xy_mm": [
+        [
+          9.652903766569139,
+          -79.55
+        ],
+        [
+          9.299989999999994,
+          -78.91479615653502
+        ],
+        [
+          9.299989999999994,
+          -77.08520384346498
+        ],
+        [
+          9.652903766569139,
+          -76.45
+        ],
+        [
+          12.3470965191789,
+          -76.45
+        ],
+        [
+          12.700008999999994,
+          -77.08520406998231
+        ],
+        [
+          12.700008999999994,
+          -78.91479593001769
+        ],
+        [
+          12.3470965191789,
+          -79.55
+        ]
+      ],
+      "profile_area_mm2": 10.091715274898446,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "C1",
+      "part": "C46550459",
+      "source_library_sha256": "b591c28c633043e87513831c9ba0a506e51b077d31323a99b9cfe5823159f93b",
+      "native_angle_deg": 115.0,
+      "center_xy_mm": [
+        75.67670000000001,
+        35.288624999999996
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 8.2,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "source": "hardware/datasheets/JIERR-MA-series.pdf",
+        "manufacturer_max_height_mm": 8.2,
+        "maximum_overall_xy_in_library_axes_mm": [
+          6.8,
+          6.8
+        ],
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf",
+        "source_pages": [
+          2
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/JIERR-MA-series.pdf",
+          "sha256": "5ab3c478e90f1826a614a56af8164bb4bab3143affaae1ad7aa69fc0c1981997",
+          "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf"
+        },
+        "manufacturer_dimension_note": "L7.7+a0.5=8.2; diameter6.3+0.5=6.8; base6.6+0.2=6.8. Do not add a twice.",
+        "extra_height_reserve_mm": 0.0
+      },
+      "profile_xy_mm": [
+        [
+          73.87953661540287,
+          30.506018537048337
+        ],
+        [
+          70.85781526702735,
+          36.9861208804911
+        ],
+        [
+          73.1193427068823,
+          39.2488496512976
+        ],
+        [
+          74.28687568937306,
+          39.79328048802429
+        ],
+        [
+          77.47386259931258,
+          40.07123314699985
+        ],
+        [
+          80.49558303311643,
+          33.59113276486237
+        ],
+        [
+          78.23412681584729,
+          31.32837752507328
+        ],
+        [
+          77.06659014519785,
+          30.783944968525947
+        ]
+      ],
+      "profile_area_mm2": 61.59906502259575,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "C3",
+      "part": "C46550459",
+      "source_library_sha256": "b591c28c633043e87513831c9ba0a506e51b077d31323a99b9cfe5823159f93b",
+      "native_angle_deg": -65.0,
+      "center_xy_mm": [
+        -75.67670100000001,
+        -35.288624
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 8.2,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "source": "hardware/datasheets/JIERR-MA-series.pdf",
+        "manufacturer_max_height_mm": 8.2,
+        "maximum_overall_xy_in_library_axes_mm": [
+          6.8,
+          6.8
+        ],
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf",
+        "source_pages": [
+          2
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/JIERR-MA-series.pdf",
+          "sha256": "5ab3c478e90f1826a614a56af8164bb4bab3143affaae1ad7aa69fc0c1981997",
+          "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf"
+        },
+        "manufacturer_dimension_note": "L7.7+a0.5=8.2; diameter6.3+0.5=6.8; base6.6+0.2=6.8. Do not add a twice.",
+        "extra_height_reserve_mm": 0.0
+      },
+      "profile_xy_mm": [
+        [
+          -77.47386359931258,
+          -40.071232146999854
+        ],
+        [
+          -80.49558403311643,
+          -33.591131764862375
+        ],
+        [
+          -78.23412781584732,
+          -31.328376525073274
+        ],
+        [
+          -77.06659114519783,
+          -30.783943968525946
+        ],
+        [
+          -73.87953761540287,
+          -30.50601753704834
+        ],
+        [
+          -70.85781626702735,
+          -36.9861198804911
+        ],
+        [
+          -73.11934370688232,
+          -39.24884865129761
+        ],
+        [
+          -74.28687668937307,
+          -39.79327948802428
+        ]
+      ],
+      "profile_area_mm2": 61.59906502259578,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "R1",
+      "part": "C21190",
+      "source_library_sha256": "69ebe95c0733fd7f0e5b7fba3c3357e551796518cbb4c224b109a5bc4e71b9a2",
+      "native_angle_deg": 90.0,
+      "center_xy_mm": [
+        -19.0,
+        -78.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.55,
+        "maximum_overall_xy_in_library_axes_mm": [
+          1.7,
+          0.9
+        ],
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+        "source_pages": [
+          10,
+          175
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+          "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+          "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+        },
+        "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+        "extra_height_reserve_mm": 0.44999999999999996
+      },
+      "profile_xy_mm": [
+        [
+          -19.66775302879654,
+          -79.406475
+        ],
+        [
+          -19.7,
+          -78.85733400430196
+        ],
+        [
+          -19.7,
+          -77.14266599569804
+        ],
+        [
+          -19.66775302879654,
+          -76.593525
+        ],
+        [
+          -18.33224697120346,
+          -76.593525
+        ],
+        [
+          -18.3,
+          -77.14266599569804
+        ],
+        [
+          -18.3,
+          -78.85733400430196
+        ],
+        [
+          -18.33224697120346,
+          -79.406475
+        ]
+      ],
+      "profile_area_mm2": 3.9027137322501693,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "C2",
+      "part": "C46550459",
+      "source_library_sha256": "b591c28c633043e87513831c9ba0a506e51b077d31323a99b9cfe5823159f93b",
+      "native_angle_deg": -155.0,
+      "center_xy_mm": [
+        -35.288624999999996,
+        75.67670100000001
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 8.2,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "source": "hardware/datasheets/JIERR-MA-series.pdf",
+        "manufacturer_max_height_mm": 8.2,
+        "maximum_overall_xy_in_library_axes_mm": [
+          6.8,
+          6.8
+        ],
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf",
+        "source_pages": [
+          2
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/JIERR-MA-series.pdf",
+          "sha256": "5ab3c478e90f1826a614a56af8164bb4bab3143affaae1ad7aa69fc0c1981997",
+          "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf"
+        },
+        "manufacturer_dimension_note": "L7.7+a0.5=8.2; diameter6.3+0.5=6.8; base6.6+0.2=6.8. Do not add a twice.",
+        "extra_height_reserve_mm": 0.0
+      },
+      "profile_xy_mm": [
+        [
+          -36.9861208804911,
+          70.85781626702735
+        ],
+        [
+          -39.2488496512976,
+          73.1193437068823
+        ],
+        [
+          -39.79328048802429,
+          74.28687668937307
+        ],
+        [
+          -40.07123314699985,
+          77.47386359931258
+        ],
+        [
+          -33.59113276486237,
+          80.49558403311643
+        ],
+        [
+          -31.32837752507328,
+          78.2341278158473
+        ],
+        [
+          -30.783944968525947,
+          77.06659114519785
+        ],
+        [
+          -30.506018537048337,
+          73.87953761540287
+        ]
+      ],
+      "profile_area_mm2": 61.59906502259577,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "R2",
+      "part": "C22935",
+      "source_library_sha256": "3914ce087c33d568bec461e11ac14d437999fc7089ed9ec8b3eb8a7912bf5a69",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        -18.0,
+        -81.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.55,
+        "maximum_overall_xy_in_library_axes_mm": [
+          1.7,
+          0.9
+        ],
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+        "source_pages": [
+          10,
+          175
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+          "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+          "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+        },
+        "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+        "extra_height_reserve_mm": 0.44999999999999996
+      },
+      "profile_xy_mm": [
+        [
+          -18.857334004301826,
+          -81.7
+        ],
+        [
+          -19.406475,
+          -81.66775302879655
+        ],
+        [
+          -19.406475,
+          -80.33224697120345
+        ],
+        [
+          -18.857334004301826,
+          -80.3
+        ],
+        [
+          -17.142665995698174,
+          -80.3
+        ],
+        [
+          -16.593525,
+          -80.33224697120345
+        ],
+        [
+          -16.593525,
+          -81.66775302879655
+        ],
+        [
+          -17.142665995698174,
+          -81.7
+        ]
+      ],
+      "profile_area_mm2": 3.9027137322501924,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "Q2",
+      "part": "C8545",
+      "source_library_sha256": "77f34742a63214419e491c7532d445721ee3c588d67df7d255ca537d842aa438",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        12.0,
+        -85.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 2.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 1.15,
+        "maximum_overall_xy_in_library_axes_mm": [
+          2.55,
+          3.0
+        ],
+        "source_url": "https://www.jscj-elec.com/gallery/file/2N7002%20SOT-23%20V2.0.pdf",
+        "source_pages": [
+          4
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/JSCJ-2N7002.pdf",
+          "sha256": "25871cfa493ac502af228b252e942274e0b8a4971f8a674801a540b5108ef82a",
+          "source_url": "https://www.jscj-elec.com/gallery/file/2N7002%20SOT-23%20V2.0.pdf"
+        },
+        "manufacturer_dimension_note": "Library X across leads (E1), Y along D.",
+        "extra_height_reserve_mm": 0.8500000000000001
+      },
+      "profile_xy_mm": [
+        [
+          10.518321125102991,
+          -86.75
+        ],
+        [
+          10.250052999999994,
+          -85.34872131040973
+        ],
+        [
+          10.250052999999994,
+          -84.65127868959027
+        ],
+        [
+          10.518321125102991,
+          -83.25
+        ],
+        [
+          13.378565433810627,
+          -83.25
+        ],
+        [
+          13.749947000000006,
+          -83.62144265221386
+        ],
+        [
+          13.749947000000006,
+          -86.37855734778614
+        ],
+        [
+          13.378565433810627,
+          -86.75
+        ]
+      ],
+      "profile_area_mm2": 11.735763639268155,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "R5",
+      "part": "C25803",
+      "source_library_sha256": "25af195844a00651338b3ee00088c3e4859dd979684621343c857068eaa87c20",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        15.5,
+        -75.6
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.55,
+        "maximum_overall_xy_in_library_axes_mm": [
+          1.7,
+          0.9
+        ],
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+        "source_pages": [
+          10,
+          175
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+          "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+          "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+        },
+        "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+        "extra_height_reserve_mm": 0.44999999999999996
+      },
+      "profile_xy_mm": [
+        [
+          14.642665995698176,
+          -76.3
+        ],
+        [
+          14.093525,
+          -76.26775302879655
+        ],
+        [
+          14.093525,
+          -74.93224697120348
+        ],
+        [
+          14.642665995698142,
+          -74.89999999999999
+        ],
+        [
+          16.357334004301862,
+          -74.89999999999999
+        ],
+        [
+          16.906475,
+          -74.93224697120348
+        ],
+        [
+          16.906475,
+          -76.26775302879655
+        ],
+        [
+          16.357334004301826,
+          -76.3
+        ]
+      ],
+      "profile_area_mm2": 3.90271373225017,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "F2",
+      "part": "C17313",
+      "source_library_sha256": "d3dfe8f459d1c21ff99a9c76cb3cbb4646beab71e8be2c66a8e5009f2c5b36ab",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        -27.0,
+        -79.5
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.5,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.85,
+        "maximum_overall_xy_in_library_axes_mm": [
+          4.73,
+          3.41
+        ],
+        "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf",
+        "source_pages": [
+          4,
+          7,
+          11
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Bourns-MF-MSMF.pdf",
+          "sha256": "50d80228581842471d563e28ba0f1b67ab095ee95dfac4079f4a49f7f7bbf3c8",
+          "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+        },
+        "manufacturer_dimension_note": "050 standard dimensions; -2 is packaging. Do not use 050/xxX length4.83.",
+        "extra_height_reserve_mm": 0.65
+      },
+      "profile_xy_mm": [
+        [
+          -29.806675999999996,
+          -81.49960300000001
+        ],
+        [
+          -29.806675999999996,
+          -77.50039699999999
+        ],
+        [
+          -24.193324000000004,
+          -77.50039699999999
+        ],
+        [
+          -24.193324000000004,
+          -81.49960300000001
+        ]
+      ],
+      "profile_area_mm2": 22.448950998512053,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "R6",
+      "part": "C25803",
+      "source_library_sha256": "25af195844a00651338b3ee00088c3e4859dd979684621343c857068eaa87c20",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        15.0,
+        -81.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.55,
+        "maximum_overall_xy_in_library_axes_mm": [
+          1.7,
+          0.9
+        ],
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+        "source_pages": [
+          10,
+          175
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+          "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+          "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+        },
+        "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+        "extra_height_reserve_mm": 0.44999999999999996
+      },
+      "profile_xy_mm": [
+        [
+          14.142665995698176,
+          -81.7
+        ],
+        [
+          13.593525,
+          -81.66775302879655
+        ],
+        [
+          13.593525,
+          -80.33224697120345
+        ],
+        [
+          14.142665995698176,
+          -80.3
+        ],
+        [
+          15.857334004301824,
+          -80.3
+        ],
+        [
+          16.406475,
+          -80.33224697120345
+        ],
+        [
+          16.406475,
+          -81.66775302879655
+        ],
+        [
+          15.857334004301824,
+          -81.7
+        ]
+      ],
+      "profile_area_mm2": 3.9027137322501924,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "C5",
+      "part": "C14663",
+      "source_library_sha256": "83f3c720eed488c23e216902dbf92ace597223c1023ca77339f81177d23c6191",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        11.0,
+        -81.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.5,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.9,
+        "maximum_overall_xy_in_library_axes_mm": [
+          1.7,
+          0.9
+        ],
+        "source_url": "https://yageogroup.com/download/specsheet/CC0603KRX7R9BB104",
+        "source_pages": [
+          1
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Yageo-CC0603KRX7R9BB104.pdf",
+          "sha256": "398c74c16d597dd0a771a64a0259b9e8643fdf65adafcbf9ef2c2aee2b68453a",
+          "source_url": "https://yageogroup.com/download/specsheet/CC0603KRX7R9BB104"
+        },
+        "manufacturer_dimension_note": "Specific MPN; L1.6+0.1,W/T0.8+0.1.",
+        "extra_height_reserve_mm": 0.6
+      },
+      "profile_xy_mm": [
+        [
+          10.15,
+          -81.7
+        ],
+        [
+          9.650103999999999,
+          -81.6999979995858
+        ],
+        [
+          9.650103999999999,
+          -80.3000020004142
+        ],
+        [
+          10.149998999583815,
+          -80.300000000002
+        ],
+        [
+          11.85,
+          -80.3
+        ],
+        [
+          12.349896000000001,
+          -80.3000020004142
+        ],
+        [
+          12.349896000000001,
+          -81.6999979995858
+        ],
+        [
+          11.850001000416185,
+          -81.699999999998
+        ]
+      ],
+      "profile_area_mm2": 3.779706799999499,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "C4",
+      "part": "C46550459",
+      "source_library_sha256": "b591c28c633043e87513831c9ba0a506e51b077d31323a99b9cfe5823159f93b",
+      "native_angle_deg": 25.0,
+      "center_xy_mm": [
+        35.288624,
+        -75.67670000000001
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 8.2,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "source": "hardware/datasheets/JIERR-MA-series.pdf",
+        "manufacturer_max_height_mm": 8.2,
+        "maximum_overall_xy_in_library_axes_mm": [
+          6.8,
+          6.8
+        ],
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf",
+        "source_pages": [
+          2
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/JIERR-MA-series.pdf",
+          "sha256": "5ab3c478e90f1826a614a56af8164bb4bab3143affaae1ad7aa69fc0c1981997",
+          "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf"
+        },
+        "manufacturer_dimension_note": "L7.7+a0.5=8.2; diameter6.3+0.5=6.8; base6.6+0.2=6.8. Do not add a twice.",
+        "extra_height_reserve_mm": 0.0
+      },
+      "profile_xy_mm": [
+        [
+          33.591131764862375,
+          -80.49558303311643
+        ],
+        [
+          31.328376525073267,
+          -78.23412681584729
+        ],
+        [
+          30.78394396852595,
+          -77.06659014519785
+        ],
+        [
+          30.50601753704834,
+          -73.87953661540287
+        ],
+        [
+          36.9861198804911,
+          -70.85781526702735
+        ],
+        [
+          39.24884865129762,
+          -73.11934270688232
+        ],
+        [
+          39.79327948802428,
+          -74.28687568937305
+        ],
+        [
+          40.071232146999854,
+          -77.47386259931258
+        ]
+      ],
+      "profile_area_mm2": 61.59906502259578,
+      "xy_margin_mm": 0.25
+    },
+    {
+      "ref": "R4",
+      "part": "C25803",
+      "source_library_sha256": "25af195844a00651338b3ee00088c3e4859dd979684621343c857068eaa87c20",
+      "native_angle_deg": 0.0,
+      "center_xy_mm": [
+        15.0,
+        -78.0
+      ],
+      "pcb_seat_z_mm": 31.6,
+      "height_spec": {
+        "height_mm": 1.0,
+        "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+        "manufacturer_max_height_mm": 0.55,
+        "maximum_overall_xy_in_library_axes_mm": [
+          1.7,
+          0.9
+        ],
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+        "source_pages": [
+          10,
+          175
+        ],
+        "source_file": {
+          "download": "saved",
+          "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+          "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+          "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+        },
+        "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+        "extra_height_reserve_mm": 0.44999999999999996
+      },
+      "profile_xy_mm": [
+        [
+          14.142665995698176,
+          -78.7
+        ],
+        [
+          13.593525,
+          -78.66775302879655
+        ],
+        [
+          13.593525,
+          -77.33224697120345
+        ],
+        [
+          14.142665995698176,
+          -77.3
+        ],
+        [
+          15.857334004301824,
+          -77.3
+        ],
+        [
+          16.406475,
+          -77.33224697120345
+        ],
+        [
+          16.406475,
+          -78.66775302879655
+        ],
+        [
+          15.857334004301824,
+          -78.7
+        ]
+      ],
+      "profile_area_mm2": 3.9027137322501924,
+      "xy_margin_mm": 0.25
+    }
+  ],
+  "scope": "Body plus solder-land convex envelope and 0.25mm XY allowance. Includes space outside actual component; not exact component geometry or a physical fit certificate."
+}

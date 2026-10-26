@@ -1,0 +1,1338 @@
+{
+  "status": "supplementary_diagram_pin_and_net_audit_pass_NOT_manufacturing_release",
+  "board_sha256_before_after": "3a58edfbd13dbbb5d1b225437de182d8879b73f9131223cfc42725c6b7bca050",
+  "intent_sha256": "f3e6a77f5aefa99b38ae1f5123f1ae542c3a16e21e1d718a07669b6ddf733bfb",
+  "native_netlist_sha256": "cc29477b7b133ed890c04db3728f2305a363c7a5ce42a3ed42ef2d502aef49fb",
+  "components": 23,
+  "pins": 60,
+  "connected_pins": 58,
+  "nc_pins": 2,
+  "pages": 3,
+  "checks": [
+    "complete support-component pin coverage",
+    "every manually assigned pin net equals saved native netlist and design intent",
+    "every connected drawn pin touches only its assigned network line",
+    "saved PDF reopened and all component reference text present",
+    "native PCB hash unchanged"
+  ],
+  "limits": [
+    "Not a replacement native schematic or new ERC run",
+    "No general automatic wire-crossing/connectivity proof; visual review separately recorded",
+    "External source/fuse/harness are functional candidates, not exact purchased components",
+    "Diagrams are not physical connector orientation views"
+  ],
+  "drawn_pins": [
+    {
+      "ref": "J1",
+      "pin": "2",
+      "net": "VIN_FUSED",
+      "page": 1,
+      "x": 250,
+      "y": 280
+    },
+    {
+      "ref": "J1",
+      "pin": "1",
+      "net": "GND",
+      "page": 1,
+      "x": 250,
+      "y": 365
+    },
+    {
+      "ref": "J1",
+      "pin": "3",
+      "net": null,
+      "page": 1,
+      "x": 150,
+      "y": 405
+    },
+    {
+      "ref": "J1",
+      "pin": "4",
+      "net": null,
+      "page": 1,
+      "x": 150,
+      "y": 405
+    },
+    {
+      "ref": "Q1",
+      "pin": "5",
+      "net": "VIN_FUSED",
+      "page": 1,
+      "x": 520,
+      "y": 280
+    },
+    {
+      "ref": "Q1",
+      "pin": "6",
+      "net": "VIN_FUSED",
+      "page": 1,
+      "x": 520,
+      "y": 280
+    },
+    {
+      "ref": "Q1",
+      "pin": "7",
+      "net": "VIN_FUSED",
+      "page": 1,
+      "x": 520,
+      "y": 280
+    },
+    {
+      "ref": "Q1",
+      "pin": "8",
+      "net": "VIN_FUSED",
+      "page": 1,
+      "x": 520,
+      "y": 280
+    },
+    {
+      "ref": "Q1",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 1,
+      "x": 760,
+      "y": 280
+    },
+    {
+      "ref": "Q1",
+      "pin": "2",
+      "net": "5V_LED",
+      "page": 1,
+      "x": 760,
+      "y": 280
+    },
+    {
+      "ref": "Q1",
+      "pin": "3",
+      "net": "5V_LED",
+      "page": 1,
+      "x": 760,
+      "y": 280
+    },
+    {
+      "ref": "Q1",
+      "pin": "4",
+      "net": "PMOS_GATE",
+      "page": 1,
+      "x": 625,
+      "y": 345
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "net": "5V_LED",
+      "page": 1,
+      "x": 850,
+      "y": 335
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "net": "PMOS_GATE",
+      "page": 1,
+      "x": 850,
+      "y": 400
+    },
+    {
+      "ref": "D145",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 1,
+      "x": 1025,
+      "y": 325
+    },
+    {
+      "ref": "D145",
+      "pin": "2",
+      "net": "PMOS_GATE",
+      "page": 1,
+      "x": 1025,
+      "y": 410
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "net": "PMOS_GATE",
+      "page": 1,
+      "x": 625,
+      "y": 495
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "net": "GND",
+      "page": 1,
+      "x": 625,
+      "y": 560
+    },
+    {
+      "ref": "F2",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 1,
+      "x": 1020,
+      "y": 205
+    },
+    {
+      "ref": "F2",
+      "pin": "2",
+      "net": "5V_MCU",
+      "page": 1,
+      "x": 1110,
+      "y": 205
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "net": "5V_MCU",
+      "page": 2,
+      "x": 250,
+      "y": 260
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "net": "DATA_3V3",
+      "page": 2,
+      "x": 250,
+      "y": 330
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "net": "GND",
+      "page": 2,
+      "x": 250,
+      "y": 390
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "net": "ENABLE_3V3",
+      "page": 2,
+      "x": 250,
+      "y": 435
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "net": "DATA_3V3",
+      "page": 2,
+      "x": 680,
+      "y": 330
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "net": "DATA_BUFFERED",
+      "page": 2,
+      "x": 870,
+      "y": 330
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "net": "5V_LED",
+      "page": 2,
+      "x": 775,
+      "y": 260
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "net": "GND",
+      "page": 2,
+      "x": 775,
+      "y": 450
+    },
+    {
+      "ref": "U1",
+      "pin": "1",
+      "net": "DATA_OE_N",
+      "page": 2,
+      "x": 680,
+      "y": 410
+    },
+    {
+      "ref": "C5",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 2,
+      "x": 975,
+      "y": 220
+    },
+    {
+      "ref": "C5",
+      "pin": "2",
+      "net": "GND",
+      "page": 2,
+      "x": 975,
+      "y": 236
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "net": "DATA_BUFFERED",
+      "page": 2,
+      "x": 1060,
+      "y": 330
+    },
+    {
+      "ref": "R3",
+      "pin": "2",
+      "net": "LED_DATA_IN",
+      "page": 2,
+      "x": 1150,
+      "y": 330
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "net": "DATA_3V3",
+      "page": 2,
+      "x": 450,
+      "y": 455
+    },
+    {
+      "ref": "R4",
+      "pin": "2",
+      "net": "GND",
+      "page": 2,
+      "x": 450,
+      "y": 520
+    },
+    {
+      "ref": "R5",
+      "pin": "1",
+      "net": "LED_DATA_IN",
+      "page": 2,
+      "x": 1370,
+      "y": 455
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "net": "GND",
+      "page": 2,
+      "x": 1370,
+      "y": 520
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "net": "5V_LED",
+      "page": 2,
+      "x": 1060,
+      "y": 435
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "net": "DATA_OE_N",
+      "page": 2,
+      "x": 1060,
+      "y": 500
+    },
+    {
+      "ref": "Q2",
+      "pin": "3",
+      "net": "DATA_OE_N",
+      "page": 2,
+      "x": 695,
+      "y": 655
+    },
+    {
+      "ref": "Q2",
+      "pin": "1",
+      "net": "ENABLE_3V3",
+      "page": 2,
+      "x": 605,
+      "y": 735
+    },
+    {
+      "ref": "Q2",
+      "pin": "2",
+      "net": "GND",
+      "page": 2,
+      "x": 695,
+      "y": 775
+    },
+    {
+      "ref": "R7",
+      "pin": "1",
+      "net": "ENABLE_3V3",
+      "page": 2,
+      "x": 470,
+      "y": 790
+    },
+    {
+      "ref": "R7",
+      "pin": "2",
+      "net": "GND",
+      "page": 2,
+      "x": 470,
+      "y": 855
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 3,
+      "x": 155,
+      "y": 480
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "net": "GND",
+      "page": 3,
+      "x": 155,
+      "y": 496
+    },
+    {
+      "ref": "C6",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 3,
+      "x": 335,
+      "y": 480
+    },
+    {
+      "ref": "C6",
+      "pin": "2",
+      "net": "GND",
+      "page": 3,
+      "x": 335,
+      "y": 496
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 3,
+      "x": 515,
+      "y": 480
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "net": "GND",
+      "page": 3,
+      "x": 515,
+      "y": 496
+    },
+    {
+      "ref": "C7",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 3,
+      "x": 695,
+      "y": 480
+    },
+    {
+      "ref": "C7",
+      "pin": "2",
+      "net": "GND",
+      "page": 3,
+      "x": 695,
+      "y": 496
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 3,
+      "x": 875,
+      "y": 480
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "net": "GND",
+      "page": 3,
+      "x": 875,
+      "y": 496
+    },
+    {
+      "ref": "C8",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 3,
+      "x": 1055,
+      "y": 480
+    },
+    {
+      "ref": "C8",
+      "pin": "2",
+      "net": "GND",
+      "page": 3,
+      "x": 1055,
+      "y": 496
+    },
+    {
+      "ref": "C4",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 3,
+      "x": 1235,
+      "y": 480
+    },
+    {
+      "ref": "C4",
+      "pin": "2",
+      "net": "GND",
+      "page": 3,
+      "x": 1235,
+      "y": 496
+    },
+    {
+      "ref": "C9",
+      "pin": "1",
+      "net": "5V_LED",
+      "page": 3,
+      "x": 1415,
+      "y": 480
+    },
+    {
+      "ref": "C9",
+      "pin": "2",
+      "net": "GND",
+      "page": 3,
+      "x": 1415,
+      "y": 496
+    }
+  ],
+  "wire_segments": [
+    {
+      "page": 1,
+      "net": "VIN_FUSED",
+      "points": [
+        [
+          250,
+          280
+        ],
+        [
+          520,
+          280
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "5V_LED",
+      "points": [
+        [
+          760,
+          280
+        ],
+        [
+          1460,
+          280
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "PMOS_GATE",
+      "points": [
+        [
+          625,
+          345
+        ],
+        [
+          625,
+          435
+        ],
+        [
+          1025,
+          435
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "5V_LED",
+      "points": [
+        [
+          850,
+          280
+        ],
+        [
+          850,
+          335
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "PMOS_GATE",
+      "points": [
+        [
+          850,
+          400
+        ],
+        [
+          850,
+          435
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "5V_LED",
+      "points": [
+        [
+          1025,
+          280
+        ],
+        [
+          1025,
+          325
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "PMOS_GATE",
+      "points": [
+        [
+          1025,
+          410
+        ],
+        [
+          1025,
+          435
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "PMOS_GATE",
+      "points": [
+        [
+          625,
+          435
+        ],
+        [
+          625,
+          495
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "GND",
+      "points": [
+        [
+          625,
+          560
+        ],
+        [
+          625,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "GND",
+      "points": [
+        [
+          250,
+          365
+        ],
+        [
+          310,
+          365
+        ],
+        [
+          310,
+          690
+        ],
+        [
+          1500,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "5V_LED",
+      "points": [
+        [
+          1295,
+          280
+        ],
+        [
+          1295,
+          465
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "GND",
+      "points": [
+        [
+          1295,
+          595
+        ],
+        [
+          1295,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "5V_LED",
+      "points": [
+        [
+          800,
+          280
+        ],
+        [
+          800,
+          205
+        ],
+        [
+          1020,
+          205
+        ]
+      ]
+    },
+    {
+      "page": 1,
+      "net": "5V_MCU",
+      "points": [
+        [
+          1110,
+          205
+        ],
+        [
+          1450,
+          205
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "5V_MCU",
+      "points": [
+        [
+          250,
+          260
+        ],
+        [
+          380,
+          260
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "GND",
+      "points": [
+        [
+          250,
+          390
+        ],
+        [
+          305,
+          390
+        ],
+        [
+          305,
+          510
+        ],
+        [
+          345,
+          510
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "DATA_3V3",
+      "points": [
+        [
+          250,
+          330
+        ],
+        [
+          680,
+          330
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "5V_LED",
+      "points": [
+        [
+          775,
+          260
+        ],
+        [
+          775,
+          175
+        ],
+        [
+          975,
+          175
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "GND",
+      "points": [
+        [
+          775,
+          450
+        ],
+        [
+          775,
+          485
+        ],
+        [
+          825,
+          485
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "5V_LED",
+      "points": [
+        [
+          975,
+          175
+        ],
+        [
+          975,
+          220
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "GND",
+      "points": [
+        [
+          975,
+          236
+        ],
+        [
+          975,
+          260
+        ],
+        [
+          1030,
+          260
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "DATA_BUFFERED",
+      "points": [
+        [
+          870,
+          330
+        ],
+        [
+          1060,
+          330
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "LED_DATA_IN",
+      "points": [
+        [
+          1150,
+          330
+        ],
+        [
+          1480,
+          330
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "DATA_3V3",
+      "points": [
+        [
+          450,
+          330
+        ],
+        [
+          450,
+          455
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "GND",
+      "points": [
+        [
+          450,
+          520
+        ],
+        [
+          450,
+          600
+        ],
+        [
+          515,
+          600
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "LED_DATA_IN",
+      "points": [
+        [
+          1370,
+          330
+        ],
+        [
+          1370,
+          455
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "GND",
+      "points": [
+        [
+          1370,
+          520
+        ],
+        [
+          1370,
+          605
+        ],
+        [
+          1450,
+          605
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "DATA_OE_N",
+      "points": [
+        [
+          680,
+          410
+        ],
+        [
+          630,
+          410
+        ],
+        [
+          630,
+          560
+        ],
+        [
+          1060,
+          560
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "5V_LED",
+      "points": [
+        [
+          1060,
+          435
+        ],
+        [
+          1060,
+          406
+        ],
+        [
+          1150,
+          406
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "DATA_OE_N",
+      "points": [
+        [
+          1060,
+          500
+        ],
+        [
+          1060,
+          560
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "DATA_OE_N",
+      "points": [
+        [
+          695,
+          560
+        ],
+        [
+          695,
+          655
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "ENABLE_3V3",
+      "points": [
+        [
+          250,
+          435
+        ],
+        [
+          375,
+          435
+        ],
+        [
+          375,
+          735
+        ],
+        [
+          605,
+          735
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "ENABLE_3V3",
+      "points": [
+        [
+          470,
+          735
+        ],
+        [
+          470,
+          790
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "net": "GND",
+      "points": [
+        [
+          470,
+          855
+        ],
+        [
+          470,
+          900
+        ],
+        [
+          695,
+          900
+        ],
+        [
+          695,
+          775
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          100,
+          285
+        ],
+        [
+          1500,
+          285
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          100,
+          690
+        ],
+        [
+          1500,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          155,
+          285
+        ],
+        [
+          155,
+          480
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          155,
+          496
+        ],
+        [
+          155,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          335,
+          285
+        ],
+        [
+          335,
+          480
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          335,
+          496
+        ],
+        [
+          335,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          515,
+          285
+        ],
+        [
+          515,
+          480
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          515,
+          496
+        ],
+        [
+          515,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          695,
+          285
+        ],
+        [
+          695,
+          480
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          695,
+          496
+        ],
+        [
+          695,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          875,
+          285
+        ],
+        [
+          875,
+          480
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          875,
+          496
+        ],
+        [
+          875,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          1055,
+          285
+        ],
+        [
+          1055,
+          480
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          1055,
+          496
+        ],
+        [
+          1055,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          1235,
+          285
+        ],
+        [
+          1235,
+          480
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          1235,
+          496
+        ],
+        [
+          1235,
+          690
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "5V_LED",
+      "points": [
+        [
+          1415,
+          285
+        ],
+        [
+          1415,
+          480
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "net": "GND",
+      "points": [
+        [
+          1415,
+          496
+        ],
+        [
+          1415,
+          690
+        ]
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "path": "hardware/prototype-v02/readable-circuit/circuit-1.png",
+      "sha256": "0f5350c01a2dda056c4586ecd54ef7990d03bf6fb4207bd53db1c95cc01b7124"
+    },
+    {
+      "path": "hardware/prototype-v02/readable-circuit/circuit-1.svg",
+      "sha256": "fdd620f72f275b6116f6c0ee247a6fd9aa4de5e7f77d0986ae67f95fc585e147"
+    },
+    {
+      "path": "hardware/prototype-v02/readable-circuit/circuit-2.png",
+      "sha256": "d16d61d3c6a5f69a0da37cd18e5ecc170619866785a278812d3a17d606d84f96"
+    },
+    {
+      "path": "hardware/prototype-v02/readable-circuit/circuit-2.svg",
+      "sha256": "1eb0658f9c098f3797ab80c2266dea86fb22196b92aa8e5f46014f8988596c8d"
+    },
+    {
+      "path": "hardware/prototype-v02/readable-circuit/circuit-3.png",
+      "sha256": "984b2d4bd63c8c0005f76df8b1f4f351bd162f3828d40c9fa834a2e98a7bef75"
+    },
+    {
+      "path": "hardware/prototype-v02/readable-circuit/circuit-3.svg",
+      "sha256": "5fe203efbb882ddfd64c53a6ce6d411a114b9371063918a5f1e6be6fe5ef84a7"
+    },
+    {
+      "path": "hardware/prototype-v02/readable-circuit/PHYLLO-power-and-data-REVIEW.pdf",
+      "sha256": "b722bbff3a73e7eb6e9e74a56843b01bac908ad33ad359b304b523f6f3633eda"
+    }
+  ]
+}

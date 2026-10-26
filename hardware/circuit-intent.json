@@ -1,0 +1,16 @@
+{
+  "status": "prepurchase_design_intent_not_hardware_evidence",
+  "power_declarations": [
+    {"net":"5V_LED","reference":"#FLG01","reason":"External 5 V enters J1.2 after an external fuse and reaches Q1 D(5-8), then Q1 S(1-3) feeds this rail. Passive PMOS symbol cannot propagate ERC power drive; flag declares intended source only."},
+    {"net":"GND","reference":"#FLG02","reason":"External low-voltage supply return enters J1.1. Passive connector pins do not declare ERC power drive."}
+  ],
+  "intentionally_unconnected": [
+    {"ref":"D121","pin":"2","source_net":"LED_LAST_OUT","reason":"Last device in the 144 LED chain: DOUT is intentionally unused; no output connector or test point exists."}
+  ],
+  "unchanged_external_requirements": [
+    "Regulated sealed 5 V supply with suitable OCP and matched fused harness; exact purchase SKU and fault coordination not yet frozen.",
+    "Do not parallel controller USB VBUS and external 5 V.",
+    "Power flags document circuit intent and are not evidence of PMOS operation, polarity, voltage, current or hardware function."
+  ],
+  "reference": "https://docs.kicad.org/10.0/en/eeschema/eeschema.html#power-pins-and-power-flags"
+}

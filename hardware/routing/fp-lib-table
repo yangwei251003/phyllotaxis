@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "PhylloReview") (type "KiCad") (uri "${KIPRJMOD}/../kicad-check/PhylloReview.pretty") (options "") (descr "REVIEW-ONLY pads from saved EasyEDA libraries")))

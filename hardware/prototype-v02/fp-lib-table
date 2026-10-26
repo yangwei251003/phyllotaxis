@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "PhylloReview") (type "KiCad") (uri "${KIPRJMOD}/PhylloReview.pretty") (options "") (descr "Native manufacturing review footprints")))

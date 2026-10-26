@@ -1,0 +1,16 @@
+{
+  "package": "PHYLLO-v02 candidate firmware",
+  "created_utc": "2026-10-03T06:45:26.376882+00:00",
+  "target": "WeAct STM32F411CEU6 V3.1, 25MHz HSE (not received)",
+  "bin_origin": "0x08000000",
+  "hardware_flashed": false,
+  "hardware_verified": false,
+  "binary_unchanged_by_PCB_capacitor_revision": true,
+  "checked_source_files": 14,
+  "artifacts": {
+    "phyllo_candidate.bin": "02e1e8ad01c95ee1adcf2733c64ed397e3dbc27f5b267e00f5fdd329bb4e7409",
+    "phyllo_candidate.elf": "8518e86fbb812d930c1d79783ae17cb8e92a0cb3206b02f1a04dfcb5b1bfbd89",
+    "phyllo_candidate.hex": "7975f210259ede01cc2ab76901365ea82ef32e191bc995784985f169e3f6f35c",
+    "phyllo_candidate.map": "93b98b17f6ba11ef1afc9f4ac41ef78a4b7754fbfcf5a59a1883a4ca4b713199"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "offline_link_and_image_checks_pass",
+  "hardware_verified": false,
+  "flash_authorized": false,
+  "planned_target": "WeAct STM32F411CEU6 V3.1, 25MHz HSE (not received)",
+  "flash_bytes": 20804,
+  "ram_static_bytes": 30040,
+  "stack_reserved_bytes": 8192,
+  "ram_reserved_total_bytes": 38232,
+  "entry": "0x80018ed",
+  "vectors_verified": [
+    "Reset_Handler",
+    "HardFault_Handler",
+    "SysTick_Handler",
+    "DMA1_Stream3_IRQHandler",
+    "DMA2_Stream5_IRQHandler"
+  ],
+  "no_unresolved_symbols": true,
+  "no_malloc_or_sbrk": true,
+  "segments": [
+    {
+      "vaddr": "0x8000000",
+      "paddr": "0x8000000",
+      "file_bytes": 20676,
+      "memory_bytes": 20676,
+      "flags": 5
+    },
+    {
+      "vaddr": "0x20000000",
+      "paddr": "0x80050c4",
+      "file_bytes": 128,
+      "memory_bytes": 128,
+      "flags": 6
+    },
+    {
+      "vaddr": "0x20000080",
+      "paddr": "0x20000080",
+      "file_bytes": 0,
+      "memory_bytes": 38104,
+      "flags": 6
+    }
+  ],
+  "artifacts": {
+    "phyllo_candidate.bin": "02e1e8ad01c95ee1adcf2733c64ed397e3dbc27f5b267e00f5fdd329bb4e7409",
+    "phyllo_candidate.elf": "8518e86fbb812d930c1d79783ae17cb8e92a0cb3206b02f1a04dfcb5b1bfbd89",
+    "phyllo_candidate.hex": "7975f210259ede01cc2ab76901365ea82ef32e191bc995784985f169e3f6f35c",
+    "phyllo_candidate.map": "93b98b17f6ba11ef1afc9f4ac41ef78a4b7754fbfcf5a59a1883a4ca4b713199"
+  },
+  "not_verified": [
+    "physical board identity",
+    "waveform timing",
+    "microphone data/slot",
+    "runtime/cycle budget",
+    "current/temperature",
+    "PCB chain after routing"
+  ]
+}

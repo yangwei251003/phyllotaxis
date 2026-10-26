@@ -1,0 +1,34 @@
+{
+  "status": "static_led_graph_and_placement_pass",
+  "leds": 144,
+  "pins": 576,
+  "footprint_pad_ids_checked": 576,
+  "single_chain_covers_all_leds": true,
+  "shared_coordinate_max_error_mm": 1e-06,
+  "copper_layers": [
+    1,
+    2
+  ],
+  "modeled_thickness_mm": 1.6,
+  "candidate_outer_copper_um": {
+    "1": 70.0,
+    "2": 70.0
+  },
+  "npth_count": 4,
+  "npth_diameters_mm": [
+    3.4,
+    3.4,
+    3.4,
+    3.4
+  ],
+  "native_erc_drc": false,
+  "manufacturing_ready": false,
+  "incomplete": [
+    "support-circuit footprint polarity and mechanical checks",
+    "bottom connectors PCB placement",
+    "routing and copper pours",
+    "board rules",
+    "native import/render/readback",
+    "thermal/current verification"
+  ]
+}

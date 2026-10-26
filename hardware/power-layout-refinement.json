@@ -1,0 +1,56 @@
+{
+  "baseline_sha256": "74e75be95ac4ad2fbf8e5cc23dd8f58ee7c9a6b8f6a4d256b89f2a312d7395fe",
+  "prepared_sha256": "38b6179701fca5e1cc6a4914dd20bf4d6ee752b4b82f4f6c518b198831857f42",
+  "reason": "Sources face array; drain row receives center-fed bus instead of end-fed copper.",
+  "Q1_native_rotation_before_deg": 90.0,
+  "Q1_native_rotation_after_deg": 180,
+  "changed_signal_net_only": "PMOS_GATE",
+  "removed_gate_track_uuids": [
+    "0aa0bf82-3714-4e7c-aadf-103749a6a157",
+    "0f70682b-7659-4152-9760-7c56386b9363",
+    "27483c09-dcf9-42b4-adca-9d4c96aa3b35",
+    "59332206-932b-498f-852f-751b338f2d57",
+    "66699900-fa7b-4d2c-8a75-3a9ce802c010",
+    "7b3c6047-3b12-43ad-b0f8-de53b1a68966",
+    "85d96ddb-f715-43fb-83ff-6a1c79f358ad",
+    "a8d40c71-8525-4127-be2e-e81c56da6972",
+    "b22cf056-b01d-49b3-b134-c66ea58b38f4",
+    "d35b50dd-2825-4c65-8254-3743865a5bed",
+    "e8b8217e-a878-4888-9e9b-6953a2278dca"
+  ],
+  "replacement_gate_tracks": 3,
+  "Q1_pads_after": {
+    "1": [
+      89.905,
+      178.100006
+    ],
+    "2": [
+      88.635,
+      178.100006
+    ],
+    "3": [
+      87.365,
+      178.100006
+    ],
+    "4": [
+      86.095,
+      178.100006
+    ],
+    "5": [
+      86.095,
+      183.899995
+    ],
+    "6": [
+      87.365,
+      183.899995
+    ],
+    "7": [
+      88.635,
+      183.899995
+    ],
+    "8": [
+      89.905,
+      183.899995
+    ]
+  }
+}

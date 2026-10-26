@@ -1,0 +1,13 @@
+{
+ "status":"conservative_space_envelopes_not_vendor_3D_models",
+ "datum":"physical PCB center XY; enclosure floor underside Z0; LED PCB underside Z30",
+ "envelopes":[
+  {"ref":"J1","name":"XT30_MATED_ENVELOPE_candidate","bounds_mm":[[-9.2,-82.5,21.2],[5.2,-61.0,30.0]],"color":[0.95,0.69,0.12],"basis":"AMASS 2025V0 max width13.6, mated length20.85, height8.45; rounded outward reserve; registration based on saved pad/body drawing"},
+  {"ref":"J2","name":"JST_XH_MATED_ENVELOPE_candidate","bounds_mm":[[17.5,-82.0,19.7],[30.5,-75.0,30.0]],"color":[0.83,0.87,0.83],"basis":"JST XH 12.4x5.75 header, mated assembly height9.8; additional allowance; exact -G variant pending"}
+ ],
+ "assumed_wire_reserves":[
+  {"ref":"J1","name":"XT30_WIRE_BEND_ASSUMED","bounds_mm":[[-10,-61,10],[6,-43,29]],"color":[0.90,0.50,0.15]},
+  {"ref":"J2","name":"JST_WIRE_BEND_ASSUMED","bounds_mm":[[17.5,-82,5],[30.5,-65,19.7]],"color":[0.35,0.65,0.90]}
+ ],
+ "limits":["Wire reserves are design assumptions, not actual bend-radius proof","Exact mating wire-end SKU and harness not selected","Envelope is not an assembly insertion/retention-force test","PCB auxiliary anchors remain pending supplier confirmation"]
+}

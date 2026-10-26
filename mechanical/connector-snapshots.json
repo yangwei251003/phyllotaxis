@@ -1,0 +1,1 @@
+{"jobs":[{"input":"Projects/phyllotaxis/mechanical/connector-space.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-connectors-bottom.png","camera":"bottom"},{"path":"Projects/phyllotaxis/verification/phyllo-connectors-iso.png","camera":"iso"}],"render":{"sizeProfile":"diagnostic","viewLabels":true}}]}

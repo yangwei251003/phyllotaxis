@@ -1,0 +1,1558 @@
+{
+  "status": "source_library_and_manufacturer_document_evidence_NOT_PHYSICAL_VERIFICATION",
+  "capacitor": {
+    "supplier": "C46550459",
+    "part": "MA10V470M6X8",
+    "source_sha256": "b591c28c633043e87513831c9ba0a506e51b077d31323a99b9cfe5823159f93b",
+    "pin1": "positive, supported by explicit plus in saved symbol and footprint",
+    "pin2": "negative",
+    "symbol_plus_records": {
+      "e15": {
+        "partId": "MA10V470M6X8.1",
+        "groupId": "",
+        "locked": false,
+        "zIndex": 15,
+        "points": [
+          {
+            "x": -9,
+            "y": -5
+          },
+          {
+            "x": -5,
+            "y": -5
+          }
+        ],
+        "closed": false,
+        "strokeColor": null,
+        "strokeStyle": null,
+        "fillColor": null,
+        "strokeWidth": null,
+        "fillStyle": null
+      },
+      "e16": {
+        "partId": "MA10V470M6X8.1",
+        "groupId": "",
+        "locked": false,
+        "zIndex": 16,
+        "points": [
+          {
+            "x": -7,
+            "y": -7
+          },
+          {
+            "x": -7,
+            "y": -3
+          }
+        ],
+        "closed": false,
+        "strokeColor": null,
+        "strokeStyle": null,
+        "fillColor": null,
+        "strokeWidth": null,
+        "fillStyle": null
+      }
+    },
+    "footprint_polarity_art": [
+      {
+        "record": {
+          "type": "FILL",
+          "ticket": 31,
+          "id": "e18",
+          "client": "2db23bcec7b0b785"
+        },
+        "data": {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 3,
+          "width": 0.2,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              122.125,
+              -55.867,
+              "L",
+              122.125,
+              -63.662,
+              90.944,
+              -63.662,
+              90.944,
+              -55.867,
+              122.125,
+              -55.867
+            ]
+          ],
+          "locked": false,
+          "zIndex": 18,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        }
+      },
+      {
+        "record": {
+          "type": "FILL",
+          "ticket": 32,
+          "id": "e19",
+          "client": "2db23bcec7b0b785"
+        },
+        "data": {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 3,
+          "width": 0.2,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              -122.127,
+              -55.867,
+              "L",
+              -122.127,
+              -63.662,
+              -90.946,
+              -63.662,
+              -90.946,
+              -55.867,
+              -122.127,
+              -55.867
+            ]
+          ],
+          "locked": false,
+          "zIndex": 19,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        }
+      },
+      {
+        "record": {
+          "type": "FILL",
+          "ticket": 33,
+          "id": "e20",
+          "client": "2db23bcec7b0b785"
+        },
+        "data": {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 3,
+          "width": 0.2,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              -110.434,
+              -33.781,
+              "L",
+              -110.434,
+              -85.749,
+              -102.639,
+              -85.749,
+              -102.639,
+              -33.781,
+              -110.434,
+              -33.781
+            ]
+          ],
+          "locked": false,
+          "zIndex": 20,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        }
+      }
+    ],
+    "pins": {
+      "1": {
+        "partId": "MA10V470M6X8.1",
+        "groupId": "",
+        "locked": false,
+        "zIndex": 4,
+        "display": true,
+        "x": -20,
+        "y": 0,
+        "length": 10,
+        "rotation": 0,
+        "color": null,
+        "pinShape": "NONE",
+        "Pin Name": "1",
+        "Pin Number": "1",
+        "Pin Type": "IN"
+      },
+      "2": {
+        "partId": "MA10V470M6X8.1",
+        "groupId": "",
+        "locked": false,
+        "zIndex": 8,
+        "display": true,
+        "x": 20,
+        "y": 0,
+        "length": 10,
+        "rotation": 180,
+        "color": null,
+        "pinShape": "NONE",
+        "Pin Name": "2",
+        "Pin Number": "2",
+        "Pin Type": "IN"
+      }
+    },
+    "pads": {
+      "1": {
+        "id": "e8",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 1,
+        "num": "1",
+        "centerX": -105.12,
+        "centerY": 0,
+        "padAngle": 0,
+        "hole": null,
+        "defaultPad": {
+          "padType": "RECT",
+          "width": 137.795,
+          "height": 47.244,
+          "radius": 0
+        },
+        "specialPad": [],
+        "padOffsetX": 0.001,
+        "padOffsetY": -0.001,
+        "relativeAngle": 0,
+        "plated": true,
+        "padType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "topPasteExpansion": null,
+        "bottomPasteExpansion": null,
+        "locked": false,
+        "zIndex": 8,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "padLen": 0
+      },
+      "2": {
+        "id": "e9",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 1,
+        "num": "2",
+        "centerX": 105.12,
+        "centerY": 0,
+        "padAngle": 0,
+        "hole": null,
+        "defaultPad": {
+          "padType": "RECT",
+          "width": 137.795,
+          "height": 47.244,
+          "radius": 0
+        },
+        "specialPad": [],
+        "padOffsetX": -0.003,
+        "padOffsetY": -0.001,
+        "relativeAngle": 0,
+        "plated": true,
+        "padType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "topPasteExpansion": null,
+        "bottomPasteExpansion": null,
+        "locked": false,
+        "zIndex": 9,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "padLen": 0
+      }
+    },
+    "board_mapping": "C1-C4 pin1=5V_LED, pin2=GND",
+    "datasheet_sha256": "5ab3c478e90f1826a614a56af8164bb4bab3143affaae1ad7aa69fc0c1981997",
+    "datasheet_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf",
+    "remaining": "Physical package stripe and factory placement rotation must be checked in assembly preview or on identified delivered parts."
+  },
+  "XT30": {
+    "supplier": "C431092",
+    "part": "XT30PW-M30.G.Y",
+    "source_sha256": "cfb02e61248e43ddb9510c0c4c0e0761a6985053aed07b7d447e54e9a8857198",
+    "pads": {
+      "1": {
+        "id": "e36",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 12,
+        "num": "1",
+        "centerX": -98.425,
+        "centerY": 196.85,
+        "padAngle": 0,
+        "hole": {
+          "holeType": "ROUND",
+          "width": 70.866,
+          "height": 70.866
+        },
+        "defaultPad": {
+          "padType": "ELLIPSE",
+          "width": 98.425,
+          "height": 98.425
+        },
+        "specialPad": [],
+        "padOffsetX": -0.005,
+        "padOffsetY": 0,
+        "relativeAngle": 0,
+        "plated": true,
+        "padType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "topPasteExpansion": null,
+        "bottomPasteExpansion": null,
+        "locked": false,
+        "zIndex": 36,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "padLen": 0
+      },
+      "2": {
+        "id": "e37",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 12,
+        "num": "2",
+        "centerX": 98.425,
+        "centerY": 196.85,
+        "padAngle": 0,
+        "hole": {
+          "holeType": "ROUND",
+          "width": 70.866,
+          "height": 70.866
+        },
+        "defaultPad": {
+          "padType": "ELLIPSE",
+          "width": 98.425,
+          "height": 98.425
+        },
+        "specialPad": [],
+        "padOffsetX": -0.005,
+        "padOffsetY": 0,
+        "relativeAngle": 0,
+        "plated": true,
+        "padType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "topPasteExpansion": null,
+        "bottomPasteExpansion": null,
+        "locked": false,
+        "zIndex": 37,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "padLen": 0
+      },
+      "3": {
+        "id": "e38",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 12,
+        "num": "3",
+        "centerX": 216.535,
+        "centerY": -196.85,
+        "padAngle": 0,
+        "hole": {
+          "holeType": "ROUND",
+          "width": 43.308,
+          "height": 43.308
+        },
+        "defaultPad": {
+          "padType": "ELLIPSE",
+          "width": 70.866,
+          "height": 70.866
+        },
+        "specialPad": [],
+        "padOffsetX": -0.005,
+        "padOffsetY": -0.001,
+        "relativeAngle": 0,
+        "plated": true,
+        "padType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "topPasteExpansion": null,
+        "bottomPasteExpansion": null,
+        "locked": false,
+        "zIndex": 38,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "padLen": 0
+      },
+      "4": {
+        "id": "e39",
+        "groupId": 0,
+        "netName": "",
+        "layerId": 12,
+        "num": "4",
+        "centerX": -216.535,
+        "centerY": -196.85,
+        "padAngle": 0,
+        "hole": {
+          "holeType": "ROUND",
+          "width": 43.308,
+          "height": 43.308
+        },
+        "defaultPad": {
+          "padType": "ELLIPSE",
+          "width": 70.866,
+          "height": 70.866
+        },
+        "specialPad": [],
+        "padOffsetX": -0.005,
+        "padOffsetY": -0.001,
+        "relativeAngle": 0,
+        "plated": true,
+        "padType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "topPasteExpansion": null,
+        "bottomPasteExpansion": null,
+        "locked": false,
+        "zIndex": 39,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "padLen": 0
+      }
+    },
+    "datasheet_sha256": "475a4aa380f31dff1962c9efa578b63c966701d755eae6188739a76b46ad25ef",
+    "datasheet_url": "https://www.china-amass.net/uploads/32.XT30PW-M30-SPEC-2025V0.pdf",
+    "main_hole_nominal_mm": 1.8,
+    "auxiliary_hole_nominal_mm": 1.1,
+    "auxiliary_decision": "Preserve source plated through-holes 3/4, with isolated NC nets. Manufacturer drawing does not explicitly identify auxiliary-pin material; do not convert to NPTH or assign a circuit net.",
+    "remaining": "Confirm auxiliary-pin material, solder/assembly treatment and mating harness with supplier/real part before production."
+  },
+  "paste": {
+    "negative_expansion_meaning": "A large negative value suppresses automatic aperture. It is not null/inheritance. Source library provides separate filled paste polygons.",
+    "documentation": [
+      "https://prodocs.easyeda.com/en/faq/pcb/#how-to-delete-unwanted-paste-mask-layers",
+      "<LOCAL_PATH>"
+    ],
+    "custom_apertures": [
+      {
+        "ref": "R7",
+        "part": "C25803",
+        "source_sha256": "25af195844a00651338b3ee00088c3e4859dd979684621343c857068eaa87c20",
+        "pads": [
+          "1",
+          "2"
+        ],
+        "apertures": [
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e5",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    117.1950192,
+                    183.5500136
+                  ],
+                  [
+                    116.3950208,
+                    183.5500136
+                  ],
+                  [
+                    116.3450082,
+                    183.6000262
+                  ],
+                  [
+                    116.3450082,
+                    183.8279912
+                  ],
+                  [
+                    116.71501,
+                    183.8279912
+                  ],
+                  [
+                    116.71501,
+                    184.157988
+                  ],
+                  [
+                    116.3450082,
+                    184.157988
+                  ],
+                  [
+                    116.3450082,
+                    184.4000246
+                  ],
+                  [
+                    116.3950208,
+                    184.4500118
+                  ],
+                  [
+                    117.1950192,
+                    184.4500118
+                  ],
+                  [
+                    117.2450064,
+                    184.4000246
+                  ],
+                  [
+                    117.2450064,
+                    183.6000262
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          },
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e6",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    114.8049808,
+                    184.4499864
+                  ],
+                  [
+                    115.6049792,
+                    184.4499864
+                  ],
+                  [
+                    115.6549918,
+                    184.3999738
+                  ],
+                  [
+                    115.6549918,
+                    184.1720088
+                  ],
+                  [
+                    115.28499,
+                    184.1720088
+                  ],
+                  [
+                    115.28499,
+                    183.842012
+                  ],
+                  [
+                    115.6549918,
+                    183.842012
+                  ],
+                  [
+                    115.6549918,
+                    183.5999754
+                  ],
+                  [
+                    115.6049792,
+                    183.5499882
+                  ],
+                  [
+                    114.8049808,
+                    183.5499882
+                  ],
+                  [
+                    114.7549936,
+                    183.5999754
+                  ],
+                  [
+                    114.7549936,
+                    184.3999738
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          }
+        ]
+      },
+      {
+        "ref": "R3",
+        "part": "C23138",
+        "source_sha256": "f66dbe1312c77f2a54abf2ffb78b0fcb945b0661e4284359d4c0e95f0283933b",
+        "pads": [
+          "1",
+          "2"
+        ],
+        "apertures": [
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e5",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    108.4450192,
+                    176.1500136
+                  ],
+                  [
+                    107.6450208,
+                    176.1500136
+                  ],
+                  [
+                    107.5950082,
+                    176.2000262
+                  ],
+                  [
+                    107.5950082,
+                    176.4279912
+                  ],
+                  [
+                    107.96501,
+                    176.4279912
+                  ],
+                  [
+                    107.96501,
+                    176.75798799999998
+                  ],
+                  [
+                    107.5950082,
+                    176.75798799999998
+                  ],
+                  [
+                    107.5950082,
+                    177.0000246
+                  ],
+                  [
+                    107.6450208,
+                    177.0500118
+                  ],
+                  [
+                    108.4450192,
+                    177.0500118
+                  ],
+                  [
+                    108.4950064,
+                    177.0000246
+                  ],
+                  [
+                    108.4950064,
+                    176.2000262
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          },
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e6",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    106.0549808,
+                    177.0499864
+                  ],
+                  [
+                    106.8549792,
+                    177.0499864
+                  ],
+                  [
+                    106.9049918,
+                    176.9999738
+                  ],
+                  [
+                    106.9049918,
+                    176.77200879999998
+                  ],
+                  [
+                    106.53499,
+                    176.77200879999998
+                  ],
+                  [
+                    106.53499,
+                    176.442012
+                  ],
+                  [
+                    106.9049918,
+                    176.442012
+                  ],
+                  [
+                    106.9049918,
+                    176.1999754
+                  ],
+                  [
+                    106.8549792,
+                    176.1499882
+                  ],
+                  [
+                    106.0549808,
+                    176.1499882
+                  ],
+                  [
+                    106.0049936,
+                    176.1999754
+                  ],
+                  [
+                    106.0049936,
+                    176.9999738
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          }
+        ]
+      },
+      {
+        "ref": "R1",
+        "part": "C21190",
+        "source_sha256": "69ebe95c0733fd7f0e5b7fba3c3357e551796518cbb4c224b109a5bc4e71b9a2",
+        "pads": [
+          "1",
+          "2"
+        ],
+        "apertures": [
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e5",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    80.5500136,
+                    176.8049808
+                  ],
+                  [
+                    80.5500136,
+                    177.6049792
+                  ],
+                  [
+                    80.6000262,
+                    177.6549918
+                  ],
+                  [
+                    80.8279912,
+                    177.6549918
+                  ],
+                  [
+                    80.8279912,
+                    177.28499
+                  ],
+                  [
+                    81.157988,
+                    177.28499
+                  ],
+                  [
+                    81.157988,
+                    177.6549918
+                  ],
+                  [
+                    81.4000246,
+                    177.6549918
+                  ],
+                  [
+                    81.4500118,
+                    177.6049792
+                  ],
+                  [
+                    81.4500118,
+                    176.8049808
+                  ],
+                  [
+                    81.4000246,
+                    176.7549936
+                  ],
+                  [
+                    80.6000262,
+                    176.7549936
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089722
+          },
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e6",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    81.4499864,
+                    179.1950192
+                  ],
+                  [
+                    81.4499864,
+                    178.3950208
+                  ],
+                  [
+                    81.3999738,
+                    178.3450082
+                  ],
+                  [
+                    81.1720088,
+                    178.3450082
+                  ],
+                  [
+                    81.1720088,
+                    178.71501
+                  ],
+                  [
+                    80.842012,
+                    178.71501
+                  ],
+                  [
+                    80.842012,
+                    178.3450082
+                  ],
+                  [
+                    80.5999754,
+                    178.3450082
+                  ],
+                  [
+                    80.5499882,
+                    178.3950208
+                  ],
+                  [
+                    80.5499882,
+                    179.1950192
+                  ],
+                  [
+                    80.5999754,
+                    179.2450064
+                  ],
+                  [
+                    81.3999738,
+                    179.2450064
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089722
+          }
+        ]
+      },
+      {
+        "ref": "R2",
+        "part": "C22935",
+        "source_sha256": "3914ce087c33d568bec461e11ac14d437999fc7089ed9ec8b3eb8a7912bf5a69",
+        "pads": [
+          "1",
+          "2"
+        ],
+        "apertures": [
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e5",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    83.1950192,
+                    180.5500136
+                  ],
+                  [
+                    82.3950208,
+                    180.5500136
+                  ],
+                  [
+                    82.3450082,
+                    180.6000262
+                  ],
+                  [
+                    82.3450082,
+                    180.8279912
+                  ],
+                  [
+                    82.71501,
+                    180.8279912
+                  ],
+                  [
+                    82.71501,
+                    181.157988
+                  ],
+                  [
+                    82.3450082,
+                    181.157988
+                  ],
+                  [
+                    82.3450082,
+                    181.4000246
+                  ],
+                  [
+                    82.3950208,
+                    181.4500118
+                  ],
+                  [
+                    83.1950192,
+                    181.4500118
+                  ],
+                  [
+                    83.2450064,
+                    181.4000246
+                  ],
+                  [
+                    83.2450064,
+                    180.6000262
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          },
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e6",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    80.8049808,
+                    181.4499864
+                  ],
+                  [
+                    81.6049792,
+                    181.4499864
+                  ],
+                  [
+                    81.6549918,
+                    181.3999738
+                  ],
+                  [
+                    81.6549918,
+                    181.1720088
+                  ],
+                  [
+                    81.28499,
+                    181.1720088
+                  ],
+                  [
+                    81.28499,
+                    180.842012
+                  ],
+                  [
+                    81.6549918,
+                    180.842012
+                  ],
+                  [
+                    81.6549918,
+                    180.5999754
+                  ],
+                  [
+                    81.6049792,
+                    180.5499882
+                  ],
+                  [
+                    80.8049808,
+                    180.5499882
+                  ],
+                  [
+                    80.7549936,
+                    180.5999754
+                  ],
+                  [
+                    80.7549936,
+                    181.3999738
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          }
+        ]
+      },
+      {
+        "ref": "R5",
+        "part": "C25803",
+        "source_sha256": "25af195844a00651338b3ee00088c3e4859dd979684621343c857068eaa87c20",
+        "pads": [
+          "1",
+          "2"
+        ],
+        "apertures": [
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e5",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    116.6950192,
+                    175.1500136
+                  ],
+                  [
+                    115.8950208,
+                    175.1500136
+                  ],
+                  [
+                    115.8450082,
+                    175.2000262
+                  ],
+                  [
+                    115.8450082,
+                    175.4279912
+                  ],
+                  [
+                    116.21501,
+                    175.4279912
+                  ],
+                  [
+                    116.21501,
+                    175.75798799999998
+                  ],
+                  [
+                    115.8450082,
+                    175.75798799999998
+                  ],
+                  [
+                    115.8450082,
+                    176.0000246
+                  ],
+                  [
+                    115.8950208,
+                    176.0500118
+                  ],
+                  [
+                    116.6950192,
+                    176.0500118
+                  ],
+                  [
+                    116.7450064,
+                    176.0000246
+                  ],
+                  [
+                    116.7450064,
+                    175.2000262
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          },
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e6",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    114.3049808,
+                    176.0499864
+                  ],
+                  [
+                    115.1049792,
+                    176.0499864
+                  ],
+                  [
+                    115.1549918,
+                    175.9999738
+                  ],
+                  [
+                    115.1549918,
+                    175.77200879999998
+                  ],
+                  [
+                    114.78499,
+                    175.77200879999998
+                  ],
+                  [
+                    114.78499,
+                    175.442012
+                  ],
+                  [
+                    115.1549918,
+                    175.442012
+                  ],
+                  [
+                    115.1549918,
+                    175.1999754
+                  ],
+                  [
+                    115.1049792,
+                    175.1499882
+                  ],
+                  [
+                    114.3049808,
+                    175.1499882
+                  ],
+                  [
+                    114.2549936,
+                    175.1999754
+                  ],
+                  [
+                    114.2549936,
+                    175.9999738
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          }
+        ]
+      },
+      {
+        "ref": "F2",
+        "part": "C17313",
+        "source_sha256": "d3dfe8f459d1c21ff99a9c76cb3cbb4646beab71e8be2c66a8e5009f2c5b36ab",
+        "pads": [
+          "1",
+          "2"
+        ],
+        "apertures": [
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e5",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    74.1500104,
+                    181.149603
+                  ],
+                  [
+                    74.1500104,
+                    180.1948678
+                  ],
+                  [
+                    74.2500102,
+                    180.094868
+                  ],
+                  [
+                    74.5282672,
+                    180.094868
+                  ],
+                  [
+                    74.628267,
+                    179.9948682
+                  ],
+                  [
+                    74.628267,
+                    179.0051318
+                  ],
+                  [
+                    74.5282672,
+                    178.905132
+                  ],
+                  [
+                    74.2500102,
+                    178.905132
+                  ],
+                  [
+                    74.1500104,
+                    178.8051322
+                  ],
+                  [
+                    74.1500104,
+                    177.850397
+                  ],
+                  [
+                    74.2500102,
+                    177.7503972
+                  ],
+                  [
+                    75.4566626,
+                    177.7503972
+                  ],
+                  [
+                    75.5566624,
+                    177.850397
+                  ],
+                  [
+                    75.5566624,
+                    181.149603
+                  ],
+                  [
+                    75.4566626,
+                    181.2496028
+                  ],
+                  [
+                    74.2500102,
+                    181.2496028
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 4.333165541393488
+          },
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e6",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    71.8499896,
+                    181.149603
+                  ],
+                  [
+                    71.8499896,
+                    180.1948678
+                  ],
+                  [
+                    71.7499898,
+                    180.094868
+                  ],
+                  [
+                    71.4717328,
+                    180.094868
+                  ],
+                  [
+                    71.371733,
+                    179.9948682
+                  ],
+                  [
+                    71.371733,
+                    179.0051318
+                  ],
+                  [
+                    71.4717328,
+                    178.905132
+                  ],
+                  [
+                    71.7499898,
+                    178.905132
+                  ],
+                  [
+                    71.8499896,
+                    178.8051322
+                  ],
+                  [
+                    71.8499896,
+                    177.850397
+                  ],
+                  [
+                    71.7499898,
+                    177.7503972
+                  ],
+                  [
+                    70.5433374,
+                    177.7503972
+                  ],
+                  [
+                    70.4433376,
+                    177.850397
+                  ],
+                  [
+                    70.4433376,
+                    181.149603
+                  ],
+                  [
+                    70.5433374,
+                    181.2496028
+                  ],
+                  [
+                    71.7499898,
+                    181.2496028
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 4.333165541393488
+          }
+        ]
+      },
+      {
+        "ref": "R6",
+        "part": "C25803",
+        "source_sha256": "25af195844a00651338b3ee00088c3e4859dd979684621343c857068eaa87c20",
+        "pads": [
+          "1",
+          "2"
+        ],
+        "apertures": [
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e5",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    116.1950192,
+                    180.5500136
+                  ],
+                  [
+                    115.3950208,
+                    180.5500136
+                  ],
+                  [
+                    115.3450082,
+                    180.6000262
+                  ],
+                  [
+                    115.3450082,
+                    180.8279912
+                  ],
+                  [
+                    115.71501,
+                    180.8279912
+                  ],
+                  [
+                    115.71501,
+                    181.157988
+                  ],
+                  [
+                    115.3450082,
+                    181.157988
+                  ],
+                  [
+                    115.3450082,
+                    181.4000246
+                  ],
+                  [
+                    115.3950208,
+                    181.4500118
+                  ],
+                  [
+                    116.1950192,
+                    181.4500118
+                  ],
+                  [
+                    116.2450064,
+                    181.4000246
+                  ],
+                  [
+                    116.2450064,
+                    180.6000262
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          },
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e6",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    113.8049808,
+                    181.4499864
+                  ],
+                  [
+                    114.6049792,
+                    181.4499864
+                  ],
+                  [
+                    114.6549918,
+                    181.3999738
+                  ],
+                  [
+                    114.6549918,
+                    181.1720088
+                  ],
+                  [
+                    114.28499,
+                    181.1720088
+                  ],
+                  [
+                    114.28499,
+                    180.842012
+                  ],
+                  [
+                    114.6549918,
+                    180.842012
+                  ],
+                  [
+                    114.6549918,
+                    180.5999754
+                  ],
+                  [
+                    114.6049792,
+                    180.5499882
+                  ],
+                  [
+                    113.8049808,
+                    180.5499882
+                  ],
+                  [
+                    113.7549936,
+                    180.5999754
+                  ],
+                  [
+                    113.7549936,
+                    181.3999738
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          }
+        ]
+      },
+      {
+        "ref": "R4",
+        "part": "C25803",
+        "source_sha256": "25af195844a00651338b3ee00088c3e4859dd979684621343c857068eaa87c20",
+        "pads": [
+          "1",
+          "2"
+        ],
+        "apertures": [
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e5",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    116.1950192,
+                    177.5500136
+                  ],
+                  [
+                    115.3950208,
+                    177.5500136
+                  ],
+                  [
+                    115.3450082,
+                    177.6000262
+                  ],
+                  [
+                    115.3450082,
+                    177.8279912
+                  ],
+                  [
+                    115.71501,
+                    177.8279912
+                  ],
+                  [
+                    115.71501,
+                    178.157988
+                  ],
+                  [
+                    115.3450082,
+                    178.157988
+                  ],
+                  [
+                    115.3450082,
+                    178.4000246
+                  ],
+                  [
+                    115.3950208,
+                    178.4500118
+                  ],
+                  [
+                    116.1950192,
+                    178.4500118
+                  ],
+                  [
+                    116.2450064,
+                    178.4000246
+                  ],
+                  [
+                    116.2450064,
+                    177.6000262
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          },
+          {
+            "type": "polygon",
+            "purpose": "paste",
+            "source_id": "e6",
+            "width": 0.00508,
+            "polygons": [
+              {
+                "outer": [
+                  [
+                    113.8049808,
+                    178.4499864
+                  ],
+                  [
+                    114.6049792,
+                    178.4499864
+                  ],
+                  [
+                    114.6549918,
+                    178.3999738
+                  ],
+                  [
+                    114.6549918,
+                    178.1720088
+                  ],
+                  [
+                    114.28499,
+                    178.1720088
+                  ],
+                  [
+                    114.28499,
+                    177.842012
+                  ],
+                  [
+                    114.6549918,
+                    177.842012
+                  ],
+                  [
+                    114.6549918,
+                    177.5999754
+                  ],
+                  [
+                    114.6049792,
+                    177.5499882
+                  ],
+                  [
+                    113.8049808,
+                    177.5499882
+                  ],
+                  [
+                    113.7549936,
+                    177.5999754
+                  ],
+                  [
+                    113.7549936,
+                    178.3999738
+                  ]
+                ],
+                "holes": []
+              }
+            ],
+            "outline_area_mm2": 0.6828973700089835
+          }
+        ]
+      }
+    ],
+    "conversion_assumptions": [
+      "Custom paste FILL centerline stroke copied at 0.00508mm; source docs do not specify stroke alignment. Native KiCad centered stroke used.",
+      "Non-custom SMD apertures use explicitly chosen 1:1 copper opening, not an assertion of unknown source board defaults.",
+      "Courtyards are body-and-pad union plus0.25mm; not a physical assembly fit certificate. Source body envelope can omit mating plugs."
+    ]
+  }
+}

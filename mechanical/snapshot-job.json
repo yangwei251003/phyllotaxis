@@ -1,0 +1,8 @@
+{
+  "jobs": [
+    {"input":"Projects/phyllotaxis/mechanical/assembly.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-assembly-iso.png","camera":"iso"},{"path":"Projects/phyllotaxis/verification/phyllo-assembly-top.png","camera":"top"}],"render":{"viewLabels":true,"sizeProfile":"diagnostic"}},
+    {"input":"Projects/phyllotaxis/mechanical/base.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-base-top.png","camera":"iso"},{"path":"Projects/phyllotaxis/verification/phyllo-base-bottom.png","camera":{"direction":[-1,1,-0.8]}}],"render":{"viewLabels":true,"sizeProfile":"diagnostic"}},
+    {"input":"Projects/phyllotaxis/mechanical/bezel.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-bezel.png","camera":"iso"}],"render":{"sizeProfile":"diagnostic"}},
+    {"input":"Projects/phyllotaxis/mechanical/diffuser.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-diffuser.png","camera":"iso"}],"render":{"sizeProfile":"simple"}}
+  ]
+}

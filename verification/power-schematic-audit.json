@@ -1,0 +1,24 @@
+{
+  "status": "candidate_schematic_named_pin_readback_pass",
+  "support_components": 19,
+  "connected_pins": 50,
+  "pmos_orientation": "D=input/S=protected output; source and body-diode direction require manufacturer review",
+  "gate_network_5V_nominal": {
+    "R_gate_to_ground_ohm": 1000,
+    "R_gate_to_source_ohm": 1000000,
+    "bias_current_uA": 4.995004995004995,
+    "Vgs_V": -4.995004995004995
+  },
+  "buffer_default": "OE pulled high, DIN pulled low; enable NMOS switches OE only, never LED ground",
+  "pcb_parity": false,
+  "native_erc": false,
+  "manufacturing_ready": false,
+  "open_items": [
+    "XT30 mechanical pin 3/4 classification",
+    "bulk capacitor polarity and height",
+    "all manufacturer footprint checks",
+    "power protection/thermal calculations and tests",
+    "bottom connector placement and all PCB routing",
+    "native schematic/PCB netlist parity"
+  ]
+}

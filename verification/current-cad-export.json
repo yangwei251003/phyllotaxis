@@ -1,0 +1,46 @@
+{
+  "status": "saved_STEP_bounds_match_current_design_NOT_full_shape_validation",
+  "files": [
+    {
+      "file": "mechanical\\assembly.step",
+      "sha256": "12e3fca37507bf5db8d06d3f5d7287d36fc7c5ff05349f500f120482019a5644",
+      "size_mm": [
+        200.0000002,
+        200.0000002,
+        51.0
+      ],
+      "min_mm": [
+        -100.0000001,
+        -100.0000001,
+        -5.0
+      ],
+      "max_mm": [
+        100.0000001,
+        100.0000001,
+        46.0
+      ],
+      "solids": 319
+    },
+    {
+      "file": "mechanical\\connector-space.step",
+      "sha256": "08328ce906b517b2bf41a88cd74cda3c3ed45eff742fbec4f6f4ea2c7ace1145",
+      "size_mm": [
+        180.0,
+        180.0,
+        26.6
+      ],
+      "min_mm": [
+        -90.0,
+        -90.0,
+        5.0
+      ],
+      "max_mm": [
+        90.0,
+        90.0,
+        31.6
+      ],
+      "solids": 5
+    }
+  ],
+  "scope": "Independent direct STEP import avoids stale viewer/export cache. Vendor reference validity issues remain recorded separately."
+}

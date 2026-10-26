@@ -1,0 +1,985 @@
+{
+  "status": "17_CONSERVATIVE_COMPONENT_SPACES_GEOMETRY_FIT_PASS_NOT_PHYSICAL_ACCEPTANCE",
+  "board_sha256": "17f93c409632b65271121363c62a9ff14ae228ac94b24b676f731eafd3b3479e",
+  "source_height_spec_sha256": "7348176e004db4e542f92e7ba68d0298f80c062c945692c89fd565bdbef37e32",
+  "parts": [
+    {
+      "ref": "Q1",
+      "part": "C2910138",
+      "size_mm": [
+        5.600000000000001,
+        7.999833000000024,
+        2.5
+      ],
+      "min_mm": [
+        -14.8,
+        -84.99991700000001,
+        31.6
+      ],
+      "max_mm": [
+        -9.2,
+        -77.00008399999999,
+        34.1
+      ],
+      "volume_mm3": 109.47089100686158,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 9.899999999999999,
+      "after_assembly_allowance_mm": 9.099999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 10.857455943452951,
+          "actual_gap_mm": 10.857455943452951
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 7.899999999999999,
+          "actual_gap_mm": 9.022052000467163
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 9.899999999999999,
+          "actual_gap_mm": 9.899999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.5999999999999979
+        }
+      ]
+    },
+    {
+      "ref": "R7",
+      "part": "C25803",
+      "size_mm": [
+        2.8129500000000007,
+        1.4000000000000057,
+        1.0
+      ],
+      "min_mm": [
+        14.593525,
+        -84.7,
+        31.6
+      ],
+      "max_mm": [
+        17.406475,
+        -83.3,
+        32.6
+      ],
+      "volume_mm3": 3.9027137322501924,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 11.399999999999999,
+      "after_assembly_allowance_mm": 10.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 10.56150293491381,
+          "actual_gap_mm": 10.56150293491381
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 9.399999999999999,
+          "actual_gap_mm": 10.239912406378947
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 11.399999999999999,
+          "actual_gap_mm": 11.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.7888543819998286
+        }
+      ]
+    },
+    {
+      "ref": "D145",
+      "part": "C271259",
+      "size_mm": [
+        4.835015999999996,
+        2.2999963999999977,
+        2.0
+      ],
+      "min_mm": [
+        -23.417507999999998,
+        -85.1499982,
+        31.6
+      ],
+      "max_mm": [
+        -18.582492000000002,
+        -82.8500018,
+        33.6
+      ],
+      "volume_mm3": 21.285787349143718,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 10.399999999999999,
+      "after_assembly_allowance_mm": 9.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 8.84449618971697,
+          "actual_gap_mm": 8.84449618971697
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 8.399999999999999,
+          "actual_gap_mm": 8.721047092155699
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 10.399999999999999,
+          "actual_gap_mm": 10.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 8.737372041413098
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "part": "C23138",
+      "size_mm": [
+        2.8129500000000007,
+        1.4000000000000057,
+        1.0
+      ],
+      "min_mm": [
+        5.843525,
+        -77.3,
+        31.6
+      ],
+      "max_mm": [
+        8.656475,
+        -75.89999999999999,
+        32.6
+      ],
+      "volume_mm3": 3.90271373225017,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 11.399999999999999,
+      "after_assembly_allowance_mm": 10.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 15.722534520692934,
+          "actual_gap_mm": 15.722534520692934
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 9.399999999999999,
+          "actual_gap_mm": 15.839613572583284
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 11.399999999999999,
+          "actual_gap_mm": 11.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.5999999999999979
+        }
+      ]
+    },
+    {
+      "ref": "U1",
+      "part": "C12495",
+      "size_mm": [
+        3.4000190000000003,
+        3.0999999999999943,
+        2.0
+      ],
+      "min_mm": [
+        9.299989999999994,
+        -79.55,
+        31.6
+      ],
+      "max_mm": [
+        12.700008999999994,
+        -76.45,
+        33.6
+      ],
+      "volume_mm3": 20.18343054979689,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 10.399999999999999,
+      "after_assembly_allowance_mm": 9.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 15.1730451456144,
+          "actual_gap_mm": 15.1730451456144
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 8.399999999999999,
+          "actual_gap_mm": 13.057944272066415
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 10.399999999999999,
+          "actual_gap_mm": 10.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.5999999999999979
+        }
+      ]
+    },
+    {
+      "ref": "C1",
+      "part": "C46550459",
+      "size_mm": [
+        9.637767766089084,
+        9.565214609951514,
+        8.199999999999996
+      ],
+      "min_mm": [
+        70.85781526702735,
+        30.506018537048337,
+        31.6
+      ],
+      "max_mm": [
+        80.49558303311643,
+        40.07123314699985,
+        39.8
+      ],
+      "volume_mm3": 505.11233318528514,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 4.200000000000003,
+      "after_assembly_allowance_mm": 3.400000000000003,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 9.77670545101851,
+          "actual_gap_mm": 9.77670545101851
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 2.200000000000003,
+          "actual_gap_mm": 3.9467453189602195
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 4.200000000000003,
+          "actual_gap_mm": 4.200000000000003
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 83.87161626138129
+        }
+      ]
+    },
+    {
+      "ref": "C3",
+      "part": "C46550459",
+      "size_mm": [
+        9.637767766089084,
+        9.565214609951514,
+        8.199999999999996
+      ],
+      "min_mm": [
+        -80.49558403311643,
+        -40.071232146999854,
+        31.6
+      ],
+      "max_mm": [
+        -70.85781626702735,
+        -30.50601753704834,
+        39.8
+      ],
+      "volume_mm3": 505.11233318528525,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 4.200000000000003,
+      "after_assembly_allowance_mm": 3.400000000000003,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 8.031045177868174,
+          "actual_gap_mm": 8.031045177868174
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 2.200000000000003,
+          "actual_gap_mm": 3.946744962945505
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 4.200000000000003,
+          "actual_gap_mm": 4.200000000000003
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 60.949253333638346
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "part": "C21190",
+      "size_mm": [
+        1.3999999999999986,
+        2.8129500000000007,
+        1.0
+      ],
+      "min_mm": [
+        -19.7,
+        -79.406475,
+        31.6
+      ],
+      "max_mm": [
+        -18.3,
+        -76.593525,
+        32.6
+      ],
+      "volume_mm3": 3.902713732250169,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 11.399999999999999,
+      "after_assembly_allowance_mm": 10.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 15.194078569290847,
+          "actual_gap_mm": 15.194078569290847
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 9.399999999999999,
+          "actual_gap_mm": 12.804179090008159
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 11.399999999999999,
+          "actual_gap_mm": 11.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 8.452810183601665
+        }
+      ]
+    },
+    {
+      "ref": "C2",
+      "part": "C46550459",
+      "size_mm": [
+        9.565214609951514,
+        9.637767766089084,
+        8.199999999999996
+      ],
+      "min_mm": [
+        -40.07123314699985,
+        70.85781626702735,
+        31.6
+      ],
+      "max_mm": [
+        -30.506018537048337,
+        80.49558403311643,
+        39.8
+      ],
+      "volume_mm3": 505.11233318528514,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 4.200000000000003,
+      "after_assembly_allowance_mm": 3.400000000000003,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 9.776704562794059,
+          "actual_gap_mm": 9.776704562794059
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 2.200000000000003,
+          "actual_gap_mm": 3.946744581529878
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 4.200000000000003,
+          "actual_gap_mm": 4.200000000000003
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 115.70073085913471
+        }
+      ]
+    },
+    {
+      "ref": "R2",
+      "part": "C22935",
+      "size_mm": [
+        2.8129500000000007,
+        1.4000000000000057,
+        1.0
+      ],
+      "min_mm": [
+        -19.406475,
+        -81.7,
+        31.6
+      ],
+      "max_mm": [
+        -16.593525,
+        -80.3,
+        32.6
+      ],
+      "volume_mm3": 3.9027137322501924,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 11.399999999999999,
+      "after_assembly_allowance_mm": 10.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 13.058156103775426,
+          "actual_gap_mm": 13.058156103775426
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 9.399999999999999,
+          "actual_gap_mm": 11.461649596872473
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 11.399999999999999,
+          "actual_gap_mm": 11.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 6.784878180603171
+        }
+      ]
+    },
+    {
+      "ref": "Q2",
+      "part": "C8545",
+      "size_mm": [
+        3.499894000000012,
+        3.5,
+        2.0
+      ],
+      "min_mm": [
+        10.250052999999994,
+        -86.75,
+        31.6
+      ],
+      "max_mm": [
+        13.749947000000006,
+        -83.25,
+        33.6
+      ],
+      "volume_mm3": 23.471527278536307,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 10.399999999999999,
+      "after_assembly_allowance_mm": 9.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 9.22444239387167,
+          "actual_gap_mm": 9.22444239387167
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 8.399999999999999,
+          "actual_gap_mm": 8.830774957925561
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 10.399999999999999,
+          "actual_gap_mm": 10.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.7670597047072274
+        }
+      ]
+    },
+    {
+      "ref": "R5",
+      "part": "C25803",
+      "size_mm": [
+        2.8129500000000007,
+        1.4000000000000057,
+        1.0
+      ],
+      "min_mm": [
+        14.093525,
+        -76.3,
+        31.6
+      ],
+      "max_mm": [
+        16.906475,
+        -74.89999999999999,
+        32.6
+      ],
+      "volume_mm3": 3.90271373225017,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 11.399999999999999,
+      "after_assembly_allowance_mm": 10.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 18.880866306729114,
+          "actual_gap_mm": 18.880866306729114
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 9.399999999999999,
+          "actual_gap_mm": 15.544962222697759
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 11.399999999999999,
+          "actual_gap_mm": 11.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.5999999999999979
+        }
+      ]
+    },
+    {
+      "ref": "F2",
+      "part": "C17313",
+      "size_mm": [
+        5.613351999999992,
+        3.999206000000015,
+        1.5
+      ],
+      "min_mm": [
+        -29.806675999999996,
+        -81.49960300000001,
+        31.6
+      ],
+      "max_mm": [
+        -24.193324000000004,
+        -77.50039699999999,
+        33.1
+      ],
+      "volume_mm3": 33.67342649776808,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 10.899999999999999,
+      "after_assembly_allowance_mm": 10.099999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 10.220836467925167,
+          "actual_gap_mm": 10.220836467925167
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 8.899999999999999,
+          "actual_gap_mm": 9.646482468809127
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 10.899999999999999,
+          "actual_gap_mm": 10.899999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 14.283222541463678
+        }
+      ]
+    },
+    {
+      "ref": "R6",
+      "part": "C25803",
+      "size_mm": [
+        2.8129500000000007,
+        1.4000000000000057,
+        1.0
+      ],
+      "min_mm": [
+        13.593525,
+        -81.7,
+        31.6
+      ],
+      "max_mm": [
+        16.406475,
+        -80.3,
+        32.6
+      ],
+      "volume_mm3": 3.9027137322501915,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 11.399999999999999,
+      "after_assembly_allowance_mm": 10.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 13.700574391547375,
+          "actual_gap_mm": 13.700574391547375
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 9.399999999999999,
+          "actual_gap_mm": 11.840957375491548
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 11.399999999999999,
+          "actual_gap_mm": 11.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.5999999999999979
+        }
+      ]
+    },
+    {
+      "ref": "C5",
+      "part": "C14663",
+      "size_mm": [
+        2.699792000000002,
+        1.4000000000000057,
+        1.5
+      ],
+      "min_mm": [
+        9.650103999999999,
+        -81.7,
+        31.6
+      ],
+      "max_mm": [
+        12.349896000000001,
+        -80.3,
+        33.1
+      ],
+      "volume_mm3": 5.669560199999249,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 10.899999999999999,
+      "after_assembly_allowance_mm": 10.099999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 13.351509047693957,
+          "actual_gap_mm": 13.351509047693957
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 8.899999999999999,
+          "actual_gap_mm": 11.881757942786882
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 10.899999999999999,
+          "actual_gap_mm": 10.899999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.5999999999999979
+        }
+      ]
+    },
+    {
+      "ref": "C4",
+      "part": "C46550459",
+      "size_mm": [
+        9.565214609951514,
+        9.637767766089084,
+        8.199999999999996
+      ],
+      "min_mm": [
+        30.50601753704834,
+        -80.49558303311643,
+        31.6
+      ],
+      "max_mm": [
+        40.071232146999854,
+        -70.85781526702735,
+        39.8
+      ],
+      "volume_mm3": 505.11233318528525,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 4.200000000000003,
+      "after_assembly_allowance_mm": 3.400000000000003,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 9.77670591042827,
+          "actual_gap_mm": 9.77670591042827
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 2.200000000000003,
+          "actual_gap_mm": 3.946745700375892
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 4.200000000000003,
+          "actual_gap_mm": 4.200000000000003
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.600011315820023
+        }
+      ]
+    },
+    {
+      "ref": "R4",
+      "part": "C25803",
+      "size_mm": [
+        2.8129500000000007,
+        1.4000000000000057,
+        1.0
+      ],
+      "min_mm": [
+        13.593525,
+        -78.7,
+        31.6
+      ],
+      "max_mm": [
+        16.406475,
+        -77.3,
+        32.6
+      ],
+      "volume_mm3": 3.9027137322501915,
+      "valid_closed_positive_solid": true,
+      "diffuser_gap_mm": 11.399999999999999,
+      "after_assembly_allowance_mm": 10.599999999999998,
+      "structure": [
+        {
+          "other": "base",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 16.6396379517529,
+          "actual_gap_mm": 16.6396379517529
+        },
+        {
+          "other": "bezel",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 9.399999999999999,
+          "actual_gap_mm": 13.826505624800053
+        },
+        {
+          "other": "diffuser",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 11.399999999999999,
+          "actual_gap_mm": 11.399999999999999
+        },
+        {
+          "other": "PCB",
+          "test": "OCC_common_volume",
+          "overlap_mm3": 0.0,
+          "gap_mm": 0.0,
+          "actual_gap_mm": 0.0
+        },
+        {
+          "other": "back_connectors_and_wires",
+          "test": "disjoint_axis_bounds",
+          "gap_lower_bound_mm": 1.5999999999999979
+        }
+      ]
+    }
+  ],
+  "pair_counts": {
+    "structure": 85,
+    "LEDs": 2448,
+    "support_pairs": 136
+  },
+  "closest_support_LED": {
+    "gap_mm": 1.7506099999999947,
+    "refs": [
+      "R1",
+      "D139"
+    ]
+  },
+  "closest_support_pair": {
+    "gap_mm": 0.6435149999999936,
+    "refs": [
+      "U1",
+      "R3"
+    ]
+  },
+  "smallest_top_clearance_mm": 4.200000000000003,
+  "smallest_top_clearance_after_0_8mm_allowance": 3.400000000000003,
+  "limits": [
+    "Shapes are source-bound conservative spaces, not vendor detailed models. Manufacturer maximum dimensions and extra engineering reserves are recorded separately.",
+    "Actual solder stand-off, PCB/print tolerances and physical assembly not measured. Existing WeAct reference model issues are outside this new-subassembly check.",
+    "No screw, microphone, button or full harness physical fit is inferred from this component-space check."
+  ]
+}

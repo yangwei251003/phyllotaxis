@@ -1,0 +1,8 @@
+{"jobs":[
+ {"input":"Projects/phyllotaxis/mechanical/carrier.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-carrier.png","camera":"iso"}],"render":{"sizeProfile":"diagnostic","viewLabels":true}},
+ {"input":"Projects/phyllotaxis/mechanical/retainer.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-retainer.png","camera":"iso"}],"render":{"sizeProfile":"simple"}},
+ {"input":"Projects/phyllotaxis/mechanical/controller-assembly.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-controller-iso.png","camera":"iso"},{"path":"Projects/phyllotaxis/verification/phyllo-controller-top.png","camera":"top"}],"render":{"sizeProfile":"diagnostic","viewLabels":true}},
+ {"input":"Projects/phyllotaxis/mechanical/controller-space.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-controller-space.png","camera":"iso"}],"render":{"sizeProfile":"diagnostic","viewLabels":true}},
+ {"input":"Projects/phyllotaxis/mechanical/service-assembly.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-service.png","camera":"iso"}],"render":{"sizeProfile":"diagnostic","viewLabels":true}},
+ {"input":"Projects/phyllotaxis/mechanical/assembly.step.py","mode":"view","outputs":[{"path":"Projects/phyllotaxis/verification/phyllo-assembly-iso.png","camera":"iso"}],"render":{"sizeProfile":"diagnostic","viewLabels":true}}
+]}

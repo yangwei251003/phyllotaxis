@@ -1,0 +1,2679 @@
+{
+  "status": "controls_candidate_geometry_fit_PASS_NOT_physical_assembly",
+  "controls_sha256": "f5680cea00ea99f84389cfdb2c3b5138d556f73a794e7f8d273fbbd1572ea283",
+  "source_sha256": {
+    "mechanical/controls.py": "f4645fae4e2b448d4c4a2ea07a04103763d22fbcd1263997d68e0b6269de81e4",
+    "mechanical/parts.py": "d145eb271390dcc5b8b2186b084fbb4af0266d674fcd13ec6965ee3d5908aea3",
+    "mechanical/controls.json": "f5680cea00ea99f84389cfdb2c3b5138d556f73a794e7f8d273fbbd1572ea283"
+  },
+  "base": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 175092.0634811844,
+    "size_mm": [
+      200.0000002,
+      200.0000002,
+      42.0000002
+    ]
+  },
+  "holder": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2280.8873088642604,
+    "size_mm": [
+      15.5,
+      29.0,
+      23.5
+    ],
+    "min_mm": [
+      -7.75,
+      -14.5,
+      0.0
+    ]
+  },
+  "control_spaces": 23,
+  "checks": [
+    {
+      "a": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.5
+    },
+    {
+      "a": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 15.5
+    },
+    {
+      "a": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 36.27642496386456
+    },
+    {
+      "a": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 95.52552044428639
+    },
+    {
+      "a": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 68.43902263363326
+    },
+    {
+      "a": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 2.6601886794339458
+    },
+    {
+      "a": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.0
+    },
+    {
+      "a": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 18.0
+    },
+    {
+      "a": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 51.671366126516155
+    },
+    {
+      "a": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 112.07622785660038
+    },
+    {
+      "a": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 86.37580802648905
+    },
+    {
+      "a": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "SEN0526_components_MAX_plus_RESERVE",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.1443142009823237
+    },
+    {
+      "a": "SEN0526_components_MAX_plus_RESERVE",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 5.75
+    },
+    {
+      "a": "SEN0526_components_MAX_plus_RESERVE",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 17.75
+    },
+    {
+      "a": "SEN0526_components_MAX_plus_RESERVE",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 52.52803171554489
+    },
+    {
+      "a": "SEN0526_components_MAX_plus_RESERVE",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 112.93658939744155
+    },
+    {
+      "a": "SEN0526_components_MAX_plus_RESERVE",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 86.99685046664348
+    },
+    {
+      "a": "SEN0526_components_MAX_plus_RESERVE",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.9999999999999961
+    },
+    {
+      "a": "SEN0526_components_MAX_plus_RESERVE",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.0983837466750401
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.399999999999999
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 18.4
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 49.59207585468041
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 109.84204297949987
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 84.09951788718139
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.29999999999999627
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_-1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.39999999999999986
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 7.177898042853608
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.152479138593197
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 18.152479138593197
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 51.38578363064149
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 111.61576706591143
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 85.22272776517539
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.499999999999988
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 4.517742799230605
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_-1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.009999999999996552
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.0983837466750401
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.399999999999999
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 18.4
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 46.87041242733628
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 108.12286406826536
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 90.98429746452905
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.2999999999999947
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.39999999999999725
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 5.7376557836182975
+    },
+    {
+      "a": "M1p6x8_head_ENVELOPE_+1",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 7.823978657904874
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 7.177898042853606
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.152479138593197
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 18.152479138593197
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 48.613293239189645
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 109.85741091441308
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 91.94356285617211
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 2.057651656778276
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 2.911839241732764
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 5.738346002306049
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 8.026395174072357
+    },
+    {
+      "a": "M1p6_nut_ENVELOPE_+1",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.009999999999996786
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 20.0
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 32.0
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 45.200494982228705
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 105.41319220171546
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 77.46843303115898
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.19999999999998563
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.044486954040227
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.429690787301994
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 10.399999999999999
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 10.154169703928716
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 14.608454278372685
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_1",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 14.433777448630142
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.0
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 21.5
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 33.5
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 45.00554007155661
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 105.35027772842106
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 77.0739363134182
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 4.507493476378325
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 4.781583149530468
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 11.899999999999999
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 11.652479138593197
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 15.486475256828918
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 15.297544491162542
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_1",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.009999999999989524
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 20.0
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 32.0
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 40.986070485272336
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 102.83261986329627
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 87.0104031972858
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.19999999999998772
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.643062254032191
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 7.477171167502817
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 11.977628949285478
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 13.365710639288539
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 10.399999999999999
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 10.270626584314911
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 9.035081932574531
+    },
+    {
+      "a": "M3x10_floor_screw_ENVELOPE_2",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 8.68673557233302
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.0
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 21.5
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 33.5
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 40.71249059617977
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 102.72753533168326
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 86.61121571233899
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 7.287472597837241
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 8.06238260644909
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 13.130943727309512
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 14.307509777844412
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 11.899999999999999
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 11.731391376617383
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 8.686735572333024
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 8.338389212091514
+    },
+    {
+      "a": "M3_floor_nut_ENVELOPE_2",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.009999999999986742
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.6347896698133044
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 13.149999999999999
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 25.15
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 30.896509893362726
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 90.54957355502441
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 68.25879278493008
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.6499999999999986
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.9999999999999986
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.549999999999997
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.3024791385931955
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.549999999999997
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.3024791385931955
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 1.8499999999999996
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.3499999999999996
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 1.8499999999999996
+    },
+    {
+      "a": "ASSUMED_SEN0526_back_header_plug_space",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.3499999999999996
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 5.85
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 13.149999999999999
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 25.15
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 20.55989106471774
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 79.91430362307436
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 60.34825131331804
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 8.492496688253686
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 15.115410328247876
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 15.969597913202364
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 13.526387266808118
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 15.208818826407747
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 9.889172738272066
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 11.463867655289517
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 8.660652723992442
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 8.472929804173814
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.3537642444735734
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.092189592323483
+    },
+    {
+      "a": "ASSUMED_SEN0526_wire_bend_space",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.552713678800501e-15
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.4210854715202004e-14
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 4.050000000000001
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 16.05
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 40.59313511331163
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 26.518918938927076
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 90.85911361385081
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 142.86956007717617
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 158.24838769979579
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 159.10257528475026
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 156.18520524619322
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 157.9789128972617
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 152.0809635262852
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 153.87467117735366
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 151.80747227189352
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 151.64023482508586
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 146.33566761724254
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 146.16946845842062
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 137.48964500667435
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 127.15302617802936
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 2.5
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 14.5
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 50.546814475464025
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 35.82355276420692
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 99.1372142475657
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 152.82097485789996
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 168.19980248051957
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 169.05399006547404
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 166.136620026917
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 167.93032767798547
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 162.03237830700897
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 163.82608595807744
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 161.74581769561985
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 161.56246955246405
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 156.2735224646836
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 156.0905812712408
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 147.44105978739813
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 137.10444095875314
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.04999999999999135
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 11.5
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.5
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 18.5
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 29.82985387886923
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 16.69040790125629
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 81.60762207746428
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 132.1062788427338
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 147.48510646535337
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 148.33929405030784
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 145.42192401175083
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 147.2156316628193
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 141.34048719076182
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 143.13392130322742
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 141.1021236547593
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 140.96314479030198
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 135.63907162571346
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 135.49943010200522
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 126.72636377223196
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 116.38974494358698
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_1",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.360203275804253
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 4.050000000000001
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 16.05
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 40.59313511331163
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 26.518918938927065
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 63.605920562708185
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 147.16314221453302
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 164.8501980348911
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 165.70023844317916
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 162.51606370812797
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 164.24083399979995
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 162.13097332116183
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 163.8149109407472
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 156.97248589869702
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 156.7224042952159
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 156.3198779372016
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 156.0420257406045
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 142.75824423925908
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 131.79313416833472
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 43.788931626001784
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 45.3729317222822
+    },
+    {
+      "a": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "b": "ASSUMED_button_pre_wired_bend_space_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 41.09422883727261
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 2.5
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 14.5
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 50.546814475464025
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 35.82355276420691
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 73.5877350045931
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 157.2063378563526
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 174.8514559357848
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 175.70245560049293
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 172.52199668941316
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 174.2501706620187
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 172.0257487180269
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 173.71653002155722
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 166.98978202286116
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 166.7258356200489
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 166.19219793262903
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 165.90184597198555
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 152.77310220489292
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 141.81497802233778
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 45.372931722282196
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 46.956931818562616
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "ASSUMED_button_pre_wired_bend_space_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 43.14954704993222
+    },
+    {
+      "a": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.049999999999997644
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 11.5
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.5
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 18.5
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 29.829853878869223
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 16.690407901256275
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 54.01206554751977
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 136.0677237544119
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 153.76360110861935
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 154.6132637982958
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 151.42776217787386
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 153.15133583581363
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 151.10567926135005
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 152.7847595862282
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 145.93386938107525
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 145.7109089954118
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 145.35820332849266
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 145.10561988667862
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 131.66721792246756
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 120.70028251814341
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 41.09422883727262
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 43.149547049932224
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "ASSUMED_button_pre_wired_bend_space_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 38.39952604854345
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.464821375527116e-14
+    },
+    {
+      "a": "ASSUMED_button_pre_wired_bend_space_2",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.360203275804267
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 30.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 42.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 31.144823004794873
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 92.41753080449618
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 50.16223679223246
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 7.979470570043785
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 24.050980339371673
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 24.53196606682713
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 27.37564467381748
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 27.681721730065263
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 34.97494634780839
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 35.00557977462803
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 12.24055778069595
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 13.294496511679784
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 27.076222933980603
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 27.39305361110789
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 15.853193559783254
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 11.141741417265916
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 139.0313179603455
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 148.94677228451582
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "ASSUMED_button_pre_wired_bend_space_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 128.3366493984951
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 139.0313179603455
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 148.94677228451582
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_1",
+      "b": "ASSUMED_button_pre_wired_bend_space_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 128.33664939849507
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 30.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 42.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 41.10960958218893
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 64.39914595706996
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 107.11675872616759
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 65.86984703592292
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 83.35299938351854
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 83.96968207973298
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 86.8235173248484
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 89.21037773477889
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 79.08482379736216
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 81.31913684616175
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 82.52043315536064
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 82.4001851482727
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 71.23091810198743
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 71.18019993168953
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 63.95096139505986
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 57.98249556065709
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 72.18186600596962
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 81.71065110968405
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "ASSUMED_button_pre_wired_bend_space_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 66.92697547198667
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 109.96314687997601
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 117.37073406991131
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "ASSUMED_button_pre_wired_bend_space_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 101.79431643853502
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_2",
+      "b": "Adhesive_rubber_foot_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 82.02438661763951
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 30.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 42.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 31.144823004794873
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 24.186773244895647
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 65.6505902486794
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 133.51508304954467
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 150.33935073526294
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 151.2099884501906
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 148.9805542965724
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 150.71262554095057
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 146.69641722845407
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 148.40559528969794
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 142.70938949419758
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 142.6123937725432
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 139.38333851378556
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 139.2540805256717
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 128.87529239131518
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 118.0866901431212
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 19.945840255067072
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 21.74090622870856
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "ASSUMED_button_pre_wired_bend_space_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 19.608257033630778
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 19.945840255067072
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 21.740906228708557
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "ASSUMED_button_pre_wired_bend_space_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 19.60825703363078
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "Adhesive_rubber_foot_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 128.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_3",
+      "b": "Adhesive_rubber_foot_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 82.02438661763951
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "LED_PCB",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 30.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "bezel",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 42.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "Controller_conservative_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 41.10960958218893
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "ASSUMED_USB_service",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 64.39914595706995
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "back_connectors_and_wires",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 5.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 100.0137224173377
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 118.95726774019573
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 119.61930902769605
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 117.71002884445915
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 118.84325133958146
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 123.82875919357978
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 124.84759128038158
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 109.28705455126617
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 109.06195714950302
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 117.79831106405265
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 117.55403512600199
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 99.88826183053554
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 90.73977003951977
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 109.96314687997601
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 117.37073406991131
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "ASSUMED_button_pre_wired_bend_space_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 101.79431643853502
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 72.18186600596962
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 81.71065110968404
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "ASSUMED_button_pre_wired_bend_space_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 66.92697547198665
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "Adhesive_rubber_foot_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 82.02438661763952
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "Adhesive_rubber_foot_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 128.0
+    },
+    {
+      "a": "Adhesive_rubber_foot_ENVELOPE_4",
+      "b": "Adhesive_rubber_foot_ENVELOPE_3",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 82.02438661763951
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.4999999583680087
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "Microphone_holder_PETG_M1p6_nut_pockets_and_M3_base",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 2.7999999999999803
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "SEN0526_board_hole_datum_ENVELOPE_not_vendor_model",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.8
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "SEN0526_components_MAX_plus_RESERVE",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.049999999999998046
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "M1p6x8_head_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 0.9141273873724529
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "M1p6_nut_ENVELOPE_-1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 3.6759418225349334
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "M1p6x8_head_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 0.4957566531502806
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "M1p6_nut_ENVELOPE_+1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 6.227881639944314
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "M3x10_floor_screw_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 9.01025999226123
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "M3_floor_nut_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 9.721314780377423
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "M3x10_floor_screw_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 11.49807230910957
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "M3_floor_nut_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 12.126690972853774
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "ASSUMED_SEN0526_back_header_plug_space",
+      "method": "OCC_common",
+      "overlap_mm3": 0.0,
+      "gap_mm": 2.7999999999999963
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "ASSUMED_SEN0526_wire_bend_space",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 19.285640311413914
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 162.4186176829618
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 172.3700324636856
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "ASSUMED_button_pre_wired_bend_space_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 151.6553364485194
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "GQ12H10M_N_body_and_terminals_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 170.34903681510207
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "GQ12_nut_RESERVE_not_exact_nut_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 180.32101287875696
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "ASSUMED_button_pre_wired_bend_space_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 159.27564136319157
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "Adhesive_rubber_foot_ENVELOPE_1",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 30.917535666077885
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "Adhesive_rubber_foot_ENVELOPE_2",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 88.0323457949361
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "Adhesive_rubber_foot_ENVELOPE_3",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 155.39314377142014
+    },
+    {
+      "a": "acoustic_7mm_path_after_component_space",
+      "b": "Adhesive_rubber_foot_ENVELOPE_4",
+      "method": "separated_bounds",
+      "gap_lower_bound_mm": 125.84985637462206
+    }
+  ],
+  "coaxial_checks": [
+    {
+      "type": "M3 coaxial through clearance",
+      "target": "base",
+      "tangent": -8,
+      "probe_diameter": 3.3,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "M3 coaxial through clearance",
+      "target": "holder",
+      "tangent": -8,
+      "probe_diameter": 3.3,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "M3 coaxial through clearance",
+      "target": "base",
+      "tangent": 8,
+      "probe_diameter": 3.3,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "M3 coaxial through clearance",
+      "target": "holder",
+      "tangent": 8,
+      "probe_diameter": 3.3,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "button radial bore",
+      "angle": 160,
+      "probe_diameter": 12.2,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "button radial bore",
+      "angle": 200,
+      "probe_diameter": 12.2,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "M1p6 coaxial clearance",
+      "target": "holder",
+      "tangent": -6,
+      "probe_diameter": 1.8,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "M1p6 coaxial clearance",
+      "target": "SEN0526 board",
+      "tangent": -6,
+      "probe_diameter": 1.8,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "M1p6 coaxial clearance",
+      "target": "holder",
+      "tangent": 6,
+      "probe_diameter": 1.8,
+      "overlap_mm3": 0.0
+    },
+    {
+      "type": "M1p6 coaxial clearance",
+      "target": "SEN0526 board",
+      "tangent": 6,
+      "probe_diameter": 1.8,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "nut_bearing_material_checks": [
+    {
+      "tangent": -6,
+      "full_annular_material_depth_mm": 3.5,
+      "test_depth_mm": 3.48,
+      "expected_probe_volume_mm3": 31.58250634476176,
+      "material_common_mm3": 31.58250634476176
+    },
+    {
+      "tangent": 6,
+      "full_annular_material_depth_mm": 3.5,
+      "test_depth_mm": 3.48,
+      "expected_probe_volume_mm3": 31.58250634476176,
+      "material_common_mm3": 31.58250634476176
+    }
+  ],
+  "floor_screw_to_table_nominal_gap_mm": 1.5,
+  "nominal_assembly_height_with_uncompressed_feet_mm": 51,
+  "limits": [
+    "All purchased control/fastener parts are documented conservative envelopes, not certified vendor CAD",
+    "Only local connector and bend reserves; complete cable routes not yet proved",
+    "Acoustic hole is wide reserve, microphone real port/response not measured",
+    "Print tolerances, actual nuts/bolts, header assembly, foot compression, contact strength and physical installation not verified"
+  ]
+}

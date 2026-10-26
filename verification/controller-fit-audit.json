@@ -1,0 +1,185 @@
+{
+  "status": "analytical_geometry_pass_not_physical_fit",
+  "revision": "holder-candidate-01",
+  "overlap_method": "OCC Common on located wrapped shapes; translated-compound and known-volume controls passed",
+  "dimensions": {
+    "carrier": {
+      "bbox_mm": [
+        66.0,
+        46.0,
+        21.1
+      ],
+      "solids": 1,
+      "volume_mm3": 14627.9446677921,
+      "valid": true
+    },
+    "retainer": {
+      "bbox_mm": [
+        50.0,
+        9.210500335693373,
+        2.4
+      ],
+      "solids": 1,
+      "volume_mm3": 1061.679866992607,
+      "valid": true
+    }
+  },
+  "pairs": [
+    {
+      "a": "carrier_edge_supports",
+      "b": "WeAct_official_V31_reference_no_headers",
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 3.000000248221113e-09
+    },
+    {
+      "a": "retainer_side_-1",
+      "b": "WeAct_official_V31_reference_no_headers",
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.6085602570000006
+    },
+    {
+      "a": "retainer_side_+1",
+      "b": "WeAct_official_V31_reference_no_headers",
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.6085602570000006
+    },
+    {
+      "a": "carrier_edge_supports",
+      "b": "retainer_side_-1",
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.0
+    },
+    {
+      "a": "carrier_edge_supports",
+      "b": "retainer_side_+1",
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.0
+    },
+    {
+      "a": "WeAct_V31_removable_holder_candidate",
+      "b": "Base_PETG_200mm_ventilated",
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.0
+    },
+    {
+      "a": "WeAct_V31_removable_holder_candidate",
+      "b": "PCB_ENVELOPE_not_routed",
+      "overlap_mm3": 0.0,
+      "minimum_distance_mm": 3.258560256999999
+    }
+  ],
+  "assumed_header_reserves": [
+    {
+      "name": "ASSUMED_header_wire_reserve_-1_not_part",
+      "overlap_carrier_mm3": 0.0,
+      "clearance_carrier_mm": 0.3794996643066266,
+      "bbox_mm": [
+        51.0,
+        3.5999999999999996,
+        15.0
+      ]
+    },
+    {
+      "name": "ASSUMED_header_wire_reserve_+1_not_part",
+      "overlap_carrier_mm3": 0.0,
+      "clearance_carrier_mm": 0.3794996643066266,
+      "bbox_mm": [
+        51.0,
+        3.5999999999999996,
+        15.0
+      ]
+    }
+  ],
+  "usb_reserve_overlap_holder_mm3": 0.0,
+  "usb_access": "service_only_LED_board_removed_external_power_disconnected",
+  "board_lower_face_global_z_mm": 22.0,
+  "retainer_gap_above_reference_PCB_mm": 0.6085602570000006,
+  "controller_to_LED_board_clearance_mm": 3.258560156999998,
+  "mounting": {
+    "method": "two nylon ties through shared base slots",
+    "slot_centres_xy_mm": [
+      [
+        -28.0,
+        -16.0
+      ],
+      [
+        -28.0,
+        16.0
+      ],
+      [
+        28.0,
+        -16.0
+      ],
+      [
+        28.0,
+        16.0
+      ]
+    ],
+    "retainer_screw_centres_xy_mm": [
+      [
+        -20.0,
+        -14.5
+      ],
+      [
+        -20.0,
+        14.5
+      ],
+      [
+        20.0,
+        -14.5
+      ],
+      [
+        20.0,
+        14.5
+      ]
+    ],
+    "measured_pilot_axes_xy_mm": [
+      [
+        -20.0,
+        -14.5
+      ],
+      [
+        -20.0,
+        14.5
+      ],
+      [
+        20.0,
+        -14.5
+      ],
+      [
+        20.0,
+        14.5
+      ]
+    ],
+    "measured_retainer_axes_xy_mm": [
+      [
+        -20.0,
+        -14.5
+      ],
+      [
+        -20.0,
+        14.5
+      ],
+      [
+        20.0,
+        -14.5
+      ],
+      [
+        20.0,
+        14.5
+      ]
+    ],
+    "retainer_mate_z_error_mm": [
+      0.0,
+      0.0
+    ]
+  },
+  "not_verified": [
+    "actual header orientation, housing, wire bend radius and physical fit",
+    "bare-edge land and board tolerance after delivery",
+    "fastener thread engagement and retention force",
+    "print shrinkage and slicing",
+    "microphone and external buttons",
+    "backside LED-board connector/harness envelopes"
+  ]
+}

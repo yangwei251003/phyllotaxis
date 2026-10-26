@@ -1,0 +1,34 @@
+{
+  "status": "conservative_top_envelope_and_net_readback_pass",
+  "pcb_components": 161,
+  "top_support_components": 17,
+  "top_support_pins_checked": 44,
+  "minimum_component_gap": {
+    "mm": 1.0934057999999993,
+    "first": "Q1",
+    "second": "R2"
+  },
+  "minimum_board_edge_gap": {
+    "mm": 2.1635434937957703,
+    "reference": "D145"
+  },
+  "minimum_mount_keepout_gap": {
+    "mm": 21.336719628548263,
+    "reference": "C4",
+    "hole": 4
+  },
+  "generated_epru_sha256": "6f355ea2d21c2dcfd0866aa2acfd8650c38ae17d6bb99220910671308f1b5b63",
+  "missing_pcb_components": [
+    "J1",
+    "J2"
+  ],
+  "native_drc": false,
+  "manufacturing_ready": false,
+  "limits": [
+    "Body + pad bounding rectangles are not manufacturer courtyards",
+    "Angle mapping must be read back in native EDA",
+    "No routing or copper coverage checked",
+    "Capacitor polarity not yet proven",
+    "Bottom connector mirror/mating/cable envelopes not modeled"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "JST-XH.pdf",
+    "url": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+    "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+    "pages": 9,
+    "status": "saved"
+  },
+  {
+    "file": "AMASS-XT30PW-M30.pdf",
+    "url": "https://www.china-amass.net/uploads/32.XT30PW-M30-SPEC-2025V0.pdf",
+    "sha256": "475a4aa380f31dff1962c9efa578b63c966701d755eae6188739a76b46ad25ef",
+    "pages": 1,
+    "status": "saved"
+  },
+  {
+    "file": "AMASS-XT30PW-M-drawing.pdf",
+    "url": "https://store.comet.bg/download-file.php?id=30571",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

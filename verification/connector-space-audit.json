@@ -1,0 +1,187 @@
+{
+  "status": "space_envelopes_fit_analytically_NOT_physical_connector_validation",
+  "pairs": [
+    {
+      "a": "XT30_MATED_ENVELOPE_candidate",
+      "b": "Base_PETG_200mm_ventilated",
+      "overlap_mm3": 0.0,
+      "gap_mm": 9.599999999999994
+    },
+    {
+      "a": "XT30_MATED_ENVELOPE_candidate",
+      "b": "PCB_ENVELOPE_CURRENT_ROUTED_BOARD",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.552713678800501e-15
+    },
+    {
+      "a": "XT30_MATED_ENVELOPE_candidate",
+      "b": "controller_conservative_box",
+      "overlap_mm3": 0.0,
+      "gap_mm": 38.0
+    },
+    {
+      "a": "JST_XH_MATED_ENVELOPE_candidate",
+      "b": "Base_PETG_200mm_ventilated",
+      "overlap_mm3": 0.0,
+      "gap_mm": 9.511429317881761
+    },
+    {
+      "a": "JST_XH_MATED_ENVELOPE_candidate",
+      "b": "PCB_ENVELOPE_CURRENT_ROUTED_BOARD",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.552713678800501e-15
+    },
+    {
+      "a": "JST_XH_MATED_ENVELOPE_candidate",
+      "b": "controller_conservative_box",
+      "overlap_mm3": 0.0,
+      "gap_mm": 52.0
+    },
+    {
+      "a": "JST_XH_MATED_ENVELOPE_candidate",
+      "b": "XT30_MATED_ENVELOPE_candidate",
+      "overlap_mm3": 0.0,
+      "gap_mm": 12.3
+    },
+    {
+      "a": "XT30_WIRE_BEND_ASSUMED",
+      "b": "Base_PETG_200mm_ventilated",
+      "overlap_mm3": 0.0,
+      "gap_mm": 7.0
+    },
+    {
+      "a": "XT30_WIRE_BEND_ASSUMED",
+      "b": "PCB_ENVELOPE_CURRENT_ROUTED_BOARD",
+      "overlap_mm3": 0.0,
+      "gap_mm": 1.0
+    },
+    {
+      "a": "XT30_WIRE_BEND_ASSUMED",
+      "b": "controller_conservative_box",
+      "overlap_mm3": 0.0,
+      "gap_mm": 20.0
+    },
+    {
+      "a": "XT30_WIRE_BEND_ASSUMED",
+      "b": "XT30_MATED_ENVELOPE_candidate",
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.0
+    },
+    {
+      "a": "XT30_WIRE_BEND_ASSUMED",
+      "b": "JST_XH_MATED_ENVELOPE_candidate",
+      "overlap_mm3": 0.0,
+      "gap_mm": 18.117670931993437
+    },
+    {
+      "a": "JST_WIRE_BEND_ASSUMED",
+      "b": "Base_PETG_200mm_ventilated",
+      "overlap_mm3": 0.0,
+      "gap_mm": 2.0
+    },
+    {
+      "a": "JST_WIRE_BEND_ASSUMED",
+      "b": "PCB_ENVELOPE_CURRENT_ROUTED_BOARD",
+      "overlap_mm3": 0.0,
+      "gap_mm": 10.3
+    },
+    {
+      "a": "JST_WIRE_BEND_ASSUMED",
+      "b": "controller_conservative_box",
+      "overlap_mm3": 0.0,
+      "gap_mm": 42.0
+    },
+    {
+      "a": "JST_WIRE_BEND_ASSUMED",
+      "b": "XT30_MATED_ENVELOPE_candidate",
+      "overlap_mm3": 0.0,
+      "gap_mm": 12.39112585683803
+    },
+    {
+      "a": "JST_WIRE_BEND_ASSUMED",
+      "b": "JST_XH_MATED_ENVELOPE_candidate",
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.552713678800501e-15
+    },
+    {
+      "a": "JST_WIRE_BEND_ASSUMED",
+      "b": "XT30_WIRE_BEND_ASSUMED",
+      "overlap_mm3": 0.0,
+      "gap_mm": 12.175795661885921
+    }
+  ],
+  "PCB_connector_holes": [
+    {
+      "ref": "J1",
+      "pad": "1",
+      "x": -4.499995000000001,
+      "y": -80.99999,
+      "drill_mm": 1.7999964,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "x": 0.49999499999999913,
+      "y": -80.99999,
+      "drill_mm": 1.7999964,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J1",
+      "pad": "3",
+      "x": 3.499989,
+      "y": -71.00001,
+      "drill_mm": 1.1000231999999999,
+      "anchor_unresolved": true
+    },
+    {
+      "ref": "J1",
+      "pad": "4",
+      "x": -7.4999889999999985,
+      "y": -71.00001,
+      "drill_mm": 1.1000231999999999,
+      "anchor_unresolved": true
+    },
+    {
+      "ref": "J2",
+      "pad": "1",
+      "x": 27.750056,
+      "y": -78.0,
+      "drill_mm": 0.9144,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J2",
+      "pad": "2",
+      "x": 25.249934,
+      "y": -78.0,
+      "drill_mm": 0.9144,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J2",
+      "pad": "3",
+      "x": 22.750066,
+      "y": -78.0,
+      "drill_mm": 0.9144,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J2",
+      "pad": "4",
+      "x": 20.249944,
+      "y": -78.0,
+      "drill_mm": 0.9144,
+      "anchor_unresolved": false
+    }
+  ],
+  "limits": [
+    "Wire reserves are design assumptions, not actual bend-radius proof",
+    "Exact mating wire-end SKU and harness not selected",
+    "Envelope is not an assembly insertion/retention-force test",
+    "PCB auxiliary anchors remain pending supplier confirmation",
+    "Hole registration sourced from independently checked native PCB pad readback",
+    "Touching the PCB underside is intentional; envelopes omit pins/solder"
+  ]
+}

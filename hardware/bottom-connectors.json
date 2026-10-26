@@ -1,0 +1,11 @@
+{
+  "status": "native_placement_candidate_not_manufacturing_release",
+  "units": "mm",
+  "transform": "From saved library XY: mirror X, then rotate CCW in physical XY, then translate from PCB center. KiCad board coordinates invert Y and offset by (100,100).",
+  "components": [
+    {"ref":"J1","part":"C431092","x":-2,"y":-76,"physical_angle_ccw":180,"entry":"toward PCB center; inside case","mechanical_pad_policy":"Retain source PTH 3/4 with no network, pending anchor material/assembly confirmation. Do NOT infer plastic or force NPTH."},
+    {"ref":"J2","part":"C594232","x":24,"y":-78,"physical_angle_ccw":0,"entry":"normal to board, toward enclosure floor","mechanical_pad_policy":"Four electrical PTH; candidate assumes no-boss B4B-XH-A family geometry."}
+  ],
+  "source_documents": ["hardware/datasheets/AMASS-XT30PW-M30.pdf","hardware/datasheets/JST-XH.pdf"],
+  "limits": ["Exact mating wire-end part and cable bends not frozen","AMASS auxiliary anchor material unresolved; retain original plated geometry for candidate only","JST -G suffix/formed-pin delivered variant needs exact product confirmation","Top-side solder protrusion and assembly-process tolerances not measured"]
+}

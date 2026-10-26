@@ -1,0 +1,47 @@
+{
+  "status": "saved_3MF_build_geometry_matches_STL_NOT_print_acceptance",
+  "files": [
+    {
+      "file": "mechanical/base.3mf",
+      "sha256": "2fe5290b307aeb9069a0c41e97c925f2ce574bc65fc678794b1bdacc29a8aa87",
+      "unit": "millimeter",
+      "item_transforms_applied": true,
+      "watertight_positive_single_body": true,
+      "bounds_mm": [
+        [
+          -99.9980496,
+          -100.0,
+          0.0
+        ],
+        [
+          100.0,
+          99.9995124,
+          42.0
+        ]
+      ],
+      "STL_bounds_max_difference_mm": 2.725000001646549e-06,
+      "STL_volume_relative_difference": 3.745577450353358e-08
+    },
+    {
+      "file": "mechanical/microphone-holder.3mf",
+      "sha256": "f6196bbf0dc440bdc7d21836bb3959c4a7ad2023dc93fe7ae38195982645f790",
+      "unit": "millimeter",
+      "item_transforms_applied": true,
+      "watertight_positive_single_body": true,
+      "bounds_mm": [
+        [
+          -7.75,
+          -14.5,
+          0.0
+        ],
+        [
+          7.75,
+          14.5,
+          23.5
+        ]
+      ],
+      "STL_bounds_max_difference_mm": 0.0,
+      "STL_volume_relative_difference": 7.737872970785012e-09
+    }
+  ]
+}

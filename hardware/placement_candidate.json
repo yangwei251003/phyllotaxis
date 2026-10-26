@@ -1,0 +1,30 @@
+{
+  "status": "partial_top_placement_not_routed_or_native_verified",
+  "units": "mm",
+  "origin": "PCB center; angles counterclockwise in XY, native readback pending",
+  "top": [
+    {"ref":"Q1","x":-12,"y":-81,"angle":90},
+    {"ref":"R1","x":-19,"y":-78,"angle":90},
+    {"ref":"R2","x":-18,"y":-81,"angle":0},
+    {"ref":"D145","x":-21,"y":-84,"angle":0},
+    {"ref":"F2","x":-27,"y":-79.5,"angle":0},
+    {"ref":"U1","x":11,"y":-78,"angle":0},
+    {"ref":"C5","x":11,"y":-81,"angle":0},
+    {"ref":"R3","x":7.25,"y":-76.6,"angle":0},
+    {"ref":"R4","x":15,"y":-78,"angle":0},
+    {"ref":"R5","x":15.5,"y":-75.6,"angle":0},
+    {"ref":"R6","x":15,"y":-81,"angle":0},
+    {"ref":"Q2","x":12,"y":-85,"angle":0},
+    {"ref":"R7","x":16,"y":-84,"angle":0},
+    {"ref":"C1","x":75.6767002176,"y":35.2886248553,"angle":115},
+    {"ref":"C2","x":-35.2886248553,"y":75.6767002176,"angle":205},
+    {"ref":"C3","x":-75.6767002176,"y":-35.2886248553,"angle":295},
+    {"ref":"C4","x":35.2886248553,"y":-75.6767002176,"angle":25}
+  ],
+  "deferred_bottom_candidates": [
+    {"ref":"J1","x":0,"y":-80.5,"note":"Hole-array location only. Native mirror, corrected NPTH, mating connector and cable envelope must be verified before insertion."},
+    {"ref":"J2","x":24,"y":-80,"note":"Hole-array location only. Bottom pin numbering and mating plug envelope pending."}
+  ],
+  "constraints": {"min_body_and_pad_gap_mm":0.8,"min_board_edge_mm":1.5,"mount_screw_keepout_radius_mm":3.5},
+  "not_verified": ["Native component angle interpretation and rendering", "Courtyard/assembly service limits", "Bulk capacitor polarity", "Connector mirror and mounting holes", "Routing/copper/thermal behavior", "Full mechanical assembly"]
+}

@@ -1,0 +1,1 @@
+{"jobs": [{"input": "Projects\\phyllotaxis\\mechanical\\prototype-v02\\assembly.step.py", "mode": "view", "outputs": [{"path": "Projects\\phyllotaxis\\verification\\prototype-v02-assembly-iso.png", "camera": "iso"}, {"path": "Projects\\phyllotaxis\\verification\\prototype-v02-assembly-top.png", "camera": "top"}]}]}

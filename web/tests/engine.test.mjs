@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {layout,GOLDEN_ANGLE,rms,removeDC,frequencyBands,ledFrame,demoSignal,estimatedCurrent,limitFrame} from '../engine.js';
+test('golden angle geometry uses unique IDs, constant divergence and area-uniform radii',()=>{for(const n of [96,128,144,200]){const p=layout(n,70);assert.equal(new Set(p.map(x=>x.id)).size,n);assert(p.every(x=>Math.hypot(x.x,x.y)<70));for(let i=1;i<n;i++){assert(Math.abs(p[i].a-p[i-1].a-GOLDEN_ANGLE)<1e-10);assert(Math.abs(p[i].r**2-p[i-1].r**2-4900/n)<1e-9);}}});
+test('rejects invalid geometry',()=>{for(const n of [0,-1,1.5,1000])assert.throws(()=>layout(n));});
+test('DC removal and sine RMS',()=>{const s=Float32Array.from({length:1024},(_,i)=>.2+.5*Math.sin(2*Math.PI*32*i/1024));assert(Math.abs(rms(removeDC(s))-.5/Math.sqrt(2))<1e-6);});
+test('known FFT bins land in correct nonoverlapping bands',()=>{for(const [hz,band] of [[125,0],[250,1],[500,2],[1000,3],[2000,4],[4000,5],[6000,6]]){const mags=new Float32Array(256);mags[Math.round(hz*512/16000)]=1;const out=frequencyBands(mags,16000,512);assert.equal(out.indexOf(Math.max(...out)),band);}});
+test('frame brightness bounds and current limiting worst case',()=>{const white=Array.from({length:144},()=>[255,255,255]);const limited=limitFrame(white,2000);assert(limited.scale<1);assert(estimatedCurrent(limited.rgb)<=2000);for(const mode of ['spiral','spectrum','pulse']){const f=ledFrame(layout(144),1,demoSignal(1),{mode,brightness:.35});assert.equal(f.length,144);assert(f.flat().every(v=>v>=0&&v<=90));}});
+test('silent audio remains bounded and frames deterministic',()=>{const p=layout(128),s={level:0,bands:Array(7).fill(0),beat:0};assert.deepEqual(ledFrame(p,2,s),ledFrame(p,2,s));assert(ledFrame(p,2,s,{mode:'spectrum'}).flat().every(v=>v===0));});
+test('web coordinates agree with shared mechanical/PCB placement data',()=>{const shared=JSON.parse(readFileSync(new URL('../../shared/layout.json',import.meta.url),'utf8'));const actual=layout(shared.config.led_count,shared.config.led_radius_mm);assert.equal(actual.length,shared.leds.length);actual.forEach((p,i)=>{assert.equal(p.id,shared.leds[i].id);assert(Math.abs(p.x-shared.leds[i].x_mm)<.000001);assert(Math.abs(p.y-shared.leds[i].y_mm)<.000001);});});

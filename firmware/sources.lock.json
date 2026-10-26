@@ -1,0 +1,48 @@
+{
+  "provider": "STMicroelectronics official GitHub repositories",
+  "cube_reference": "v1.28.3",
+  "repositories": {
+    "stm32f4xx-hal-driver": {
+      "url": "https://github.com/STMicroelectronics/stm32f4xx-hal-driver.git",
+      "tag": "v1.8.5",
+      "commit": "b6f0ed3829f3829eb358a2e7417d80bba1a42db7"
+    },
+    "cmsis-device-f4": {
+      "url": "https://github.com/STMicroelectronics/cmsis-device-f4.git",
+      "tag": "v2.6.11",
+      "commit": "0fa0e489e053fa1ca7790bb40b4d76458f64c55d"
+    }
+  },
+  "files": {
+    "Include/cmsis_compiler.h": {
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32CubeF4/v1.28.3/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "sha256": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8",
+      "bytes": 9481
+    },
+    "Include/cmsis_gcc.h": {
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32CubeF4/v1.28.3/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "sha256": "43bfd1fe69fbbc2ca70aaf7d43cc3e20f16e0c7f66e1bdef9b51af6dc14b2617",
+      "bytes": 63374
+    },
+    "Include/cmsis_version.h": {
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32CubeF4/v1.28.3/Drivers/CMSIS/Include/cmsis_version.h",
+      "sha256": "184c19fd3ee73632edf35a0b4d49cd48be75fbf49e6ccb19d9db05fa83bea4b3",
+      "bytes": 1680
+    },
+    "Include/core_cm4.h": {
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32CubeF4/v1.28.3/Drivers/CMSIS/Include/core_cm4.h",
+      "sha256": "f5b63d52dd1557b15ca414cb59c264f595a7b5669db2a5878dffe22f4caedc8c",
+      "bytes": 120975
+    },
+    "Include/mpu_armv7.h": {
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32CubeF4/v1.28.3/Drivers/CMSIS/Include/mpu_armv7.h",
+      "sha256": "29206b52ee02290ed6f5a5415ebd4187de802cf176d9b3cb844390d8e5571372",
+      "bytes": 11731
+    },
+    "LICENSE.txt": {
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32CubeF4/v1.28.3/Drivers/CMSIS/LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    }
+  }
+}

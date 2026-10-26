@@ -1,0 +1,96 @@
+{
+  "revision": "controls-candidate-01",
+  "status": "candidate_not_for_print_release",
+  "units": "mm",
+  "local_frame": "X radial outward, Y tangent, Z enclosure-up; rotate around global Z by angle_deg",
+  "microphone": {
+    "module": "DFRobot SEN0526",
+    "angle_deg": 20,
+    "front_radius": 94,
+    "board_center_z": 18.5,
+    "board_size": [
+      1,
+      16,
+      11
+    ],
+    "hole_diameter": 2,
+    "hole_tangent": 6,
+    "hole_z": 22,
+    "foot_x_bounds": [
+      79,
+      94.5
+    ],
+    "foot_width": 29,
+    "foot_thickness": 3,
+    "foot_floor_z": 3,
+    "mount_radius": 83.5,
+    "mount_tangents": [
+      -8,
+      8
+    ],
+    "mount_hole_diameter": 3.4,
+    "backplate_x_bounds": [
+      87.5,
+      90
+    ],
+    "backplate_z_bounds": [
+      17.5,
+      26.5
+    ],
+    "leg_tangents": [
+      -12,
+      12
+    ],
+    "leg_width": 3,
+    "boss_radius": 3.5,
+    "board_back_radius": 93,
+    "board_fastener_clearance": 2.2,
+    "nut_pocket_across_flats": 3.5,
+    "nut_pocket_depth": 2.0,
+    "acoustic_center_z": 19,
+    "acoustic_hole_diameter": 8,
+    "connector_assumption": "pre-soldered straight 1x6 header on empty back face, pins and plug point inward; purchased assembly not yet verified",
+    "board_fastener_requirement": "2x M1.6x8, head <=3.2 diameter and <=1.6 high; nut <=3.2 AF and <=1.3 thick. Candidate envelope, exact SKU pending.",
+    "base_fastener_requirement": "2x M3x10 with head <=6 diameter and <=3.5 high; choose nominal 5.5 AF nuts, max <=5.8 AF and <=2.5 thick; modeled AF reserve is sqrt(3)*3.4 = 5.88897 mm. Base feet must clear screw heads."
+  },
+  "buttons": {
+    "model": "DAIER GQ12H-10M-N",
+    "angles_deg": [
+      160,
+      200
+    ],
+    "center_z": 19,
+    "panel_outer_radius": 100,
+    "panel_inner_radius": 95,
+    "land_width": 22,
+    "land_height": 22,
+    "hole_diameter": 12.4,
+    "nominal_thread_diameter": 12,
+    "head_diameter": 13.9,
+    "head_projection": 2.9,
+    "rear_length": 19.5,
+    "nut_reserve_diameter": 17,
+    "nut_reserve_depth": 3,
+    "wire_bend_reserve_length": 12,
+    "wire_bend_reserve_width": 9,
+    "wire_bend_reserve_height": 9,
+    "basis": "Official family GQ12H-10M PDF; -N means silver on official page. Rear cylinder includes terminal space conservatively. Nut depth, print clearance and wire bend are engineering reserves."
+  },
+  "feet": {
+    "radius_from_center": 70,
+    "diameter": 12,
+    "height": 5,
+    "angles_deg": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "basis": "Required minimum adhesive rubber foot envelope, exact purchased SKU and compression pending"
+  },
+  "limits": [
+    "No valid exact STEP found for button/fasteners using step-parts search; documented envelopes used.",
+    "Microphone official STEP has known geometry and height inconsistencies; 2D hole datums and enlarged component spaces are used independently.",
+    "Acoustic response, fastener fit, soldered header variant and actual wire bend not physically verified."
+  ]
+}

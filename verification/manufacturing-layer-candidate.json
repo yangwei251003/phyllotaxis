@@ -1,0 +1,849 @@
+{
+  "status": "manufacturing_layer_candidate_NOT_RELEASED",
+  "base_board_sha256": "bc4919a0897fa3c1bd7f7599c2af06550d658c7a40389389b04f112b766af0d0",
+  "board_sha256": "17f93c409632b65271121363c62a9ff14ae228ac94b24b676f731eafd3b3479e",
+  "tracks_vias_unchanged": true,
+  "last_LED_output_net_renamed_to_nc": "unconnected-(D121-DOUT-Pad2)",
+  "custom_paste_polygons": 16,
+  "all_167_footprints_have_courtyard": true,
+  "mount_keepouts": "4 holes, both copper layers, radius3.5mm; copper pours/tracks/vias excluded under candidate M3 washer/head envelope",
+  "source_library_parts": 14,
+  "parts": [
+    {
+      "ref": "D53",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D11",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D2",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D78",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D19",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "Q1",
+      "paste_polygons": 0,
+      "graphics": 106
+    },
+    {
+      "ref": "D8",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D20",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "R7",
+      "paste_polygons": 2,
+      "graphics": 8
+    },
+    {
+      "ref": "D34",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D10",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D145",
+      "paste_polygons": 0,
+      "graphics": 13
+    },
+    {
+      "ref": "R3",
+      "paste_polygons": 2,
+      "graphics": 8
+    },
+    {
+      "ref": "D39",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D73",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D14",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D104",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D84",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D135",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "U1",
+      "paste_polygons": 0,
+      "graphics": 93
+    },
+    {
+      "ref": "D94",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D134",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D96",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D1",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D16",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D77",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D128",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D85",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D126",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D21",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D57",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D79",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D44",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D103",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D93",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "C1",
+      "paste_polygons": 0,
+      "graphics": 19
+    },
+    {
+      "ref": "D89",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D139",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "C3",
+      "paste_polygons": 0,
+      "graphics": 19
+    },
+    {
+      "ref": "D37",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D32",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D31",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D91",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D66",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D102",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D100",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D99",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D55",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D61",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D68",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D48",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D46",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D3",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D120",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D141",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D41",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D105",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D64",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "R1",
+      "paste_polygons": 2,
+      "graphics": 8
+    },
+    {
+      "ref": "D86",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D15",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D5",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D51",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D29",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D28",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D50",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D63",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D30",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D143",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D119",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D125",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D49",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D67",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D115",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D62",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D75",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D106",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "C2",
+      "paste_polygons": 0,
+      "graphics": 19
+    },
+    {
+      "ref": "D24",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D52",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D13",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D60",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "mount-2",
+      "paste_polygons": 0,
+      "graphics": 1
+    },
+    {
+      "ref": "D56",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "R2",
+      "paste_polygons": 2,
+      "graphics": 8
+    },
+    {
+      "ref": "D87",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D9",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D132",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D54",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D101",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D98",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D40",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D136",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "Q2",
+      "paste_polygons": 0,
+      "graphics": 11
+    },
+    {
+      "ref": "D81",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D109",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D26",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D113",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D70",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D131",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D117",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "R5",
+      "paste_polygons": 2,
+      "graphics": 8
+    },
+    {
+      "ref": "D22",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D82",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D140",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D72",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D83",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D138",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D121",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D130",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "mount-1",
+      "paste_polygons": 0,
+      "graphics": 1
+    },
+    {
+      "ref": "D45",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D33",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D80",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D127",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D69",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "mount-4",
+      "paste_polygons": 0,
+      "graphics": 1
+    },
+    {
+      "ref": "D114",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D88",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D116",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D59",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D92",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D17",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D133",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D38",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D111",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D25",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D129",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D42",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "mount-3",
+      "paste_polygons": 0,
+      "graphics": 1
+    },
+    {
+      "ref": "D27",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D36",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D137",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D58",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D144",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D4",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D12",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D76",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D47",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "F2",
+      "paste_polygons": 2,
+      "graphics": 14
+    },
+    {
+      "ref": "D108",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D6",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D71",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "R6",
+      "paste_polygons": 2,
+      "graphics": 8
+    },
+    {
+      "ref": "D74",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D110",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D124",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "C5",
+      "paste_polygons": 0,
+      "graphics": 6
+    },
+    {
+      "ref": "D23",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D97",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D18",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D107",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D122",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "C4",
+      "paste_polygons": 0,
+      "graphics": 19
+    },
+    {
+      "ref": "D35",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D7",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D65",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D123",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D112",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D90",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "R4",
+      "paste_polygons": 2,
+      "graphics": 8
+    },
+    {
+      "ref": "D43",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D118",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D142",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "D95",
+      "paste_polygons": 0,
+      "graphics": 112
+    },
+    {
+      "ref": "J2",
+      "paste_polygons": 0,
+      "graphics": 13
+    },
+    {
+      "ref": "J1",
+      "paste_polygons": 0,
+      "graphics": 121
+    }
+  ],
+  "scope": "Paste, mask, silk, courtyard, NC declaration and four mounting copper keepouts; no physical component moved."
+}

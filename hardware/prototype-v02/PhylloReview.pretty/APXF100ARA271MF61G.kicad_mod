@@ -1,0 +1,327 @@
+(footprint "APXF100ARA271MF61G"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 4.4 0)
+		(layer "F.SilkS")
+		(uuid "e5a6a24f-c13e-4d72-89ed-3fc9d0b3355e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "APXF100ARA271MF61G"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "954ce0b6-7da1-406a-88a0-15151072ee7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/PXFRA-e.PDF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcfd30e4-d820-4334-b696-b32e9432790c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Chemi-Con PXF F61; pin1 positive; black stripe negative; official NPCAP land 1.9/3.5/1.6 mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20bceafd-81f0-484b-8d9b-1638f2aad02b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer Part" "APXF100ARA271MF61G"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c4186e41-a56a-47ef-8a2e-e5a53669c544")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.65 -2.55)
+		(end -1.85 -2.55)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "822d9f7f-4c2e-4ccb-b1a6-4f3a1ca35aaa")
+	)
+	(fp_line
+		(start -2.25 -2.95)
+		(end -2.25 -2.15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "10c12d28-f3f0-45e2-aa69-23e5511a4f7f")
+	)
+	(fp_line
+		(start -2.2 -3.45)
+		(end 3.45 -3.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dfc8d597-e0af-451f-9055-d465a3d88f99")
+	)
+	(fp_line
+		(start -2.2 3.45)
+		(end 3.45 3.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e50aba34-b63a-41d8-92a0-005d20b878c1")
+	)
+	(fp_line
+		(start -4.7 -1.05)
+		(end -3.55 -1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef9713f2-296f-41ad-a319-fb90dacc99dd")
+	)
+	(fp_line
+		(start -4.7 1.05)
+		(end -4.7 -1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "51bb1b7a-d0ff-4feb-91cf-f698fe69e912")
+	)
+	(fp_line
+		(start -3.55 -3.55)
+		(end 3.55 -3.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "756e0444-5e5e-4744-bc0b-0848e3dc4435")
+	)
+	(fp_line
+		(start -3.55 -1.05)
+		(end -3.55 -3.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "db74fd8d-d7f6-4ea1-b291-a9289e0d207d")
+	)
+	(fp_line
+		(start -3.55 1.05)
+		(end -4.7 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf83ce41-c65c-4d01-80eb-6619b9135995")
+	)
+	(fp_line
+		(start -3.55 3.55)
+		(end -3.55 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ae1e427-ac0c-4b8c-a145-065cd7ec74e2")
+	)
+	(fp_line
+		(start 3.55 -3.55)
+		(end 3.55 -1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcc00a53-c065-47e0-825f-fece5aa0fbe2")
+	)
+	(fp_line
+		(start 3.55 -1.05)
+		(end 4.7 -1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6952b7cf-d9cf-4ffb-9225-781b263a28a3")
+	)
+	(fp_line
+		(start 3.55 1.05)
+		(end 3.55 3.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "19c2eba1-5184-404e-b07a-bc23438afb15")
+	)
+	(fp_line
+		(start 3.55 3.55)
+		(end -3.55 3.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f76f7b4a-7470-4149-83e2-6dd4e9af9b1b")
+	)
+	(fp_line
+		(start 4.7 -1.05)
+		(end 4.7 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2eebc354-f104-470c-b3da-7cc676b8ff30")
+	)
+	(fp_line
+		(start 4.7 1.05)
+		(end 3.55 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "66e9e09e-77ec-46ac-b09a-f4112cb9ec65")
+	)
+	(fp_line
+		(start -3.3 -2.2)
+		(end -2.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5efa431d-10a4-40ba-8f37-7bd89a96e31f")
+	)
+	(fp_line
+		(start -3.3 2.2)
+		(end -3.3 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8ebfd15b-fa1f-4129-9c5a-6694bc7b7071")
+	)
+	(fp_line
+		(start -2.2 -3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "51f24422-eedb-4cf1-a5ee-a46ab01c3473")
+	)
+	(fp_line
+		(start -2.2 3.3)
+		(end -3.3 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3e420b8c-3e1a-44f0-bd86-eb8e32508357")
+	)
+	(fp_line
+		(start 1.85 -2.55)
+		(end 2.65 -2.55)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6507f0f0-949b-4232-b4fa-38f5db98fd47")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b78e8bc5-63c0-46ec-9bb5-4ef4532d11ba")
+	)
+	(fp_line
+		(start 3.3 3.3)
+		(end -2.2 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2a5c39b2-4209-4fdc-9f93-eee58eaeeb66")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.15 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "db258a13-b8b7-406d-b7d9-a0279dd56710")
+	)
+	(pad "1" smd rect
+		(at -2.7 0)
+		(size 3.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "6b2a2aac-cef1-4eb9-a4b5-49ea37efab7c")
+	)
+	(pad "2" smd rect
+		(at 2.7 0)
+		(size 3.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "abd4c6e9-f784-487c-947a-d992898a12c0")
+	)
+	(embedded_fonts no)
+)

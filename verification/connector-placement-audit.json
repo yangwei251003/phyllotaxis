@@ -1,0 +1,104 @@
+{
+  "status": "analytical_placement_clearance_pass_not_physical_fit",
+  "checks": [
+    {
+      "ref": "J1",
+      "minimum_copper_to_top_body_or_pad_mm": 1.543035269993184,
+      "nearest_top": "D126",
+      "body_to_PCB_edge_mm": 7.549248932874865,
+      "body_to_mount_post_mm": 47.97337161011181,
+      "conservative_library_body_bounds": [
+        -8.6753867,
+        -82.2499875,
+        4.6753867,
+        -67.92459620454684
+      ]
+    },
+    {
+      "ref": "J2",
+      "minimum_copper_to_top_body_or_pad_mm": 2.665906043181607,
+      "nearest_top": "C4",
+      "body_to_PCB_edge_mm": 3.0985009122324083,
+      "body_to_mount_post_mm": 29.192429093455413,
+      "conservative_library_body_bounds": [
+        17.7746886,
+        -81.475482,
+        30.2254892,
+        -75.6746808
+      ]
+    }
+  ],
+  "connector_pair_gap_mm": 13.73114179556412,
+  "native_hole_positions_checked": [
+    {
+      "ref": "J1",
+      "pad": "1",
+      "x": -4.499995000000001,
+      "y": -80.99999,
+      "drill_mm": 1.7999964,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "x": 0.49999499999999913,
+      "y": -80.99999,
+      "drill_mm": 1.7999964,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J1",
+      "pad": "3",
+      "x": 3.499989,
+      "y": -71.00001,
+      "drill_mm": 1.1000231999999999,
+      "anchor_unresolved": true
+    },
+    {
+      "ref": "J1",
+      "pad": "4",
+      "x": -7.4999889999999985,
+      "y": -71.00001,
+      "drill_mm": 1.1000231999999999,
+      "anchor_unresolved": true
+    },
+    {
+      "ref": "J2",
+      "pad": "1",
+      "x": 27.750056,
+      "y": -78.0,
+      "drill_mm": 0.9144,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J2",
+      "pad": "2",
+      "x": 25.249934,
+      "y": -78.0,
+      "drill_mm": 0.9144,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J2",
+      "pad": "3",
+      "x": 22.750066,
+      "y": -78.0,
+      "drill_mm": 0.9144,
+      "anchor_unresolved": false
+    },
+    {
+      "ref": "J2",
+      "pad": "4",
+      "x": 20.249944,
+      "y": -78.0,
+      "drill_mm": 0.9144,
+      "anchor_unresolved": false
+    }
+  ],
+  "board_sha256": "ea2974f357da2250bef5ea1828a785dbc730bf5d20d560f582832a82e7a1e796",
+  "limits": [
+    "Library body/pad envelopes are not verified courtyards",
+    "No measured solder protrusion or wire bends",
+    "J1 3/4 PTH retained provisionally; unique KiCad NC nets are isolated, not circuit connections"
+  ]
+}

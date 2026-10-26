@@ -1,0 +1,980 @@
+{
+  "D126": {
+    "uuid": "f3b1ca9c-5c52-5810-8165-3839e37bcd2f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/f3b1ca9c-5c52-5810-8165-3839e37bcd2f",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D139": {
+    "uuid": "c4970bb9-aac9-5cf1-8d65-097d0ede2f8b",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/c4970bb9-aac9-5cf1-8d65-097d0ede2f8b",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D118": {
+    "uuid": "285d900b-52c8-5301-8624-aff8b950ab7e",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/285d900b-52c8-5301-8624-aff8b950ab7e",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D131": {
+    "uuid": "28bd9c10-8bd1-57c6-92f5-9dd6ebaed153",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/28bd9c10-8bd1-57c6-92f5-9dd6ebaed153",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D110": {
+    "uuid": "eeb8ba26-742d-5c35-93b9-91b363914fe7",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/eeb8ba26-742d-5c35-93b9-91b363914fe7",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D144": {
+    "uuid": "81b11f22-1339-50ca-a78a-51fca266d4d8",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/81b11f22-1339-50ca-a78a-51fca266d4d8",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D123": {
+    "uuid": "277acf5e-19bc-5980-8c6f-ee06ef4cd993",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/277acf5e-19bc-5980-8c6f-ee06ef4cd993",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D89": {
+    "uuid": "880cae00-e31b-524f-9ae5-020976e957cb",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/880cae00-e31b-524f-9ae5-020976e957cb",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D68": {
+    "uuid": "3a603527-b0ce-5d97-a747-cf1923bead0a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/3a603527-b0ce-5d97-a747-cf1923bead0a",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D102": {
+    "uuid": "0ec8c7f1-ea89-52d7-ae4d-0a9c658bb865",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/0ec8c7f1-ea89-52d7-ae4d-0a9c658bb865",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D136": {
+    "uuid": "6b52f2df-2adb-5b6d-8a59-d63e12af670f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/6b52f2df-2adb-5b6d-8a59-d63e12af670f",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D115": {
+    "uuid": "22bf86cd-9e4b-532a-8c2d-a85cff7ed000",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/22bf86cd-9e4b-532a-8c2d-a85cff7ed000",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D94": {
+    "uuid": "128088a9-2b79-5c4e-8d89-8bf713e87c5e",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/128088a9-2b79-5c4e-8d89-8bf713e87c5e",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D128": {
+    "uuid": "f6b4b468-1879-5c76-ab64-7ac3c97e5139",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/f6b4b468-1879-5c76-ab64-7ac3c97e5139",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D141": {
+    "uuid": "18ec09f0-a9eb-568f-9695-7ad7eb20f014",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/18ec09f0-a9eb-568f-9695-7ad7eb20f014",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D120": {
+    "uuid": "771d4646-0543-54f5-ac4b-893c9624b623",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/771d4646-0543-54f5-ac4b-893c9624b623",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D107": {
+    "uuid": "00325fed-3157-5f9a-8769-fb6487da0575",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/00325fed-3157-5f9a-8769-fb6487da0575",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D86": {
+    "uuid": "39e731ea-fb33-5cf7-a85d-cedec545274a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/39e731ea-fb33-5cf7-a85d-cedec545274a",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D65": {
+    "uuid": "1ae101bd-eca5-5304-9f04-b9ba72fdb9e2",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/1ae101bd-eca5-5304-9f04-b9ba72fdb9e2",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D44": {
+    "uuid": "2572fa52-2b8e-52ac-8091-d18ff3f840ab",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/2572fa52-2b8e-52ac-8091-d18ff3f840ab",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D31": {
+    "uuid": "d8fe67df-60cc-56f7-abba-8397726decee",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/d8fe67df-60cc-56f7-abba-8397726decee",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D52": {
+    "uuid": "8c65e83b-584b-5e67-9679-930c480f081c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/8c65e83b-584b-5e67-9679-930c480f081c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D73": {
+    "uuid": "260f3adf-4484-533a-9f5c-f66d16e16f62",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/260f3adf-4484-533a-9f5c-f66d16e16f62",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D81": {
+    "uuid": "161ada4e-e9b3-5b01-934b-a981351467bc",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/161ada4e-e9b3-5b01-934b-a981351467bc",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D60": {
+    "uuid": "39b20fcb-ac8b-5d82-b4b9-ada7c02249cd",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/39b20fcb-ac8b-5d82-b4b9-ada7c02249cd",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D39": {
+    "uuid": "b4de7141-465d-5d8e-b6fc-f3bca0b8bb8f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/b4de7141-465d-5d8e-b6fc-f3bca0b8bb8f",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D26": {
+    "uuid": "f5d15b52-4c3d-51a1-8732-761c98c368aa",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/f5d15b52-4c3d-51a1-8732-761c98c368aa",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D18": {
+    "uuid": "91f69435-922f-599f-afa4-292c465589a2",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/91f69435-922f-599f-afa4-292c465589a2",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D10": {
+    "uuid": "4745416d-945b-5f16-be71-3caaa75f7ca4",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/4745416d-945b-5f16-be71-3caaa75f7ca4",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D23": {
+    "uuid": "470d75ea-7d4c-5204-81ab-b3ac020e65d5",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/470d75ea-7d4c-5204-81ab-b3ac020e65d5",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D36": {
+    "uuid": "cbf2945b-5997-51c0-85a3-bf68b4e78912",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/cbf2945b-5997-51c0-85a3-bf68b4e78912",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D57": {
+    "uuid": "f1360cd9-9a75-5367-b305-92f76bf1df0f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/f1360cd9-9a75-5367-b305-92f76bf1df0f",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D78": {
+    "uuid": "430e01bf-0def-593e-b293-01b2d15b62ca",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/430e01bf-0def-593e-b293-01b2d15b62ca",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D99": {
+    "uuid": "9f0960da-987f-5995-83e4-4dacf73ef723",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/9f0960da-987f-5995-83e4-4dacf73ef723",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D133": {
+    "uuid": "130cc16b-7540-5d10-aaa4-a74949ef6c68",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/130cc16b-7540-5d10-aaa4-a74949ef6c68",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D112": {
+    "uuid": "1813c6a6-19fe-522f-bb49-ba2f21e85586",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/4db1db06-a6a3-5fe2-b9f3-797471486785/1813c6a6-19fe-522f-bb49-ba2f21e85586",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D91": {
+    "uuid": "79dedf6e-b736-54ac-8683-a84e2e83eb23",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/79dedf6e-b736-54ac-8683-a84e2e83eb23",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D70": {
+    "uuid": "54678eff-e1a6-5062-b00d-295e40068e2f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/54678eff-e1a6-5062-b00d-295e40068e2f",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D49": {
+    "uuid": "4cff46b9-3ec9-52c3-8f25-d05ba56331f6",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/4cff46b9-3ec9-52c3-8f25-d05ba56331f6",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D62": {
+    "uuid": "46002140-50ac-5db3-b5d9-6247d19664eb",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/46002140-50ac-5db3-b5d9-6247d19664eb",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D83": {
+    "uuid": "7e0f5ed1-d93a-54ba-a8a7-7382ba844a1c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/7e0f5ed1-d93a-54ba-a8a7-7382ba844a1c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D104": {
+    "uuid": "440cfce1-1e90-5701-b08e-e1de2c9db9a8",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/440cfce1-1e90-5701-b08e-e1de2c9db9a8",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D125": {
+    "uuid": "d3cdb037-f390-533b-8c5a-112c7709f3dc",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/d3cdb037-f390-533b-8c5a-112c7709f3dc",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D138": {
+    "uuid": "4a6de7e4-ce10-5948-ad9c-24c8a8df568e",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/4a6de7e4-ce10-5948-ad9c-24c8a8df568e",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D117": {
+    "uuid": "b7532090-c7e0-5a0f-8a6c-4fa31b91b907",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/b7532090-c7e0-5a0f-8a6c-4fa31b91b907",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D130": {
+    "uuid": "04458266-32c7-5645-94e2-be2f84bdc24d",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/04458266-32c7-5645-94e2-be2f84bdc24d",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D143": {
+    "uuid": "cfc835fa-5789-5b3d-9d8f-cc8b129fc708",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/cfc835fa-5789-5b3d-9d8f-cc8b129fc708",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D122": {
+    "uuid": "142d9e14-9bbc-5d71-876a-8ab2b61f1df0",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/142d9e14-9bbc-5d71-876a-8ab2b61f1df0",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D135": {
+    "uuid": "ae7b1ef5-6cb8-53ba-a24b-252dfd88f624",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/ae7b1ef5-6cb8-53ba-a24b-252dfd88f624",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D114": {
+    "uuid": "c14dcb45-9add-53af-ad80-427b1843d1c8",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/c14dcb45-9add-53af-ad80-427b1843d1c8",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D93": {
+    "uuid": "00a52819-d630-5945-b069-d8dc896147a9",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/00a52819-d630-5945-b069-d8dc896147a9",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D127": {
+    "uuid": "c18fd377-0cae-513a-81cc-91eddabf49d3",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/c18fd377-0cae-513a-81cc-91eddabf49d3",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D140": {
+    "uuid": "9c45795b-44b7-597a-b83b-48332ff77b43",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/9c45795b-44b7-597a-b83b-48332ff77b43",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D119": {
+    "uuid": "546bbcc9-1bd9-5093-93f5-81dd81a9bd7d",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/546bbcc9-1bd9-5093-93f5-81dd81a9bd7d",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D132": {
+    "uuid": "7d5b05eb-6f61-543c-b08b-e73ce6b7a1ac",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/7d5b05eb-6f61-543c-b08b-e73ce6b7a1ac",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D98": {
+    "uuid": "d58e9e8f-2cdd-5ef7-98f5-bbe62e3b2828",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/d58e9e8f-2cdd-5ef7-98f5-bbe62e3b2828",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D77": {
+    "uuid": "148ff0ad-e216-560e-b1e3-e4697f8500fe",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/148ff0ad-e216-560e-b1e3-e4697f8500fe",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D56": {
+    "uuid": "7c1c1529-67a8-5d25-841a-9bbbc830fc6c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/7c1c1529-67a8-5d25-841a-9bbbc830fc6c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D111": {
+    "uuid": "f756f1c0-311a-59ac-870d-92d0d0bff15c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/f756f1c0-311a-59ac-870d-92d0d0bff15c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D124": {
+    "uuid": "6f91571d-d914-50c2-8578-123c1695d2dc",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/6f91571d-d914-50c2-8578-123c1695d2dc",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D137": {
+    "uuid": "e221f176-8d0d-54f9-9b85-e5604fa12b4c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/e221f176-8d0d-54f9-9b85-e5604fa12b4c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D116": {
+    "uuid": "8a2d9ea3-8cc1-56af-ab8c-85e92082a10d",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/8a2d9ea3-8cc1-56af-ab8c-85e92082a10d",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D95": {
+    "uuid": "6c7d8786-e666-5ed6-8db4-296ecc40aefc",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/6c7d8786-e666-5ed6-8db4-296ecc40aefc",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D74": {
+    "uuid": "bb303a47-7bdc-5720-88c1-f85a7e7d148e",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/bb303a47-7bdc-5720-88c1-f85a7e7d148e",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D53": {
+    "uuid": "382e281a-b150-5411-9744-245804988c40",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/382e281a-b150-5411-9744-245804988c40",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D40": {
+    "uuid": "9a69010a-5f42-5e32-8f02-b47e3417ac85",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/9a69010a-5f42-5e32-8f02-b47e3417ac85",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D27": {
+    "uuid": "26825f33-9dd3-5a09-b69f-8c1d8ed9074c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/26825f33-9dd3-5a09-b69f-8c1d8ed9074c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D61": {
+    "uuid": "7fbcb3f3-47fc-565f-9d60-016a13425b84",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/7fbcb3f3-47fc-565f-9d60-016a13425b84",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D82": {
+    "uuid": "72280196-b770-57bd-b1b1-29c78f788cf4",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/72280196-b770-57bd-b1b1-29c78f788cf4",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D103": {
+    "uuid": "a72bb8c2-2e51-559d-9507-f5f948e5fae3",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/a72bb8c2-2e51-559d-9507-f5f948e5fae3",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D90": {
+    "uuid": "539d309c-0d21-5ae6-9208-6a038dbd566d",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/539d309c-0d21-5ae6-9208-6a038dbd566d",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D69": {
+    "uuid": "8d0c906a-d447-510a-93f1-70b687e1b3c0",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/6ce95296-2c26-5794-b339-7c667e8de4c8/8d0c906a-d447-510a-93f1-70b687e1b3c0",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D48": {
+    "uuid": "b9b0a714-3e88-5823-a19f-16e5a881f399",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/b9b0a714-3e88-5823-a19f-16e5a881f399",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D35": {
+    "uuid": "6ca20375-e416-5c2c-848e-303fb341cf3b",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/6ca20375-e416-5c2c-848e-303fb341cf3b",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D22": {
+    "uuid": "9a1996b0-a6a3-5ece-b753-dc121c321275",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/9a1996b0-a6a3-5ece-b753-dc121c321275",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D14": {
+    "uuid": "33eb7830-50c1-5d4d-a104-7ad553a098aa",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/33eb7830-50c1-5d4d-a104-7ad553a098aa",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D6": {
+    "uuid": "835d90d7-66cc-50d3-8af8-f9a76bd4d3a5",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/835d90d7-66cc-50d3-8af8-f9a76bd4d3a5",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D19": {
+    "uuid": "6e10a3d2-8206-5d87-9f4d-ad44b3d7a599",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/6e10a3d2-8206-5d87-9f4d-ad44b3d7a599",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D11": {
+    "uuid": "b7e9fa7c-6c09-5250-8bf8-980d24e900da",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/b7e9fa7c-6c09-5250-8bf8-980d24e900da",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D24": {
+    "uuid": "77931400-a208-57d0-bc8a-c2c1d3883bc2",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/77931400-a208-57d0-bc8a-c2c1d3883bc2",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D37": {
+    "uuid": "3e66a11b-88c8-588f-a6b3-be80ac730fe9",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/3e66a11b-88c8-588f-a6b3-be80ac730fe9",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D50": {
+    "uuid": "d85b9e59-9df5-53d0-92f9-2260ec23c56a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/d85b9e59-9df5-53d0-92f9-2260ec23c56a",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D29": {
+    "uuid": "03dc3651-c950-57cf-873e-94aa31387feb",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/03dc3651-c950-57cf-873e-94aa31387feb",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D16": {
+    "uuid": "d54b6c05-9002-5c9c-af2b-7422aedf28c2",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/d54b6c05-9002-5c9c-af2b-7422aedf28c2",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D8": {
+    "uuid": "e86bc32b-d705-5083-b9f2-29f35e7dd6c7",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/e86bc32b-d705-5083-b9f2-29f35e7dd6c7",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D3": {
+    "uuid": "43e4c210-e3f7-5f6c-a4d3-ed46d2b3d75a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/43e4c210-e3f7-5f6c-a4d3-ed46d2b3d75a",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D1": {
+    "uuid": "47c14d25-2954-56c1-9271-d5323c1a2a1d",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/47c14d25-2954-56c1-9271-d5323c1a2a1d",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D4": {
+    "uuid": "742fc7df-0ee8-5d2f-be16-975223d30af0",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/742fc7df-0ee8-5d2f-be16-975223d30af0",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D9": {
+    "uuid": "c989cc53-400d-5589-a65d-745c868fc6b0",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/c989cc53-400d-5589-a65d-745c868fc6b0",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D17": {
+    "uuid": "271bda5b-28c3-5884-afe9-21701ce9f23c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/271bda5b-28c3-5884-afe9-21701ce9f23c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D30": {
+    "uuid": "fa871a8a-b17d-599d-a399-ff205eeb747f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/fa871a8a-b17d-599d-a399-ff205eeb747f",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D43": {
+    "uuid": "d0507fcb-4803-5bbb-87ed-99f2bf998221",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/d0507fcb-4803-5bbb-87ed-99f2bf998221",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D64": {
+    "uuid": "36c2f0be-9121-5ab3-bb7b-3a3d0df7c36d",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/36c2f0be-9121-5ab3-bb7b-3a3d0df7c36d",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D85": {
+    "uuid": "a855af6b-f9e0-51d9-8310-57d25380ac69",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/a855af6b-f9e0-51d9-8310-57d25380ac69",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D106": {
+    "uuid": "fd214ee4-f584-5112-88c9-0e63bc5660b2",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/fd214ee4-f584-5112-88c9-0e63bc5660b2",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D72": {
+    "uuid": "f8b66891-d3bd-5c1c-bbbd-93d22a999986",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/f8b66891-d3bd-5c1c-bbbd-93d22a999986",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D51": {
+    "uuid": "5ce0583e-3d65-5fd2-9b04-a2125b305fba",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/5ce0583e-3d65-5fd2-9b04-a2125b305fba",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D38": {
+    "uuid": "a0cbb8d9-5034-5b7b-a661-51a5fcc2083b",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/a0cbb8d9-5034-5b7b-a661-51a5fcc2083b",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D25": {
+    "uuid": "d3acbda6-b565-5a3c-a16e-535a79c3ef6e",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/d3acbda6-b565-5a3c-a16e-535a79c3ef6e",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D12": {
+    "uuid": "17647458-c979-5cb1-8e10-72fc14235db6",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/17647458-c979-5cb1-8e10-72fc14235db6",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D20": {
+    "uuid": "3f87754b-7b1f-5d9d-ab99-d869c3d48812",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/3f87754b-7b1f-5d9d-ab99-d869c3d48812",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D33": {
+    "uuid": "a32e138c-7129-522e-8e8f-a0116df71d3c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/a32e138c-7129-522e-8e8f-a0116df71d3c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D46": {
+    "uuid": "c5b2f016-116d-539d-8833-843ed25a5b66",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/c5b2f016-116d-539d-8833-843ed25a5b66",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D59": {
+    "uuid": "0f7e494c-2e98-57b1-a56a-e559e3e39ec7",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/0f7e494c-2e98-57b1-a56a-e559e3e39ec7",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D80": {
+    "uuid": "ff8c23c0-d56f-5fdc-b42a-2f64c0145b82",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/ff8c23c0-d56f-5fdc-b42a-2f64c0145b82",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D101": {
+    "uuid": "26072823-7850-5362-bb35-1fd03ec92477",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/26072823-7850-5362-bb35-1fd03ec92477",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D67": {
+    "uuid": "31cbc346-cb7d-5517-bb61-5c264192645f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/31cbc346-cb7d-5517-bb61-5c264192645f",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D88": {
+    "uuid": "b8ebc515-3057-58e5-88b0-d03ce494bfad",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/c6e83f0c-9f84-5a93-9e18-c612d7d2af17/b8ebc515-3057-58e5-88b0-d03ce494bfad",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D109": {
+    "uuid": "239b114b-44a5-5841-a96c-19a2e3c7ebdf",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/239b114b-44a5-5841-a96c-19a2e3c7ebdf",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D96": {
+    "uuid": "00a557df-4fa6-5b5f-ac31-27fd594846ab",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/00a557df-4fa6-5b5f-ac31-27fd594846ab",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D75": {
+    "uuid": "e2a32964-a1ad-58aa-b3be-626905618db2",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/e2a32964-a1ad-58aa-b3be-626905618db2",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D54": {
+    "uuid": "237ac587-1171-539c-8c44-baa73bed1d09",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/237ac587-1171-539c-8c44-baa73bed1d09",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D41": {
+    "uuid": "216aa3ec-8a27-5784-875d-9cef6963738d",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/216aa3ec-8a27-5784-875d-9cef6963738d",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D28": {
+    "uuid": "6b7e40f2-9892-5339-bd07-0255c432f9e6",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/6b7e40f2-9892-5339-bd07-0255c432f9e6",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D15": {
+    "uuid": "491cf41d-b674-5202-b4db-ff2b70f462cd",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/491cf41d-b674-5202-b4db-ff2b70f462cd",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D7": {
+    "uuid": "9dfedd9d-1004-5f59-9108-cc238700e2b1",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/9dfedd9d-1004-5f59-9108-cc238700e2b1",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D2": {
+    "uuid": "3c672476-3b4a-5fa5-ab7b-6b09c0d58d9e",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/3c672476-3b4a-5fa5-ab7b-6b09c0d58d9e",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D5": {
+    "uuid": "698e6293-b4e3-5c28-ace5-486609acbbdb",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/698e6293-b4e3-5c28-ace5-486609acbbdb",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D13": {
+    "uuid": "a5e7aa7e-56e4-58a8-a71f-a96ded1f6887",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/a5e7aa7e-56e4-58a8-a71f-a96ded1f6887",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D21": {
+    "uuid": "fe1bce56-27dc-55d1-9ee7-6ca67d7fe74c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/fe1bce56-27dc-55d1-9ee7-6ca67d7fe74c",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D34": {
+    "uuid": "24d6fb90-3fc3-5aed-9a12-8ebf0556fe17",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/24d6fb90-3fc3-5aed-9a12-8ebf0556fe17",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D47": {
+    "uuid": "758fd506-4077-5846-af45-17836506a3f2",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/758fd506-4077-5846-af45-17836506a3f2",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D55": {
+    "uuid": "1e7a7453-3a92-5ba1-bd49-85517df43fa4",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/1e7a7453-3a92-5ba1-bd49-85517df43fa4",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D76": {
+    "uuid": "1e345d93-55e1-568e-9f3f-2955c1cd277a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/1e345d93-55e1-568e-9f3f-2955c1cd277a",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D97": {
+    "uuid": "4f173740-3193-541e-af1a-0cd5c74c04ee",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/4f173740-3193-541e-af1a-0cd5c74c04ee",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D42": {
+    "uuid": "73a9437d-9bb6-514b-800d-18e6130a093d",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/73a9437d-9bb6-514b-800d-18e6130a093d",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D63": {
+    "uuid": "7c5f1f54-8a4f-5fab-bc06-3b145ee93cb5",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/7c5f1f54-8a4f-5fab-bc06-3b145ee93cb5",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D84": {
+    "uuid": "44d6c8a2-b655-59df-bf3e-a26eacc05bee",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/44d6c8a2-b655-59df-bf3e-a26eacc05bee",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D105": {
+    "uuid": "38ab5d98-f7b4-5134-bbcb-846f59823bf1",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/38ab5d98-f7b4-5134-bbcb-846f59823bf1",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D71": {
+    "uuid": "5ef211e6-3830-5aaf-b8b3-2cc0ecaaacec",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/5ef211e6-3830-5aaf-b8b3-2cc0ecaaacec",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D92": {
+    "uuid": "0e215004-d7af-5875-a6cb-74cec922e738",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/0e215004-d7af-5875-a6cb-74cec922e738",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D113": {
+    "uuid": "a46911ca-5b79-50df-baf5-393430013598",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/a46911ca-5b79-50df-baf5-393430013598",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D134": {
+    "uuid": "35a13078-afcb-56c6-98fa-449b8e351e4a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/35a13078-afcb-56c6-98fa-449b8e351e4a",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D100": {
+    "uuid": "436c91f7-670d-52a8-8d31-b981ef425fe7",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/436c91f7-670d-52a8-8d31-b981ef425fe7",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D79": {
+    "uuid": "390777f2-c206-5753-a4f5-c654fc36164a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/390777f2-c206-5753-a4f5-c654fc36164a",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D58": {
+    "uuid": "caa9c6d5-5415-515b-8187-a7dff8350472",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/caa9c6d5-5415-515b-8187-a7dff8350472",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D45": {
+    "uuid": "df9577cd-500b-539c-99a1-50bb23d6a595",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/df9577cd-500b-539c-99a1-50bb23d6a595",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D32": {
+    "uuid": "e4ac4a64-6749-56f9-bd53-1fcc36d61ff3",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/e4ac4a64-6749-56f9-bd53-1fcc36d61ff3",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D66": {
+    "uuid": "daeff8ba-659f-5e70-8c0c-6e9357dbf4dc",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/daeff8ba-659f-5e70-8c0c-6e9357dbf4dc",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D87": {
+    "uuid": "ea8cc76b-2942-5e7b-961f-0162b6c13201",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/ea8cc76b-2942-5e7b-961f-0162b6c13201",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D108": {
+    "uuid": "72876584-8c28-583e-aeca-54460fa6bc14",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/72876584-8c28-583e-aeca-54460fa6bc14",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D129": {
+    "uuid": "1286a690-4c8a-505c-8c58-c618f25add07",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/1286a690-4c8a-505c-8c58-c618f25add07",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D142": {
+    "uuid": "a7911185-b417-5db7-92c1-89491a6a43c6",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/a7911185-b417-5db7-92c1-89491a6a43c6",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "D121": {
+    "uuid": "e2dcf578-0ce0-534f-a78e-4c20e4c6d0c0",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/0fc2d4db-f279-5f30-8f5b-7151c9ea73ef/e2dcf578-0ce0-534f-a78e-4c20e4c6d0c0",
+    "part": "C52941391",
+    "description": "RGB LED; physical ID is designator, chain order differs"
+  },
+  "J1": {
+    "uuid": "b03f301c-0469-5001-87fe-ed2089e03409",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/b03f301c-0469-5001-87fe-ed2089e03409",
+    "part": "C431092",
+    "description": "XT30 power input; 3/4 mechanical terminals pending drawing check"
+  },
+  "Q1": {
+    "uuid": "3a7fa82c-475d-5459-903b-bfd10b38d870",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/3a7fa82c-475d-5459-903b-bfd10b38d870",
+    "part": "C2910138",
+    "description": "Reverse polarity PMOS: D=input, S=protected output"
+  },
+  "R1": {
+    "uuid": "75a0f444-c77e-5166-b67d-a69ada1b64cd",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/75a0f444-c77e-5166-b67d-a69ada1b64cd",
+    "part": "C21190",
+    "description": "Gate pull-down 1k"
+  },
+  "R2": {
+    "uuid": "c7b42b46-1fec-59d3-9c28-a983da8dd591",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/c7b42b46-1fec-59d3-9c28-a983da8dd591",
+    "part": "C22935",
+    "description": "Gate-source 1M"
+  },
+  "D145": {
+    "uuid": "fdf1e2f2-253d-5097-8fde-114fdd93eeb4",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/fdf1e2f2-253d-5097-8fde-114fdd93eeb4",
+    "part": "C271259",
+    "description": "12V gate-source clamp; NOT a 5V rail clamp"
+  },
+  "F2": {
+    "uuid": "0b9a025d-0b58-5363-925d-2d18d59d9d1f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/0b9a025d-0b58-5363-925d-2d18d59d9d1f",
+    "part": "C17313",
+    "description": "0.5A hold / 1A trip PTC for controller branch; thermal derating pending"
+  },
+  "C1": {
+    "uuid": "569d6bc9-65cc-519f-982e-c63e534aeeeb",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/569d6bc9-65cc-519f-982e-c63e534aeeeb",
+    "part": "C46550459",
+    "description": "470uF 10V quadrant bulk A; pin polarity drawing review pending"
+  },
+  "C2": {
+    "uuid": "2344b980-b7b0-5e16-99a2-f353d7786d2f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/2344b980-b7b0-5e16-99a2-f353d7786d2f",
+    "part": "C46550459",
+    "description": "470uF 10V quadrant bulk B; pin polarity drawing review pending"
+  },
+  "C3": {
+    "uuid": "813c936d-af98-5067-bdbb-42d678503451",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/813c936d-af98-5067-bdbb-42d678503451",
+    "part": "C46550459",
+    "description": "470uF 10V quadrant bulk C; pin polarity drawing review pending"
+  },
+  "C4": {
+    "uuid": "9bb37360-f0bc-5dcb-ac6c-e7fedb1c4a7f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/9bb37360-f0bc-5dcb-ac6c-e7fedb1c4a7f",
+    "part": "C46550459",
+    "description": "470uF 10V quadrant bulk D; pin polarity drawing review pending"
+  },
+  "U1": {
+    "uuid": "5793f2ef-f572-50c0-9711-fb23b62d9d9b",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/5793f2ef-f572-50c0-9711-fb23b62d9d9b",
+    "part": "C12495",
+    "description": "5V AHCT data level buffer"
+  },
+  "C5": {
+    "uuid": "d939341d-073a-5fce-83af-e471ccaef84a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/d939341d-073a-5fce-83af-e471ccaef84a",
+    "part": "C14663",
+    "description": "100nF X7R at buffer VCC"
+  },
+  "R3": {
+    "uuid": "304427c5-82a3-569d-8c7b-575d33a2cf1c",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/304427c5-82a3-569d-8c7b-575d33a2cf1c",
+    "part": "C23138",
+    "description": "330 ohm series data at first LED"
+  },
+  "R4": {
+    "uuid": "8011aee7-afca-5d67-9727-61ebfc0ae7c5",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/8011aee7-afca-5d67-9727-61ebfc0ae7c5",
+    "part": "C25803",
+    "description": "100k data input pull-down"
+  },
+  "R5": {
+    "uuid": "c07e22a0-3ada-5aac-a02a-fcf1b0d05bb8",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/c07e22a0-3ada-5aac-a02a-fcf1b0d05bb8",
+    "part": "C25803",
+    "description": "100k LED DIN pull-down"
+  },
+  "R6": {
+    "uuid": "3defeaca-aa0a-5064-91b5-f248cd0f710a",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/3defeaca-aa0a-5064-91b5-f248cd0f710a",
+    "part": "C25803",
+    "description": "100k OE pull-up; prevents default enable"
+  },
+  "Q2": {
+    "uuid": "1ef9611f-66a5-57bd-b944-0648254efb7f",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/1ef9611f-66a5-57bd-b944-0648254efb7f",
+    "part": "C8545",
+    "description": "Enable pulls OE low; DOES NOT switch LED ground"
+  },
+  "R7": {
+    "uuid": "b565c2f5-9efa-5dc9-b863-1f648fb393f5",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/b565c2f5-9efa-5dc9-b863-1f648fb393f5",
+    "part": "C25803",
+    "description": "100k enable gate pull-down"
+  },
+  "J2": {
+    "uuid": "0bcffc13-4c34-5d27-bb8b-22db0ee11202",
+    "path": "/f57df759-6186-52ef-898f-d3231a9c544f/70da269f-d90f-5f32-8283-d1dfa10d7309/0bcffc13-4c34-5d27-bb8b-22db0ee11202",
+    "part": "C594232",
+    "description": "Keyed controller connector; candidate pin order, NOT wiring release"
+  }
+}

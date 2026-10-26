@@ -1,0 +1,25 @@
+{
+  "status": "generated_NOT_yet_native_verified",
+  "components": 163,
+  "circuit_sheets": 5,
+  "index_sheets": 1,
+  "connected_pins": 625,
+  "unconnected_mechanical_pins": [
+    [
+      "J1",
+      "3"
+    ],
+    [
+      "J1",
+      "4"
+    ]
+  ],
+  "source_sha256": "6f355ea2d21c2dcfd0866aa2acfd8650c38ae17d6bb99220910671308f1b5b63",
+  "circuit_intent_sha256": "3be9cb40ca9b56d78600ef5652561adf6aab161e1f0c8f79571384da7ce67487",
+  "limitations": [
+    "New functional pin-table graphics, not original vendor symbols",
+    "Power flags declare intended external source, not verified hardware drive",
+    "Passive transistor pins do not model gate/source behavior",
+    "Footprint links require native PCB parity check; exact connector mating/anchor details remain pending"
+  ]
+}

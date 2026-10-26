@@ -1,0 +1,265 @@
+{
+  "status": "height_envelopes_for_fit_review_not_factory_tolerance_certificate",
+  "height_origin": "PCB upper surface; mounting/solder stand-off is included in selected envelope, not automatically added twice",
+  "xy_margin_mm": 0.25,
+  "rows": {
+    "C46550459": {
+      "height_mm": 8.2,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "source": "hardware/datasheets/JIERR-MA-series.pdf",
+      "manufacturer_max_height_mm": 8.2,
+      "maximum_overall_xy_in_library_axes_mm": [
+        6.8,
+        6.8
+      ],
+      "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf",
+      "source_pages": [
+        2
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/JIERR-MA-series.pdf",
+        "sha256": "5ab3c478e90f1826a614a56af8164bb4bab3143affaae1ad7aa69fc0c1981997",
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf"
+      },
+      "manufacturer_dimension_note": "L7.7+a0.5=8.2; diameter6.3+0.5=6.8; base6.6+0.2=6.8. Do not add a twice.",
+      "extra_height_reserve_mm": 0.0
+    },
+    "C2910138": {
+      "height_mm": 2.5,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 1.75,
+      "maximum_overall_xy_in_library_axes_mm": [
+        5.1,
+        6.2
+      ],
+      "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20240329/674A4B8EBD31C730C33351B5F04B40DF.pdf",
+      "source_pages": [
+        4
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/JSCJ-CJQ16P03.pdf",
+        "sha256": "113f8039b8b8716db9c7526bba6087b43e9cdd813a43a5910b32b15246f21bdc",
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20240329/674A4B8EBD31C730C33351B5F04B40DF.pdf"
+      },
+      "manufacturer_dimension_note": "SOP8 D along library X; total E including leads along Y. A already includes own stand-off.",
+      "extra_height_reserve_mm": 0.75
+    },
+    "C12495": {
+      "height_mm": 2.0,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 1.1,
+      "maximum_overall_xy_in_library_axes_mm": [
+        2.4,
+        2.6
+      ],
+      "source_url": "https://assets.nexperia.com/documents/package-information/SOT353-1.pdf",
+      "source_pages": [
+        1,
+        2
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/Nexperia-SOT353-1.pdf",
+        "sha256": "9117da6e27ee855feb6f46e91cdce5788d9805b86e8325c9011db3c81a5558b9",
+        "source_url": "https://assets.nexperia.com/documents/package-information/SOT353-1.pdf"
+      },
+      "manufacturer_dimension_note": "Library X across lead rows, Y along D. D/E exclude up to0.2mm protrusion per edge; maximum body2.60x1.75 included.",
+      "extra_height_reserve_mm": 0.8999999999999999
+    },
+    "C8545": {
+      "height_mm": 2.0,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 1.15,
+      "maximum_overall_xy_in_library_axes_mm": [
+        2.55,
+        3.0
+      ],
+      "source_url": "https://www.jscj-elec.com/gallery/file/2N7002%20SOT-23%20V2.0.pdf",
+      "source_pages": [
+        4
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/JSCJ-2N7002.pdf",
+        "sha256": "25871cfa493ac502af228b252e942274e0b8a4971f8a674801a540b5108ef82a",
+        "source_url": "https://www.jscj-elec.com/gallery/file/2N7002%20SOT-23%20V2.0.pdf"
+      },
+      "manufacturer_dimension_note": "Library X across leads (E1), Y along D.",
+      "extra_height_reserve_mm": 0.8500000000000001
+    },
+    "C271259": {
+      "height_mm": 2.0,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 1.25,
+      "maximum_overall_xy_in_library_axes_mm": [
+        3.85,
+        1.7
+      ],
+      "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20180820/C271262_D2D0F24DD5A81EAE2A6B8B493A94E64A.pdf",
+      "source_pages": [
+        5
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/BORN-BZT52C-series.pdf",
+        "sha256": "9751f072ad061469b991e93c25c446cea7bf8225f565d5bfcccb4c410ebbc34b",
+        "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20180820/C271262_D2D0F24DD5A81EAE2A6B8B493A94E64A.pdf"
+      },
+      "manufacturer_dimension_note": "Manufacturer BZT52Cxx family includes C12 despite shared LCSC mirror filename.",
+      "extra_height_reserve_mm": 0.75
+    },
+    "C17313": {
+      "height_mm": 1.5,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 0.85,
+      "maximum_overall_xy_in_library_axes_mm": [
+        4.73,
+        3.41
+      ],
+      "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf",
+      "source_pages": [
+        4,
+        7,
+        11
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/Bourns-MF-MSMF.pdf",
+        "sha256": "50d80228581842471d563e28ba0f1b67ab095ee95dfac4079f4a49f7f7bbf3c8",
+        "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+      },
+      "manufacturer_dimension_note": "050 standard dimensions; -2 is packaging. Do not use 050/xxX length4.83.",
+      "extra_height_reserve_mm": 0.65
+    },
+    "C14663": {
+      "height_mm": 1.5,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 0.9,
+      "maximum_overall_xy_in_library_axes_mm": [
+        1.7,
+        0.9
+      ],
+      "source_url": "https://yageogroup.com/download/specsheet/CC0603KRX7R9BB104",
+      "source_pages": [
+        1
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/Yageo-CC0603KRX7R9BB104.pdf",
+        "sha256": "398c74c16d597dd0a771a64a0259b9e8643fdf65adafcbf9ef2c2aee2b68453a",
+        "source_url": "https://yageogroup.com/download/specsheet/CC0603KRX7R9BB104"
+      },
+      "manufacturer_dimension_note": "Specific MPN; L1.6+0.1,W/T0.8+0.1.",
+      "extra_height_reserve_mm": 0.6
+    },
+    "C21190": {
+      "height_mm": 1.0,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 0.55,
+      "maximum_overall_xy_in_library_axes_mm": [
+        1.7,
+        0.9
+      ],
+      "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+      "source_pages": [
+        10,
+        175
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+        "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+      },
+      "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+      "extra_height_reserve_mm": 0.44999999999999996
+    },
+    "C22935": {
+      "height_mm": 1.0,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 0.55,
+      "maximum_overall_xy_in_library_axes_mm": [
+        1.7,
+        0.9
+      ],
+      "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+      "source_pages": [
+        10,
+        175
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+        "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+      },
+      "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+      "extra_height_reserve_mm": 0.44999999999999996
+    },
+    "C23138": {
+      "height_mm": 1.0,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 0.55,
+      "maximum_overall_xy_in_library_axes_mm": [
+        1.7,
+        0.9
+      ],
+      "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+      "source_pages": [
+        10,
+        175
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+        "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+      },
+      "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+      "extra_height_reserve_mm": 0.44999999999999996
+    },
+    "C25803": {
+      "height_mm": 1.0,
+      "basis": "Manufacturer dimensional maximum plus separately stated engineering height reserve.",
+      "manufacturer_max_height_mm": 0.55,
+      "maximum_overall_xy_in_library_axes_mm": [
+        1.7,
+        0.9
+      ],
+      "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf",
+      "source_pages": [
+        10,
+        175
+      ],
+      "source_file": {
+        "download": "saved",
+        "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+        "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+        "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+      },
+      "manufacturer_dimension_note": "0603 WAF: WA normal-size1/10W, F1%; height.45+.10.",
+      "extra_height_reserve_mm": 0.44999999999999996
+    }
+  },
+  "model_search": {
+    "routeId": "72096cf8-73c0-44f0-b45a-d65a970f1d38",
+    "step_parts": "No matching installed skill returned; unrelated suggestions skipped",
+    "library_step_attempts": [
+      {
+        "part": "C46550459",
+        "uuid": "ccbda52dceed4b139172c40f75c9da3f",
+        "endpoint": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/",
+        "result": "HTTP404"
+      },
+      {
+        "part": "C2910138",
+        "uuid": "a3315c1c78f949e6bb82c6eaca1c53c7",
+        "endpoint": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/",
+        "result": "HTTP404"
+      }
+    ],
+    "endpoint_reference": "https://github.com/uPesy/easyeda2kicad.py/blob/master/easyeda2kicad/easyeda/easyeda_api.py"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "status": "native_copper_geometry_roundtrip_pass_NOT_full_import_NOT_manufacture",
+  "kicad_version": "10.0.5",
+  "source_sha256": "6f355ea2d21c2dcfd0866aa2acfd8650c38ae17d6bb99220910671308f1b5b63",
+  "board_sha256": "ea2974f357da2250bef5ea1828a785dbc730bf5d20d560f582832a82e7a1e796",
+  "placed_components": 163,
+  "imported_top_components": 161,
+  "native_bottom_additions": [
+    {
+      "ref": "J1",
+      "part": "C431092",
+      "x": -2,
+      "y": -76,
+      "physical_angle_ccw": 180,
+      "entry": "toward PCB center; inside case",
+      "mechanical_pad_policy": "Retain source PTH 3/4 with no network, pending anchor material/assembly confirmation. Do NOT infer plastic or force NPTH."
+    },
+    {
+      "ref": "J2",
+      "part": "C594232",
+      "x": 24,
+      "y": -78,
+      "physical_angle_ccw": 0,
+      "entry": "normal to board, toward enclosure floor",
+      "mechanical_pad_policy": "Four electrical PTH; candidate assumes no-boss B4B-XH-A family geometry."
+    }
+  ],
+  "mounting_holes": 4,
+  "copper_pads_checked": 628,
+  "maximum_numeric_error_mm": 9.999999996956888e-07,
+  "tracks": 0,
+  "source_paste_sentinel_overrides_REVIEW_ONLY": [
+    {
+      "ref": "R1",
+      "pad": "2",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R1",
+      "pad": "1",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R2",
+      "pad": "2",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R2",
+      "pad": "1",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "F2",
+      "pad": "2",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "F2",
+      "pad": "1",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R3",
+      "pad": "2",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R3",
+      "pad": "1",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R4",
+      "pad": "2",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R4",
+      "pad": "1",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R5",
+      "pad": "2",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R5",
+      "pad": "1",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R6",
+      "pad": "2",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R6",
+      "pad": "1",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R7",
+      "pad": "2",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    },
+    {
+      "ref": "R7",
+      "pad": "1",
+      "source_mil": -3937.0080000000003,
+      "review_margin_mm": 0
+    }
+  ],
+  "schematic_identities_linked": 163,
+  "native_footprint_library_parts": 14,
+  "bottom_pad_readback": [
+    {
+      "ref": "J1",
+      "pad": "1",
+      "net": "GND",
+      "x_mm": 95.500005,
+      "y_mm": 180.99999,
+      "width_mm": 2.4999949999999997,
+      "height_mm": 2.4999949999999997,
+      "angle_deg": 0,
+      "bottom": true,
+      "drill_mm": 1.7999964
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "net": "VIN_FUSED",
+      "x_mm": 100.499995,
+      "y_mm": 180.99999,
+      "width_mm": 2.4999949999999997,
+      "height_mm": 2.4999949999999997,
+      "angle_deg": 0,
+      "bottom": true,
+      "drill_mm": 1.7999964
+    },
+    {
+      "ref": "J1",
+      "pad": "3",
+      "net": "unconnected-(J1-Pad3)",
+      "x_mm": 103.499989,
+      "y_mm": 171.00001,
+      "width_mm": 1.7999964,
+      "height_mm": 1.7999964,
+      "angle_deg": 0,
+      "bottom": true,
+      "drill_mm": 1.1000231999999999
+    },
+    {
+      "ref": "J1",
+      "pad": "4",
+      "net": "unconnected-(J1-Pad4)",
+      "x_mm": 92.500011,
+      "y_mm": 171.00001,
+      "width_mm": 1.7999964,
+      "height_mm": 1.7999964,
+      "angle_deg": 0,
+      "bottom": true,
+      "drill_mm": 1.1000231999999999
+    },
+    {
+      "ref": "J2",
+      "pad": "1",
+      "net": "GND",
+      "x_mm": 127.750056,
+      "y_mm": 178.0,
+      "width_mm": 1.524,
+      "height_mm": 1.524,
+      "angle_deg": 180,
+      "bottom": true,
+      "drill_mm": 0.9144
+    },
+    {
+      "ref": "J2",
+      "pad": "2",
+      "net": "DATA_3V3",
+      "x_mm": 125.249934,
+      "y_mm": 178.0,
+      "width_mm": 1.524,
+      "height_mm": 1.524,
+      "angle_deg": 180,
+      "bottom": true,
+      "drill_mm": 0.9144
+    },
+    {
+      "ref": "J2",
+      "pad": "3",
+      "net": "ENABLE_3V3",
+      "x_mm": 122.750066,
+      "y_mm": 178.0,
+      "width_mm": 1.524,
+      "height_mm": 1.524,
+      "angle_deg": 180,
+      "bottom": true,
+      "drill_mm": 0.9144
+    },
+    {
+      "ref": "J2",
+      "pad": "4",
+      "net": "5V_MCU",
+      "x_mm": 120.249944,
+      "y_mm": 178.0,
+      "width_mm": 1.524,
+      "height_mm": 1.524,
+      "angle_deg": 180,
+      "bottom": true,
+      "drill_mm": 0.9144
+    }
+  ],
+  "isolated_schematic_nc_pads": [
+    [
+      "J1",
+      "3"
+    ],
+    [
+      "J1",
+      "4"
+    ]
+  ],
+  "not_covered": [
+    "full schematic and project parity (check separately)",
+    "exact mating parts/anchor material and installed harness",
+    "copper thickness/stackup beyond total 1.6mm",
+    "routing and copper zones",
+    "original silkscreen, courtyard, 3D, custom properties",
+    "paste sentinel semantics and final stencil apertures",
+    "manufacturing release"
+  ]
+}

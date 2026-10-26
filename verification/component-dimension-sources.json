@@ -1,0 +1,54 @@
+{
+  "status": "MANUFACTURER_MAXIMA_CHECKED_BY_READ_ONLY_HARDWARE_REVIEW",
+  "files": {
+    "C2910138": {
+      "download": "saved",
+      "path": "hardware/datasheets/JSCJ-CJQ16P03.pdf",
+      "sha256": "113f8039b8b8716db9c7526bba6087b43e9cdd813a43a5910b32b15246f21bdc",
+      "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20240329/674A4B8EBD31C730C33351B5F04B40DF.pdf"
+    },
+    "C12495": {
+      "download": "saved",
+      "path": "hardware/datasheets/Nexperia-SOT353-1.pdf",
+      "sha256": "9117da6e27ee855feb6f46e91cdce5788d9805b86e8325c9011db3c81a5558b9",
+      "source_url": "https://assets.nexperia.com/documents/package-information/SOT353-1.pdf"
+    },
+    "C271259": {
+      "download": "saved",
+      "path": "hardware/datasheets/BORN-BZT52C-series.pdf",
+      "sha256": "9751f072ad061469b991e93c25c446cea7bf8225f565d5bfcccb4c410ebbc34b",
+      "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20180820/C271262_D2D0F24DD5A81EAE2A6B8B493A94E64A.pdf"
+    },
+    "C8545": {
+      "download": "saved",
+      "path": "hardware/datasheets/JSCJ-2N7002.pdf",
+      "sha256": "25871cfa493ac502af228b252e942274e0b8a4971f8a674801a540b5108ef82a",
+      "source_url": "https://www.jscj-elec.com/gallery/file/2N7002%20SOT-23%20V2.0.pdf"
+    },
+    "C17313": {
+      "download": "saved",
+      "path": "hardware/datasheets/Bourns-MF-MSMF.pdf",
+      "sha256": "50d80228581842471d563e28ba0f1b67ab095ee95dfac4079f4a49f7f7bbf3c8",
+      "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf"
+    },
+    "C14663": {
+      "download": "saved",
+      "path": "hardware/datasheets/Yageo-CC0603KRX7R9BB104.pdf",
+      "sha256": "398c74c16d597dd0a771a64a0259b9e8643fdf65adafcbf9ef2c2aee2b68453a",
+      "source_url": "https://yageogroup.com/download/specsheet/CC0603KRX7R9BB104"
+    },
+    "C21190": {
+      "download": "saved",
+      "path": "hardware/datasheets/Uniroyal-catalog-2024.pdf",
+      "sha256": "ca5a79b1d6516b7d80f1e4e25e4743af374b498e41b249080d589aa893ee99fa",
+      "source_url": "https://www.uni-royal.cn/images/upload/UniroyalCatalog2024.06.07.pdf"
+    },
+    "C46550459": {
+      "download": "saved",
+      "path": "hardware/datasheets/JIERR-MA-series.pdf",
+      "sha256": "5ab3c478e90f1826a614a56af8164bb4bab3143affaae1ad7aa69fc0c1981997",
+      "source_url": "https://atta.szlcsc.com/upload/public/pdf/source/20260306/24758A4FC016E80367B87853635CDCC1.pdf"
+    }
+  },
+  "note": "Diagram axis-to-library mappings explicit in component-heights.json. Height A already includes internal stand-off; selected reserve is engineering allowance, not manufacturer claim."
+}
